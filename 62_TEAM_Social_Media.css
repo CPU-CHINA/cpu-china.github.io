@@ -1,0 +1,451 @@
+.mediaViewInfo {
+	--web-view-name: 62-TEAM-Social Media;
+	--web-view-id: ID62-TEAM-Social_Media;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID62-TEAM-Social_Media;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#ID62-TEAM-Social_Media {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 72_TEAM_Sponsors.html;
+	cursor: pointer;
+	--web-view-name: 62-TEAM-Social Media;
+	--web-view-id: ID62-TEAM-Social_Media;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+# {
+	position: absolute;
+	width: 889px;
+	height: 643px;
+	left: 416px;
+	top: 304px;
+	overflow: visible;
+}
+#_25 {
+	fill: rgba(254,245,245,1);
+}
+._25 {
+	position: absolute;
+	overflow: visible;
+	width: 646px;
+	height: 171px;
+	left: 243px;
+	top: 236px;
+}
+#_26 {
+	fill: rgba(254,245,245,1);
+}
+._26 {
+	position: absolute;
+	overflow: visible;
+	width: 646px;
+	height: 171px;
+	left: 243px;
+	top: 472px;
+}
+#_1 {
+	fill: rgba(254,245,245,1);
+}
+._1 {
+	position: absolute;
+	overflow: visible;
+	width: 646px;
+	height: 171px;
+	left: 243px;
+	top: 0px;
+}
+#_7 {
+	fill: rgba(255,255,255,1);
+}
+._7 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 189px;
+	left: 0px;
+	top: 0px;
+}
+#_6 {
+	fill: rgba(255,255,255,1);
+}
+._6 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 189px;
+	left: 0px;
+	top: 236px;
+}
+#_5 {
+	fill: rgba(255,255,255,1);
+}
+._5 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 189px;
+	height: 189px;
+	left: 0px;
+	top: 472px;
+}
+#_bo {
+	left: 62px;
+	top: 70px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#_bp {
+	left: 62px;
+	top: 542px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#_bq {
+	left: 62px;
+	top: 306px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Construction_of_plasmids_conta {
+	left: 278px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 534px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Twitter_XXXXXX {
+	left: 278px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(112,112,112,1);
+}
+#Construction_of_plasmids_conta_bt {
+	left: 278px;
+	top: 294px;
+	position: absolute;
+	overflow: visible;
+	width: 534px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Twitter_XXXXXX_bu {
+	left: 278px;
+	top: 258px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(112,112,112,1);
+}
+#Construction_of_plasmids_conta_bv {
+	left: 278px;
+	top: 530px;
+	position: absolute;
+	overflow: visible;
+	width: 534px;
+	white-space: nowrap;
+	line-height: 30px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(112,112,112,1);
+}
+#Twitter_XXXXXX_bw {
+	left: 278px;
+	top: 494px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(112,112,112,1);
+}
+#Social_Media {
+	left: 416px;
+	top: 188px;
+	position: absolute;
+	overflow: visible;
+	width: 204px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(8,54,67,1);
+}
+#_by {
+	position: absolute;
+	width: 1920px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_1_bz {
+	fill: rgba(8,54,67,1);
+}
+._1_bz {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+}
+#CPU_CHINA {
+	left: 140px;
+	top: 49px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#DOCUMENTATION {
+	left: 1574px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _31_DOCUMENTATION.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#PROJECT {
+	left: 1078px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _11_PROJECT.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TEAM {
+	left: 1346px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _21_TEAM.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#HOME {
+	left: 845px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TOP {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 1740px;
+	top: 849px;
+	overflow: visible;
+}
+#_4 {
+	fill: rgba(184,236,215,1);
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 52_TEAM_Members_0.html;
+	cursor: pointer;
+}
+._4 {
+	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#_2 {
+	fill: rgba(8,54,67,1);
+}
+._2 {
+	overflow: visible;
+	position: absolute;
+	width: 44px;
+	height: 38px;
+	left: 18px;
+	top: 15px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 52_TEAM_Members_0.html;
+	cursor: pointer;
+}

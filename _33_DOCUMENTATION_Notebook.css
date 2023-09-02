@@ -1,0 +1,222 @@
+.mediaViewInfo {
+	--web-view-name: -33-DOCUMENTATION-Notebook;
+	--web-view-id: -33-DOCUMENTATION-Notebook;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+:root {
+	--web-view-ids: -33-DOCUMENTATION-Notebook;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#-33-DOCUMENTATION-Notebook {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	overflow: hidden;
+	cursor: pointer;
+	--web-view-name: -33-DOCUMENTATION-Notebook;
+	--web-view-id: -33-DOCUMENTATION-Notebook;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#_1 {
+	fill: rgba(8,54,67,1);
+}
+._1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+}
+#CPU_CHINA {
+	left: 140px;
+	top: 49px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#DOCUMENTATION {
+	left: 1574px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _31_DOCUMENTATION.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#PROJECT {
+	left: 1078px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TEAM {
+	left: 1346px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _21_TEAM.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#HOME {
+	left: 845px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#_23 {
+	fill: rgba(255,255,255,0.851);
+}
+._23 {
+	position: absolute;
+	overflow: visible;
+	width: 188px;
+	height: 154px;
+	left: 1583px;
+	top: 94px;
+}
+#_13 {
+	fill: rgba(184,236,215,1);
+}
+._13 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	height: 50px;
+	left: 1589px;
+	top: 153px;
+}
+#Documentation {
+	position: absolute;
+	width: 115px;
+	height: 110px;
+	left: 1620px;
+	top: 114px;
+	overflow: visible;
+}
+#Protocols {
+	left: 9px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _32_DOCUMENTATION_Protocols.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#Notebook {
+	left: 7px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 92_DOCUMENTATION_Notebook.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#References {
+	left: 0px;
+	top: 90px;
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _34_DOCUMENTATION_References.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}

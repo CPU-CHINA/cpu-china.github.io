@@ -1,0 +1,398 @@
+.mediaViewInfo {
+	--web-view-name: 51-Front page-Team展开-Members;
+	--web-view-id: ID51-Front_page-Team-Members;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID51-Front_page-Team-Members;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#ID51-Front_page-Team-Members {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: 51-Front page-Team展开-Members;
+	--web-view-id: ID51-Front_page-Team-Members;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#_3-_bi {
+	fill: url(#_3-_bi);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._3-_bi {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#_4- {
+	fill: rgba(184,236,215,1);
+}
+._4- {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	height: 50px;
+	left: 1469px;
+	top: 691px;
+}
+#ID50_3- {
+	position: absolute;
+	width: 1542.659px;
+	height: 1267.556px;
+	left: 81.341px;
+	top: -113.934px;
+	overflow: visible;
+}
+#_1 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1 {
+	width: 1246px;
+	height: 1246px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(-81.341px, 113.934px) matrix(1,0,0,1,92.1193,-103.1565) rotate(-1deg);
+	transform-origin: center;
+}
+#_2 {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._2 {
+	width: 1205px;
+	height: 1206px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(-81.341px, 113.934px) matrix(1,0,0,1,113.1225,-82.7988) rotate(-1deg);
+	transform-origin: center;
+}
+#_3 {
+	fill: rgba(255,255,255,1);
+}
+._3 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	height: 46px;
+	left: 1188.659px;
+	top: 808.934px;
+}
+#DOCUMENTATION {
+	left: 1157.659px;
+	top: 1050.934px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 80_Front_page_Documentation.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#PROJECT {
+	left: 1312.659px;
+	top: 472.934px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 20_Front_page_Project.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TEAM {
+	left: 1302.659px;
+	top: 813.934px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 50_Front_page_Team.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(8,54,67,1);
+}
+#HOME {
+	left: 1193.659px;
+	top: 235.934px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#_1_bs {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1_bs {
+	overflow: visible;
+	position: absolute;
+	width: 54px;
+	height: 2px;
+	left: 1119.159px;
+	top: 247.434px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_3_bt {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._3_bt {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 4px;
+	left: 1225.159px;
+	top: 825.434px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_5 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._5 {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 2px;
+	left: 1235.159px;
+	top: 484.434px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_6 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._6 {
+	overflow: visible;
+	position: absolute;
+	width: 54px;
+	height: 2px;
+	left: 1083.159px;
+	top: 1062.434px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Team {
+	position: absolute;
+	width: 132px;
+	height: 110px;
+	left: 1410.659px;
+	top: 813.934px;
+	overflow: visible;
+}
+#Members {
+	left: 18px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 52_TEAM_Members_0.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#Social_Media {
+	left: 0px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 133px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 61_Front_page_Team___Social_Media.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#Sponsorship {
+	left: 3px;
+	top: 90px;
+	position: absolute;
+	overflow: visible;
+	width: 128px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 71_Front_page_Team___Sponsorship.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#_10_b {
+	fill: url(#_10_b);
+}
+._10_b {
+	position: absolute;
+	overflow: visible;
+	width: 603px;
+	height: 531px;
+	left: 452.659px;
+	top: 284.934px;
+}
+#_11 {
+	fill: rgba(8,54,67,1);
+}
+._11 {
+	position: absolute;
+	overflow: visible;
+	width: 642px;
+	height: 566px;
+	left: 213.659px;
+	top: 456.934px;
+}
+#Computational_Insight_of__Norc {
+	left: 213.659px;
+	top: 495.934px;
+	position: absolute;
+	overflow: visible;
+	width: 643px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SuperFrench;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 65px;
+	color: rgba(255,222,167,1);
+}
+#CPU_CHINA {
+	left: 213.659px;
+	top: 815.934px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#iDEC_2023 {
+	left: 213.659px;
+	top: 864.934px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}

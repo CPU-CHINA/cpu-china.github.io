@@ -1,0 +1,236 @@
+.mediaViewInfo {
+	--web-view-name: 13-HOME-2;
+	--web-view-id: ID13-HOME-2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID13-HOME-2;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#ID13-HOME-2 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: 13-HOME-2;
+	--web-view-id: ID13-HOME-2;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+# {
+	opacity: 0.24;
+	mix-blend-mode: difference;
+	filter: blur(8px);
+	position: absolute;
+	width: 685.5px;
+	height: 640px;
+	left: 1235px;
+	top: -61px;
+	overflow: visible;
+}
+#_bi {
+	opacity: 0.22;
+	mix-blend-mode: difference;
+	filter: blur(8px);
+	position: absolute;
+	width: 685.5px;
+	height: 640px;
+	left: 550px;
+	top: -100px;
+	overflow: visible;
+}
+#_bj {
+	opacity: 0.2;
+	mix-blend-mode: difference;
+	filter: blur(8px);
+	position: absolute;
+	width: 685.5px;
+	height: 640px;
+	left: -106px;
+	top: -118px;
+	overflow: visible;
+}
+#_bk {
+	position: absolute;
+	width: 1164px;
+	height: 540px;
+	left: 756px;
+	top: 540px;
+	overflow: visible;
+}
+#_1 {
+	fill: rgba(8,54,67,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1 {
+	position: absolute;
+	overflow: visible;
+	width: 1164px;
+	height: 540px;
+	left: 0px;
+	top: 0px;
+}
+#Quick_Links {
+	left: 626px;
+	top: 89px;
+	position: absolute;
+	overflow: visible;
+	width: 176px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#CPU_CHINA {
+	left: 74px;
+	top: 89px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#cpuidecoutlookcom {
+	left: 74px;
+	top: 237px;
+	position: absolute;
+	overflow: visible;
+	width: 332px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#youtuber {
+	left: 626px;
+	top: 299px;
+	position: absolute;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#twitter {
+	left: 626px;
+	top: 237px;
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#wechat_official_account {
+	left: 626px;
+	top: 361px;
+	position: absolute;
+	overflow: visible;
+	width: 352px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#logo {
+	position: absolute;
+	width: 280.5px;
+	height: 133px;
+	left: 140px;
+	top: 768px;
+	overflow: visible;
+}
+#logo_bt {
+	position: absolute;
+	width: 536px;
+	height: 121px;
+	left: 140px;
+	top: 629px;
+	overflow: visible;
+}
+#TOP {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 1740px;
+	top: 849px;
+	overflow: visible;
+}
+#_4 {
+	fill: rgba(184,236,215,1);
+}
+._4 {
+	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#_2 {
+	fill: rgba(8,54,67,1);
+}
+._2 {
+	overflow: visible;
+	position: absolute;
+	width: 44px;
+	height: 38px;
+	left: 18px;
+	top: 15px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 12_HOME_1.html;
+	cursor: pointer;
+}

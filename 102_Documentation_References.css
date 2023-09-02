@@ -1,0 +1,272 @@
+.mediaViewInfo {
+	--web-view-name: 102-Documentation-References;
+	--web-view-id: ID102-Documentation-References;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID102-Documentation-References;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#ID102-Documentation-References {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: 102-Documentation-References;
+	--web-view-id: ID102-Documentation-References;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#References {
+	left: 416px;
+	top: 188px;
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(8,54,67,1);
+}
+#ID22 {
+	position: absolute;
+	width: 1920px;
+	height: 1267.556px;
+	left: 0px;
+	top: -113.934px;
+	overflow: visible;
+}
+#_1 {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1 {
+	width: 1246px;
+	height: 1246px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(0px, 113.934px) matrix(1,0,0,1,92.1198,-103.1565) rotate(-1deg);
+	transform-origin: center;
+}
+#_1_bk {
+	fill: rgba(8,54,67,1);
+}
+._1_bk {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 138px;
+	left: 0px;
+	top: 113.934px;
+}
+#CPU_CHINA {
+	left: 140px;
+	top: 162.934px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#DOCUMENTATION {
+	left: 1574px;
+	top: 171.934px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _31_DOCUMENTATION.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#PROJECT {
+	left: 1078px;
+	top: 171.934px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _11_PROJECT.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TEAM {
+	left: 1346px;
+	top: 171.934px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: _21_TEAM.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#HOME {
+	left: 845px;
+	top: 171.934px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 12_HOME_1.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#_10 {
+	fill: rgba(254,245,245,1);
+}
+._10 {
+	position: absolute;
+	overflow: visible;
+	width: 966px;
+	height: 865px;
+	left: 692px;
+	top: 301.934px;
+}
+#_4 {
+	fill: rgba(184,236,215,1);
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 92_DOCUMENTATION_Notebook.html;
+	cursor: pointer;
+}
+._4 {
+	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 1740px;
+	top: 962.934px;
+}
+#_2 {
+	fill: rgba(8,54,67,1);
+}
+._2 {
+	overflow: visible;
+	position: absolute;
+	width: 44px;
+	height: 38px;
+	left: 1758px;
+	top: 977.934px;
+	transform: matrix(1,0,0,1,0,0);
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 92_DOCUMENTATION_Notebook.html;
+	cursor: pointer;
+}
+#Construction_of_plasmids_conta {
+	left: 743.5px;
+	top: 350.434px;
+	position: absolute;
+	overflow: visible;
+	width: 839px;
+	white-space: nowrap;
+	line-height: 25px;
+	margin-top: -2.5px;
+	text-align: left;
+	font-family: Calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(112,112,112,1);
+}

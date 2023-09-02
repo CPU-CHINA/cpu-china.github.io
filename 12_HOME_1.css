@@ -1,0 +1,282 @@
+.mediaViewInfo {
+	--web-view-name: 12-HOME-1;
+	--web-view-id: ID12-HOME-1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID12-HOME-1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#ID12-HOME-1 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 13_HOME_2.html;
+	cursor: pointer;
+	--web-view-name: 12-HOME-1;
+	--web-view-id: ID12-HOME-1;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+# {
+	opacity: 0.22;
+	filter: blur(6px);
+	position: absolute;
+	width: 1255.5px;
+	height: 1308px;
+	left: 0px;
+	top: 81px;
+	overflow: visible;
+}
+#_bi {
+	opacity: 0.2;
+	mix-blend-mode: difference;
+	filter: blur(8px);
+	position: absolute;
+	width: 685.5px;
+	height: 640px;
+	left: 1235px;
+	top: 108px;
+	overflow: visible;
+}
+#_bj {
+	opacity: 0.2;
+	mix-blend-mode: difference;
+	filter: blur(8px);
+	position: absolute;
+	width: 685.5px;
+	height: 640px;
+	left: 1235px;
+	top: 760px;
+	overflow: visible;
+}
+#_22 {
+	fill: rgba(255,255,255,1);
+}
+._22 {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 849px;
+	height: 457px;
+	left: 547px;
+	top: 309px;
+}
+#video {
+	left: 929px;
+	top: 517px;
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(8,54,67,1);
+}
+#_bm {
+	position: absolute;
+	width: 1920px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#_1 {
+	fill: rgba(8,54,67,1);
+}
+._1 {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+}
+#CPU_CHINA {
+	left: 140px;
+	top: 49px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	transition: all 0.3s linear;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#DOCUMENTATION {
+	left: 1574px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: _31_DOCUMENTATION.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#PROJECT {
+	left: 1078px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: _11_PROJECT.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TEAM {
+	left: 1346px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	cursor: pointer;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: _21_TEAM.html;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#HOME {
+	left: 845px;
+	top: 58px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TOP {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	left: 1740px;
+	top: 849px;
+	overflow: visible;
+}
+#_4 {
+	fill: rgba(184,236,215,1);
+	transition: all 0.3s linear;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+}
+._4 {
+	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
+	position: absolute;
+	overflow: visible;
+	width: 98px;
+	height: 98px;
+	left: 0px;
+	top: 0px;
+}
+#_2 {
+	fill: rgba(8,54,67,1);
+}
+._2 {
+	overflow: visible;
+	position: absolute;
+	width: 44px;
+	height: 38px;
+	left: 18px;
+	top: 15px;
+	transform: matrix(1,0,0,1,0,0);
+	transition: all 0.3s linear;
+	--web-animation: fadein 0.3s linear;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+}

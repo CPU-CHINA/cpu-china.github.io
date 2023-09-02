@@ -1,0 +1,401 @@
+.mediaViewInfo {
+	--web-view-name: 21-Front page-Project展开-Background;
+	--web-view-id: ID21-Front_page-Project-Background;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: ID21-Front_page-Project-Background;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#ID21-Front_page-Project-Background {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: 21-Front page-Project展开-Background;
+	--web-view-id: ID21-Front_page-Project-Background;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#_3-_bi {
+	fill: url(#_3-_bi);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._3-_bi {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+}
+#_4- {
+	fill: rgba(184,236,215,1);
+}
+._4- {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	height: 50px;
+	left: 1519px;
+	top: 352px;
+}
+#DOCUMENTATION {
+	left: 1239px;
+	top: 937px;
+	position: absolute;
+	overflow: visible;
+	width: 207px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 80_Front_page_Documentation.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#TEAM {
+	left: 1384px;
+	top: 700px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 50_Front_page_Team.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#PROJECT {
+	left: 1394px;
+	top: 359px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 20_Front_page_Project.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(8,54,67,1);
+}
+#HOME {
+	left: 1275px;
+	top: 122px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	white-space: nowrap;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: 11_Front_page.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	color: rgba(184,236,215,1);
+}
+#_4 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._4 {
+	overflow: visible;
+	position: absolute;
+	width: 54px;
+	height: 2px;
+	left: 1164.5px;
+	top: 948.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_3 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._3 {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 2px;
+	left: 1306.5px;
+	top: 711.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_2 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._2 {
+	overflow: visible;
+	position: absolute;
+	width: 57px;
+	height: 4px;
+	left: 1316.5px;
+	top: 370.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#_1 {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1 {
+	overflow: visible;
+	position: absolute;
+	width: 54px;
+	height: 2px;
+	left: 1200.5px;
+	top: 133.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Project {
+	position: absolute;
+	width: 125px;
+	height: 110px;
+	left: 1545px;
+	top: 359px;
+	overflow: visible;
+}
+#Background {
+	filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 22_PROJECT_Background.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#Introduction {
+	filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+	left: 1px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 125px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 31_Front_page_Project___Introduction.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+#Results {
+	filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
+	left: 26px;
+	top: 90px;
+	position: absolute;
+	overflow: visible;
+	width: 75px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: 41_Front_page_Project___Results.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Bronova;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(8,54,67,1);
+}
+# {
+	position: absolute;
+	width: 1267.556px;
+	height: 1267.556px;
+	left: 81.341px;
+	top: -113.935px;
+	overflow: visible;
+}
+#_1_bx {
+	fill: transparent;
+	stroke: rgba(8,54,67,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._1_bx {
+	width: 1246px;
+	height: 1246px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(-81.341px, 113.935px) matrix(1,0,0,1,92.1193,-103.1566) rotate(-1deg);
+	transform-origin: center;
+}
+#_2_by {
+	fill: transparent;
+	stroke: rgba(255,255,255,1);
+	stroke-width: 4px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+._2_by {
+	width: 1205px;
+	height: 1206px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(-81.341px, 113.935px) matrix(1,0,0,1,113.1223,-82.7988) rotate(-1deg);
+	transform-origin: center;
+}
+#_3_bz {
+	fill: rgba(255,255,255,1);
+}
+._3_bz {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 46px;
+	height: 46px;
+	left: 1201.659px;
+	top: 467.935px;
+}
+#_10_b {
+	fill: url(#_10_b);
+}
+._10_b {
+	position: absolute;
+	overflow: visible;
+	width: 603px;
+	height: 531px;
+	left: 452.659px;
+	top: 284.935px;
+}
+#_11 {
+	fill: rgba(8,54,67,1);
+}
+._11 {
+	position: absolute;
+	overflow: visible;
+	width: 642px;
+	height: 566px;
+	left: 213.659px;
+	top: 456.935px;
+}
+#Computational_Insight_of__Norc {
+	left: 213.659px;
+	top: 495.935px;
+	position: absolute;
+	overflow: visible;
+	width: 643px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: SuperFrench;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 65px;
+	color: rgba(255,222,167,1);
+}
+#CPU_CHINA {
+	left: 213.659px;
+	top: 815.935px;
+	position: absolute;
+	overflow: visible;
+	width: 187px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
+#iDEC_2023 {
+	left: 213.659px;
+	top: 864.935px;
+	position: absolute;
+	overflow: visible;
+	width: 147px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Corbel;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	color: rgba(184,236,215,1);
+}
