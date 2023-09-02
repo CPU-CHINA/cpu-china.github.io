@@ -74,7 +74,7 @@
 	}
 
 }
-#Introduction {
+#Introduction_ng {
 	left: 416px;
 	top: 188px;
 	position: absolute;
@@ -88,7 +88,7 @@
 	font-size: 30px;
 	color: rgba(8,54,67,1);
 }
-#ID22 {
+#ID22_nh {
 	position: absolute;
 	width: 1920px;
 	height: 1267.556px;
@@ -96,7 +96,7 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_1 {
+#_1_ni {
 	fill: transparent;
 	stroke: rgba(112,112,112,1);
 	stroke-width: 4px;
@@ -105,7 +105,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_ni {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -113,10 +113,10 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,92.1193,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_1_bk {
+#_1_nj {
 	fill: rgba(8,54,67,1);
 }
-._1_bk {
+._1_nj {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -124,7 +124,7 @@
 	left: 0px;
 	top: 113.934px;
 }
-#CPU_CHINA {
+#CPU_CHINA_nk {
 	left: 140px;
 	top: 162.934px;
 	position: absolute;
@@ -133,7 +133,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -142,7 +142,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_nl {
 	left: 1574px;
 	top: 171.934px;
 	position: absolute;
@@ -160,7 +160,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_nm {
 	left: 1078px;
 	top: 171.934px;
 	position: absolute;
@@ -178,7 +178,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_nn {
 	left: 1346px;
 	top: 171.934px;
 	position: absolute;
@@ -196,7 +196,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_no {
 	left: 845px;
 	top: 171.934px;
 	position: absolute;
@@ -214,14 +214,14 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_4 {
+#_4_np {
 	fill: rgba(184,236,215,1);
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
 	--web-action-target: 22_PROJECT_Background.html;
 	cursor: pointer;
 }
-._4 {
+._4_np {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -230,10 +230,10 @@
 	left: 1740px;
 	top: 962.934px;
 }
-#_2 {
+#_2_nq {
 	fill: rgba(8,54,67,1);
 }
-._2 {
+._2_nq {
 	overflow: visible;
 	position: absolute;
 	width: 44px;
@@ -246,10 +246,10 @@
 	--web-action-target: 22_PROJECT_Background.html;
 	cursor: pointer;
 }
-#_10 {
+#_10_nr {
 	fill: rgba(254,245,245,1);
 }
-._10 {
+._10_nr {
 	position: absolute;
 	overflow: visible;
 	width: 966px;
@@ -257,7 +257,7 @@
 	left: 692px;
 	top: 301.934px;
 }
-#Construction_of_plasmids_conta {
+#Construction_of_plasmids_conta_ns {
 	left: 743.5px;
 	top: 350.434px;
 	position: absolute;

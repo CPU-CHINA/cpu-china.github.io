@@ -48,8 +48,8 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_12_bj {
-	fill: url(#_12_bj);
+#_12_by {
+	fill: url(#_12_by);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -57,7 +57,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._12_bj {
+._12_by {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -65,7 +65,7 @@
 	left: 0px;
 	top: 113.934px;
 }
-#_1 {
+#_1_bz {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -74,7 +74,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_bz {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -82,7 +82,7 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,92.1198,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_2 {
+#_2_b {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 4px;
@@ -91,7 +91,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_b {
 	width: 1205px;
 	height: 1206px;
 	position: absolute;
@@ -155,7 +155,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#References {
+#References_b {
 	left: 0px;
 	top: 90px;
 	position: absolute;
@@ -185,7 +185,7 @@
 	left: 1121px;
 	top: 1045.934px;
 }
-#DOCUMENTATION {
+#DOCUMENTATION_b {
 	left: 1239px;
 	top: 1050.934px;
 	position: absolute;
@@ -203,7 +203,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#PROJECT {
+#PROJECT_b {
 	left: 1394px;
 	top: 472.934px;
 	position: absolute;
@@ -222,7 +222,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_b {
 	left: 1384px;
 	top: 813.934px;
 	position: absolute;
@@ -241,7 +241,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_ca {
 	left: 1275px;
 	top: 235.934px;
 	position: absolute;
@@ -251,7 +251,7 @@
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Bronova;
@@ -260,7 +260,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_1_bw {
+#_1_cb {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -269,7 +269,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1_bw {
+._1_cb {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -278,7 +278,7 @@
 	top: 247.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_3_bx {
+#_3_cc {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -287,7 +287,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3_bx {
+._3_cc {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -332,10 +332,10 @@
 	top: 1062.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_10_b {
-	fill: url(#_10_b);
+#_10_cg {
+	fill: url(#_10_cg);
 }
-._10_b {
+._10_cg {
 	position: absolute;
 	overflow: visible;
 	width: 603px;
@@ -368,7 +368,7 @@
 	font-size: 65px;
 	color: rgba(255,222,167,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_cj {
 	left: 295px;
 	top: 815.934px;
 	position: absolute;

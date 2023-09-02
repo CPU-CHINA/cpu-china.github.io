@@ -40,8 +40,8 @@
 	}
 
 }
-#_3-_bi {
-	fill: url(#_3-_bi);
+#_3-_pa {
+	fill: url(#_3-_pa);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -49,7 +49,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3-_bi {
+._3-_pa {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -57,10 +57,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_4- {
+#_4-_o {
 	fill: rgba(184,236,215,1);
 }
-._4- {
+._4-_o {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -69,7 +69,7 @@
 	left: 1519px;
 	top: 352px;
 }
-#DOCUMENTATION {
+#DOCUMENTATION_o {
 	left: 1239px;
 	top: 937px;
 	position: absolute;
@@ -88,7 +88,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_o {
 	left: 1384px;
 	top: 700px;
 	position: absolute;
@@ -107,7 +107,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_o {
 	left: 1394px;
 	top: 359px;
 	position: absolute;
@@ -125,7 +125,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#HOME {
+#HOME_o {
 	left: 1275px;
 	top: 122px;
 	position: absolute;
@@ -135,7 +135,7 @@
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Bronova;
@@ -144,7 +144,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_4 {
+#_4_o {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -153,7 +153,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._4 {
+._4_o {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -162,7 +162,7 @@
 	top: 948.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_3 {
+#_3_pa {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -171,7 +171,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3 {
+._3_pa {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -180,7 +180,7 @@
 	top: 711.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_2 {
+#_2_pb {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -189,7 +189,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_pb {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -198,7 +198,7 @@
 	top: 370.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_1 {
+#_1_pc {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -207,7 +207,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_pc {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -216,7 +216,7 @@
 	top: 133.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Project {
+#Project_pd {
 	position: absolute;
 	width: 125px;
 	height: 110px;
@@ -224,7 +224,7 @@
 	top: 359px;
 	overflow: visible;
 }
-#Background {
+#Background_pe {
 	filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
 	left: 0px;
 	top: 0px;
@@ -243,7 +243,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Introduction {
+#Introduction_pf {
 	filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
 	left: 1px;
 	top: 45px;
@@ -262,7 +262,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Results {
+#Results_pg {
 	filter: drop-shadow(0px 3px 12px rgba(0, 0, 0, 0.161));
 	left: 26px;
 	top: 90px;
@@ -281,7 +281,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-# {
+#_ph {
 	position: absolute;
 	width: 1267.556px;
 	height: 1267.556px;
@@ -289,7 +289,7 @@
 	top: -113.935px;
 	overflow: visible;
 }
-#_1_bx {
+#_1_pi {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -298,7 +298,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1_bx {
+._1_pi {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -306,7 +306,7 @@
 	transform: translate(-81.341px, 113.935px) matrix(1,0,0,1,92.1193,-103.1566) rotate(-1deg);
 	transform-origin: center;
 }
-#_2_by {
+#_2_pj {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 4px;
@@ -315,7 +315,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2_by {
+._2_pj {
 	width: 1205px;
 	height: 1206px;
 	position: absolute;
@@ -323,10 +323,10 @@
 	transform: translate(-81.341px, 113.935px) matrix(1,0,0,1,113.1223,-82.7988) rotate(-1deg);
 	transform-origin: center;
 }
-#_3_bz {
+#_3_pk {
 	fill: rgba(255,255,255,1);
 }
-._3_bz {
+._3_pk {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -335,10 +335,10 @@
 	left: 1201.659px;
 	top: 467.935px;
 }
-#_10_b {
-	fill: url(#_10_b);
+#_10_pm {
+	fill: url(#_10_pm);
 }
-._10_b {
+._10_pm {
 	position: absolute;
 	overflow: visible;
 	width: 603px;
@@ -346,10 +346,10 @@
 	left: 452.659px;
 	top: 284.935px;
 }
-#_11 {
+#_11_pn {
 	fill: rgba(8,54,67,1);
 }
-._11 {
+._11_pn {
 	position: absolute;
 	overflow: visible;
 	width: 642px;
@@ -357,7 +357,7 @@
 	left: 213.659px;
 	top: 456.935px;
 }
-#Computational_Insight_of__Norc {
+#Computational_Insight_of__Norc_po {
 	left: 213.659px;
 	top: 495.935px;
 	position: absolute;
@@ -371,7 +371,7 @@
 	font-size: 65px;
 	color: rgba(255,222,167,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_pp {
 	left: 213.659px;
 	top: 815.935px;
 	position: absolute;
@@ -385,7 +385,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#iDEC_2023 {
+#iDEC_2023_pq {
 	left: 213.659px;
 	top: 864.935px;
 	position: absolute;

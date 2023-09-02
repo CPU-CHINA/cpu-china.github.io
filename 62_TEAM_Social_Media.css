@@ -74,7 +74,7 @@
 	}
 
 }
-# {
+#_hd {
 	position: absolute;
 	width: 889px;
 	height: 643px;
@@ -104,10 +104,10 @@
 	left: 243px;
 	top: 472px;
 }
-#_1 {
+#_1_hg {
 	fill: rgba(254,245,245,1);
 }
-._1 {
+._1_hg {
 	position: absolute;
 	overflow: visible;
 	width: 646px;
@@ -127,10 +127,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_6 {
+#_6_hi {
 	fill: rgba(255,255,255,1);
 }
-._6 {
+._6_hi {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -139,10 +139,10 @@
 	left: 0px;
 	top: 236px;
 }
-#_5 {
+#_5_hj {
 	fill: rgba(255,255,255,1);
 }
-._5 {
+._5_hj {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -151,7 +151,7 @@
 	left: 0px;
 	top: 472px;
 }
-#_bo {
+#_hk {
 	left: 62px;
 	top: 70px;
 	position: absolute;
@@ -167,7 +167,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#_bp {
+#_hl {
 	left: 62px;
 	top: 542px;
 	position: absolute;
@@ -183,7 +183,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#_bq {
+#_hm {
 	left: 62px;
 	top: 306px;
 	position: absolute;
@@ -199,7 +199,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#Construction_of_plasmids_conta {
+#Construction_of_plasmids_conta_hn {
 	left: 278px;
 	top: 58px;
 	position: absolute;
@@ -229,7 +229,7 @@
 	font-size: 22px;
 	color: rgba(112,112,112,1);
 }
-#Construction_of_plasmids_conta_bt {
+#Construction_of_plasmids_conta_hp {
 	left: 278px;
 	top: 294px;
 	position: absolute;
@@ -245,7 +245,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#Twitter_XXXXXX_bu {
+#Twitter_XXXXXX_hq {
 	left: 278px;
 	top: 258px;
 	position: absolute;
@@ -259,7 +259,7 @@
 	font-size: 22px;
 	color: rgba(112,112,112,1);
 }
-#Construction_of_plasmids_conta_bv {
+#Construction_of_plasmids_conta_hr {
 	left: 278px;
 	top: 530px;
 	position: absolute;
@@ -275,7 +275,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#Twitter_XXXXXX_bw {
+#Twitter_XXXXXX_hs {
 	left: 278px;
 	top: 494px;
 	position: absolute;
@@ -289,7 +289,7 @@
 	font-size: 22px;
 	color: rgba(112,112,112,1);
 }
-#Social_Media {
+#Social_Media_ht {
 	left: 416px;
 	top: 188px;
 	position: absolute;
@@ -303,7 +303,7 @@
 	font-size: 30px;
 	color: rgba(8,54,67,1);
 }
-#_by {
+#_hu {
 	position: absolute;
 	width: 1920px;
 	height: 138px;
@@ -311,10 +311,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1_bz {
+#_1_hv {
 	fill: rgba(8,54,67,1);
 }
-._1_bz {
+._1_hv {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -322,7 +322,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_hw {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -331,7 +331,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -340,7 +340,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_hx {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -358,7 +358,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_hy {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -376,7 +376,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_hz {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -394,7 +394,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_h {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -408,7 +408,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TOP {
+#TOP_h {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -416,7 +416,7 @@
 	top: 849px;
 	overflow: visible;
 }
-#_4 {
+#_4_h {
 	fill: rgba(184,236,215,1);
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
@@ -424,7 +424,7 @@
 	--web-action-target: 52_TEAM_Members_0.html;
 	cursor: pointer;
 }
-._4 {
+._4_h {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -433,10 +433,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_2 {
+#_2_h {
 	fill: rgba(8,54,67,1);
 }
-._2 {
+._2_h {
 	overflow: visible;
 	position: absolute;
 	width: 44px;

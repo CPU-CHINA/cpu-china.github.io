@@ -42,7 +42,7 @@
 	}
 
 }
-#-12 {
+#-12_vr {
 	position: absolute;
 	width: 1920px;
 	height: 248px;
@@ -50,10 +50,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1 {
+#_1_vs {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_vs {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -61,7 +61,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_vt {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -75,7 +75,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_vu {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -93,7 +93,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_vv {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -111,7 +111,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_vw {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -129,7 +129,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_vx {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -147,10 +147,10 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_14 {
+#_14_vy {
 	fill: rgba(255,255,255,0.851);
 }
-._14 {
+._14_vy {
 	position: absolute;
 	overflow: visible;
 	width: 188px;
@@ -158,10 +158,10 @@
 	left: 1036px;
 	top: 94px;
 }
-#_13 {
+#_13_vz {
 	fill: rgba(184,236,215,1);
 }
-._13 {
+._13_vz {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -170,7 +170,7 @@
 	left: 1042px;
 	top: 153px;
 }
-#Project {
+#Project_v {
 	position: absolute;
 	width: 125px;
 	height: 110px;
@@ -178,7 +178,7 @@
 	top: 114px;
 	overflow: visible;
 }
-#Background {
+#Background_v {
 	left: 0px;
 	top: 0px;
 	position: absolute;
@@ -196,7 +196,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Results {
+#Results_v {
 	left: 26px;
 	top: 90px;
 	position: absolute;
@@ -214,7 +214,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Introduction {
+#Introduction_v {
 	left: 1069px;
 	top: 159px;
 	position: absolute;

@@ -96,7 +96,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#Construction_of_plasmids_con-_ {
+#Construction_of_plasmids_con-__iz {
 	left: 298px;
 	top: 128px;
 	position: absolute;
@@ -112,10 +112,10 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#_1 {
+#_1_i {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_i {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -123,7 +123,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_i {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -132,7 +132,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -141,7 +141,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_i {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -159,7 +159,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_i {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -177,7 +177,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_i {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -195,7 +195,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_i {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -213,7 +213,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_2 {
+#_2_i {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -222,7 +222,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_i {
 	position: absolute;
 	overflow: visible;
 	width: 310px;
@@ -281,14 +281,14 @@
 	left: 1322.5px;
 	top: 361px;
 }
-#_4 {
+#_4_ja {
 	fill: rgba(184,236,215,1);
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
 	--web-action-target: 52_TEAM_Members_0.html;
 	cursor: pointer;
 }
-._4 {
+._4_ja {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -297,10 +297,10 @@
 	left: 1740px;
 	top: 849px;
 }
-#_2_bv {
+#_2_jb {
 	fill: rgba(8,54,67,1);
 }
-._2_bv {
+._2_jb {
 	overflow: visible;
 	position: absolute;
 	width: 44px;
@@ -313,7 +313,7 @@
 	--web-action-target: 52_TEAM_Members_0.html;
 	cursor: pointer;
 }
-#Construction_of_plasmids_con-__bw {
+#Construction_of_plasmids_con-__jc {
 	left: 289px;
 	top: 824px;
 	position: absolute;
@@ -329,7 +329,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#XXXXXX {
+#XXXXXX_jd {
 	left: 289px;
 	top: 793px;
 	position: absolute;

@@ -40,8 +40,8 @@
 	}
 
 }
-#_3-_bi {
-	fill: url(#_3-_bi);
+#_3-_fa {
+	fill: url(#_3-_fa);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -49,7 +49,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3-_bi {
+._3-_fa {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -57,7 +57,7 @@
 	left: 0px;
 	top: 0px;
 }
-#Documentation {
+#Documentation_fb {
 	position: absolute;
 	width: 115px;
 	height: 110px;
@@ -65,7 +65,7 @@
 	top: 937px;
 	overflow: visible;
 }
-#Protocols {
+#Protocols_fc {
 	left: 9px;
 	top: 0px;
 	position: absolute;
@@ -83,7 +83,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Notebook {
+#Notebook_fd {
 	left: 7px;
 	top: 45px;
 	position: absolute;
@@ -101,7 +101,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#References {
+#References_fe {
 	left: 0px;
 	top: 90px;
 	position: absolute;
@@ -119,7 +119,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_ff {
 	left: 1239px;
 	top: 937px;
 	position: absolute;
@@ -133,7 +133,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#TEAM {
+#TEAM_fg {
 	left: 1384px;
 	top: 700px;
 	position: absolute;
@@ -152,7 +152,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_fh {
 	left: 1394px;
 	top: 359px;
 	position: absolute;
@@ -171,7 +171,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_fi {
 	left: 1275px;
 	top: 122px;
 	position: absolute;
@@ -181,7 +181,7 @@
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Bronova;
@@ -190,7 +190,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_4 {
+#_4_fj {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -199,7 +199,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._4 {
+._4_fj {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -208,7 +208,7 @@
 	top: 948.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_3 {
+#_3_fk {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -217,7 +217,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3 {
+._3_fk {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -226,7 +226,7 @@
 	top: 711.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_2 {
+#_2_fl {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -235,7 +235,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_fl {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -244,7 +244,7 @@
 	top: 370.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_1 {
+#_1_fm {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -253,7 +253,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_fm {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -262,7 +262,7 @@
 	top: 133.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-# {
+#_fn {
 	position: absolute;
 	width: 1267.556px;
 	height: 1267.556px;
@@ -270,7 +270,7 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_1_bw {
+#_1_fo {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -279,7 +279,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1_bw {
+._1_fo {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -287,7 +287,7 @@
 	transform: translate(-81.342px, 113.934px) matrix(1,0,0,1,92.1198,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_2_bx {
+#_2_fp {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 4px;
@@ -296,7 +296,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2_bx {
+._2_fp {
 	width: 1205px;
 	height: 1206px;
 	position: absolute;
@@ -304,10 +304,10 @@
 	transform: translate(-81.342px, 113.934px) matrix(1,0,0,1,113.1225,-82.7988) rotate(-1deg);
 	transform-origin: center;
 }
-#_3_by {
+#_3_fq {
 	fill: rgba(255,255,255,1);
 }
-._3_by {
+._3_fq {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -316,10 +316,10 @@
 	left: 1039.658px;
 	top: 1045.934px;
 }
-#_10_b {
-	fill: url(#_10_b);
+#_10_fs {
+	fill: url(#_10_fs);
 }
-._10_b {
+._10_fs {
 	position: absolute;
 	overflow: visible;
 	width: 603px;
@@ -327,10 +327,10 @@
 	left: 452.658px;
 	top: 284.934px;
 }
-#_11 {
+#_11_ft {
 	fill: rgba(8,54,67,1);
 }
-._11 {
+._11_ft {
 	position: absolute;
 	overflow: visible;
 	width: 642px;
@@ -338,7 +338,7 @@
 	left: 213.658px;
 	top: 456.934px;
 }
-#Computational_Insight_of__Norc {
+#Computational_Insight_of__Norc_fu {
 	left: 213.658px;
 	top: 495.934px;
 	position: absolute;
@@ -352,7 +352,7 @@
 	font-size: 65px;
 	color: rgba(255,222,167,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_fv {
 	left: 213.658px;
 	top: 815.934px;
 	position: absolute;
@@ -366,7 +366,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#iDEC_2023 {
+#iDEC_2023_fw {
 	left: 213.658px;
 	top: 864.934px;
 	position: absolute;

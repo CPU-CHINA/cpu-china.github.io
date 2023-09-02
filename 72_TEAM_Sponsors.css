@@ -104,7 +104,7 @@
 	transform: matrix(1,0,0,1,92.1193,-103.1562) rotate(-1deg);
 	transform-origin: center;
 }
-# {
+#_f {
 	position: absolute;
 	width: 1226px;
 	height: 595px;
@@ -112,7 +112,7 @@
 	top: 355px;
 	overflow: visible;
 }
-#_bk {
+#_ga {
 	left: 164px;
 	top: 162px;
 	position: absolute;
@@ -126,10 +126,10 @@
 	font-size: 35px;
 	color: rgba(228,228,228,1);
 }
-#_10 {
+#_10_f {
 	fill: rgba(254,245,245,1);
 }
-._10 {
+._10_f {
 	position: absolute;
 	overflow: visible;
 	width: 398px;
@@ -220,7 +220,7 @@
 	font-size: 30px;
 	color: rgba(8,54,67,1);
 }
-#_bs {
+#_gb {
 	position: absolute;
 	width: 1920px;
 	height: 138px;
@@ -228,10 +228,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1 {
+#_1_gb {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_gb {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -239,7 +239,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_gc {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -248,7 +248,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -257,7 +257,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_gd {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -275,7 +275,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_ge {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -293,7 +293,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_gf {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -311,7 +311,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_gg {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -337,7 +337,7 @@
 	top: 849px;
 	overflow: visible;
 }
-#_4 {
+#_4_gi {
 	fill: rgba(184,236,215,1);
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
@@ -345,7 +345,7 @@
 	--web-action-target: 62_TEAM_Social_Media.html;
 	cursor: pointer;
 }
-._4 {
+._4_gi {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -354,10 +354,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_2 {
+#_2_gj {
 	fill: rgba(8,54,67,1);
 }
-._2 {
+._2_gj {
 	overflow: visible;
 	position: absolute;
 	width: 44px;

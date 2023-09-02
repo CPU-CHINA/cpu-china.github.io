@@ -72,7 +72,7 @@
 	}
 
 }
-#-11 {
+#-11_uy {
 	position: absolute;
 	width: 1920px;
 	height: 250px;
@@ -80,10 +80,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1 {
+#_1_uz {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_uz {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -91,10 +91,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_15 {
+#_15_u {
 	fill: rgba(255,255,255,0.851);
 }
-._15 {
+._15_u {
 	position: absolute;
 	overflow: visible;
 	width: 188px;
@@ -102,7 +102,7 @@
 	left: 1284px;
 	top: 96px;
 }
-#CPU_CHINA {
+#CPU_CHINA_u {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -111,7 +111,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -120,7 +120,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_u {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -138,7 +138,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_u {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -156,7 +156,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_u {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -174,7 +174,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_u {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -192,7 +192,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#Team {
+#Team_u {
 	position: absolute;
 	width: 132px;
 	height: 110px;
@@ -200,7 +200,7 @@
 	top: 116px;
 	overflow: visible;
 }
-#Members {
+#Members_u {
 	left: 18px;
 	top: 0px;
 	position: absolute;
@@ -218,7 +218,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Social_Media {
+#Social_Media_u {
 	left: 0px;
 	top: 45px;
 	position: absolute;
@@ -236,7 +236,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Sponsorship {
+#Sponsorship_u {
 	left: 3px;
 	top: 90px;
 	position: absolute;

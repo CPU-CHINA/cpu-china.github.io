@@ -50,7 +50,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#CPU_CHINA_bo {
+#CPU_CHINA_up {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -59,7 +59,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -68,10 +68,10 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#_1 {
+#_1_uk {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_uk {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -79,7 +79,7 @@
 	left: 0px;
 	top: 0px;
 }
-#DOCUMENTATION {
+#DOCUMENTATION_ul {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -97,7 +97,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_um {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -115,7 +115,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_un {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -133,7 +133,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_uo {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -151,7 +151,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#CPU_CHINA_bo {
+#CPU_CHINA_up {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -160,7 +160,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -169,10 +169,10 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#_15 {
+#_15_uq {
 	fill: rgba(255,255,255,0.851);
 }
-._15 {
+._15_uq {
 	position: absolute;
 	overflow: visible;
 	width: 188px;
@@ -180,10 +180,10 @@
 	left: 1284px;
 	top: 96px;
 }
-#_13 {
+#_13_ur {
 	fill: rgba(184,236,215,1);
 }
-._13 {
+._13_ur {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -192,7 +192,7 @@
 	left: 1290px;
 	top: 106px;
 }
-#Team {
+#Team_us {
 	position: absolute;
 	width: 132px;
 	height: 110px;
@@ -204,7 +204,7 @@
 	--web-action-target: _23_TEAM_Socila_Media.html;
 	cursor: pointer;
 }
-#Members {
+#Members_ut {
 	left: 18px;
 	top: 0px;
 	position: absolute;
@@ -222,7 +222,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Social_Media {
+#Social_Media_uu {
 	left: 0px;
 	top: 45px;
 	position: absolute;
@@ -236,7 +236,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Sponsorship {
+#Sponsorship_uv {
 	left: 3px;
 	top: 90px;
 	position: absolute;

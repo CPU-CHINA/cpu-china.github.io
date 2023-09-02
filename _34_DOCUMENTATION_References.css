@@ -3,8 +3,8 @@
 	--web-view-id: -34-DOCUMENTATION-References;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
-	--web-scale-on-resize: true;
 	--web-center-horizontally: true;
+	--web-center-vertically: true;
 	--web-enable-deep-linking: true;
 	--web-is-overlay: true;
 }
@@ -17,7 +17,7 @@
 	box-sizing: border-box;
 	border: none;
 }
-#-34-DOCUMENTATION-References {
+.-34-DOCUMENTATION-References_Class {
 	position: absolute;
 	width: 1920px;
 	height: 1080px;
@@ -27,8 +27,8 @@
 	--web-view-id: -34-DOCUMENTATION-References;
 	--web-scale-to-fit: true;
 	--web-scale-to-fit-type: fit;
-	--web-scale-on-resize: true;
 	--web-center-horizontally: true;
+	--web-center-vertically: true;
 	--web-enable-deep-linking: true;
 	--web-is-overlay: true;
 }
@@ -42,7 +42,7 @@
 	}
 
 }
-#-32 {
+.-32_Class {
 	position: absolute;
 	width: 1920px;
 	height: 248px;
@@ -50,10 +50,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1 {
+._1_r_Class {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_r {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -61,7 +61,7 @@
 	left: 0px;
 	top: 0px;
 }
-#DOCUMENTATION {
+.DOCUMENTATION_r_Class {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -79,7 +79,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+.TEAM_r_Class {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -97,7 +97,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+.PROJECT_r_Class {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -115,7 +115,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+.HOME_r_Class {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -133,7 +133,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#CPU_CHINA {
+.CPU_CHINA_r_Class {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -142,7 +142,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -151,7 +151,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#_23 {
+._23_Class {
 	fill: rgba(255,255,255,0.851);
 }
 ._23 {
@@ -162,10 +162,10 @@
 	left: 1583px;
 	top: 94px;
 }
-#_13 {
+._13_sa_Class {
 	fill: rgba(184,236,215,1);
 }
-._13 {
+._13_sa {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -174,7 +174,7 @@
 	left: 1589px;
 	top: 197px;
 }
-#Documentation {
+.Documentation_sb_Class {
 	position: absolute;
 	width: 115px;
 	height: 110px;
@@ -182,7 +182,7 @@
 	top: 114px;
 	overflow: visible;
 }
-#Protocols {
+.Protocols_sc_Class {
 	left: 9px;
 	top: 0px;
 	position: absolute;
@@ -200,7 +200,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Notebook {
+.Notebook_sd_Class {
 	left: 7px;
 	top: 45px;
 	position: absolute;
@@ -218,7 +218,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#References {
+.References_se_Class {
 	left: 0px;
 	top: 90px;
 	position: absolute;

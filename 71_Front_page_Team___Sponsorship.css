@@ -48,8 +48,8 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_12_bj {
-	fill: url(#_12_bj);
+#_12_go {
+	fill: url(#_12_go);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -57,7 +57,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._12_bj {
+._12_go {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -65,7 +65,7 @@
 	left: 0px;
 	top: 113.934px;
 }
-#_1 {
+#_1_gp {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -74,7 +74,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_gp {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -82,7 +82,7 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,92.1193,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_2 {
+#_2_gq {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 4px;
@@ -91,7 +91,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_gq {
 	width: 1205px;
 	height: 1206px;
 	position: absolute;
@@ -99,10 +99,10 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,113.1225,-82.7988) rotate(-1deg);
 	transform-origin: center;
 }
-#_3 {
+#_3_gr {
 	fill: rgba(255,255,255,1);
 }
-._3 {
+._3_gr {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -111,7 +111,7 @@
 	left: 1270px;
 	top: 808.934px;
 }
-#DOCUMENTATION {
+#DOCUMENTATION_gs {
 	left: 1239px;
 	top: 1050.934px;
 	position: absolute;
@@ -130,7 +130,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_gt {
 	left: 1394px;
 	top: 472.934px;
 	position: absolute;
@@ -149,7 +149,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_gu {
 	left: 1384px;
 	top: 813.934px;
 	position: absolute;
@@ -167,7 +167,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#HOME {
+#HOME_gv {
 	left: 1275px;
 	top: 235.934px;
 	position: absolute;
@@ -177,7 +177,7 @@
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Bronova;
@@ -186,7 +186,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_1_br {
+#_1_gw {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -195,7 +195,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1_br {
+._1_gw {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -204,7 +204,7 @@
 	top: 247.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_3_bs {
+#_3_gx {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -213,7 +213,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3_bs {
+._3_gx {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -222,7 +222,7 @@
 	top: 825.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_5 {
+#_5_gy {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -231,7 +231,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._5 {
+._5_gy {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -240,7 +240,7 @@
 	top: 484.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_6 {
+#_6_gz {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -249,7 +249,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._6 {
+._6_gz {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -258,10 +258,10 @@
 	top: 1062.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_13 {
+#_13_g {
 	fill: rgba(184,236,215,1);
 }
-._13 {
+._13_g {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -314,7 +314,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Sponsorship {
+#Sponsorship_g {
 	left: 3px;
 	top: 90px;
 	position: absolute;
@@ -332,10 +332,10 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#_10_b {
-	fill: url(#_10_b);
+#_10_ha {
+	fill: url(#_10_ha);
 }
-._10_b {
+._10_ha {
 	position: absolute;
 	overflow: visible;
 	width: 603px;
@@ -343,10 +343,10 @@
 	left: 534px;
 	top: 284.934px;
 }
-#_11 {
+#_11_g {
 	fill: rgba(8,54,67,1);
 }
-._11 {
+._11_g {
 	position: absolute;
 	overflow: visible;
 	width: 642px;
@@ -354,7 +354,7 @@
 	left: 295px;
 	top: 456.934px;
 }
-#Computational_Insight_of__Norc {
+#Computational_Insight_of__Norc_g {
 	left: 295px;
 	top: 495.934px;
 	position: absolute;
@@ -368,7 +368,7 @@
 	font-size: 65px;
 	color: rgba(255,222,167,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_g {
 	left: 295px;
 	top: 815.934px;
 	position: absolute;
@@ -382,7 +382,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#iDEC_2023 {
+#iDEC_2023_ha {
 	left: 295px;
 	top: 864.934px;
 	position: absolute;

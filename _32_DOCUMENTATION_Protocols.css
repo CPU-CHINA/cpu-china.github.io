@@ -50,10 +50,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1 {
+#_1_sw {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_sw {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -61,7 +61,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_sx {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -70,7 +70,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -79,7 +79,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_sy {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -97,7 +97,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_sz {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -115,7 +115,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_s {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -133,7 +133,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_s {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -151,10 +151,10 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_23 {
+#_23_s {
 	fill: rgba(255,255,255,0.851);
 }
-._23 {
+._23_s {
 	position: absolute;
 	overflow: visible;
 	width: 188px;
@@ -162,10 +162,10 @@
 	left: 1583px;
 	top: 94px;
 }
-#_13 {
+#_13_s {
 	fill: rgba(184,236,215,1);
 }
-._13 {
+._13_s {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -178,7 +178,7 @@
 	--web-action-target: 82_DOCUMENTATION_Protocols.html;
 	cursor: pointer;
 }
-#Documentation {
+#Documentation_s {
 	position: absolute;
 	width: 115px;
 	height: 110px;
@@ -186,7 +186,7 @@
 	top: 114px;
 	overflow: visible;
 }
-#Protocols {
+#Protocols_s {
 	left: 9px;
 	top: 0px;
 	position: absolute;
@@ -200,7 +200,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Notebook {
+#Notebook_s {
 	left: 7px;
 	top: 45px;
 	position: absolute;
@@ -218,7 +218,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#References {
+#References_s {
 	left: 0px;
 	top: 90px;
 	position: absolute;

@@ -102,7 +102,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#Protocols {
+#Protocols_d {
 	left: 416px;
 	top: 188px;
 	position: absolute;
@@ -116,7 +116,7 @@
 	font-size: 30px;
 	color: rgba(8,54,67,1);
 }
-#ID22 {
+#ID22_d {
 	position: absolute;
 	width: 1920px;
 	height: 1267.556px;
@@ -124,7 +124,7 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_1 {
+#_1_d {
 	fill: transparent;
 	stroke: rgba(112,112,112,1);
 	stroke-width: 4px;
@@ -133,7 +133,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_d {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -141,10 +141,10 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,92.1198,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_10 {
+#_10_d {
 	fill: rgba(254,245,245,1);
 }
-._10 {
+._10_d {
 	position: absolute;
 	overflow: visible;
 	width: 966px;
@@ -152,7 +152,7 @@
 	left: 692px;
 	top: 301.934px;
 }
-#Construction_of_plasmids_conta {
+#Construction_of_plasmids_conta_d {
 	left: 743.5px;
 	top: 350.434px;
 	position: absolute;
@@ -168,10 +168,10 @@
 	font-size: 20px;
 	color: rgba(112,112,112,1);
 }
-#_1_bo {
+#_1_ea {
 	fill: rgba(8,54,67,1);
 }
-._1_bo {
+._1_ea {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -179,7 +179,7 @@
 	left: 0px;
 	top: 113.934px;
 }
-#CPU_CHINA {
+#CPU_CHINA_d {
 	left: 140px;
 	top: 162.934px;
 	position: absolute;
@@ -188,7 +188,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -197,7 +197,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_d {
 	left: 1574px;
 	top: 171.934px;
 	position: absolute;
@@ -215,7 +215,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_ea {
 	left: 1078px;
 	top: 171.934px;
 	position: absolute;
@@ -233,7 +233,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_eb {
 	left: 1346px;
 	top: 171.934px;
 	position: absolute;
@@ -251,7 +251,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_ec {
 	left: 845px;
 	top: 171.934px;
 	position: absolute;
@@ -269,7 +269,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#Protocols_bu {
+#Protocols_ed {
 	left: 416px;
 	top: 301.934px;
 	position: absolute;
@@ -283,7 +283,7 @@
 	font-size: 30px;
 	color: rgba(8,54,67,1);
 }
-#_4 {
+#_4_ee {
 	fill: rgba(184,236,215,1);
 	transition: all 0.3s linear;
 	--web-animation: fadein 0.3s linear;
@@ -291,7 +291,7 @@
 	--web-action-target: 81_Front_page_Documentation___Protocols.html;
 	cursor: pointer;
 }
-._4 {
+._4_ee {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -300,10 +300,10 @@
 	left: 1740px;
 	top: 962.934px;
 }
-#_2 {
+#_2_ef {
 	fill: rgba(8,54,67,1);
 }
-._2 {
+._2_ef {
 	overflow: visible;
 	position: absolute;
 	width: 44px;

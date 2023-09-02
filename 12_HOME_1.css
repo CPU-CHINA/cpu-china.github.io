@@ -74,7 +74,7 @@
 	}
 
 }
-# {
+#_q {
 	opacity: 0.22;
 	filter: blur(6px);
 	position: absolute;
@@ -84,7 +84,7 @@
 	top: 81px;
 	overflow: visible;
 }
-#_bi {
+#_ra {
 	opacity: 0.2;
 	mix-blend-mode: difference;
 	filter: blur(8px);
@@ -95,7 +95,7 @@
 	top: 108px;
 	overflow: visible;
 }
-#_bj {
+#_rb {
 	opacity: 0.2;
 	mix-blend-mode: difference;
 	filter: blur(8px);
@@ -132,7 +132,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#_bm {
+#_rc {
 	position: absolute;
 	width: 1920px;
 	height: 138px;
@@ -140,10 +140,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1 {
+#_1_q {
 	fill: rgba(8,54,67,1);
 }
-._1 {
+._1_q {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -151,7 +151,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_q {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -161,7 +161,7 @@
 	transition: all 0.3s linear;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -170,7 +170,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_q {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -188,7 +188,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_ra {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -206,7 +206,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_rb {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -224,7 +224,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_rc {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -238,7 +238,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TOP {
+#TOP_rd {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -246,15 +246,15 @@
 	top: 849px;
 	overflow: visible;
 }
-#_4 {
+#_4_re {
 	fill: rgba(184,236,215,1);
 	transition: all 0.3s linear;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 }
-._4 {
+._4_re {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -263,10 +263,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_2 {
+#_2_rf {
 	fill: rgba(8,54,67,1);
 }
-._2 {
+._2_rf {
 	overflow: visible;
 	position: absolute;
 	width: 44px;
@@ -277,6 +277,6 @@
 	transition: all 0.3s linear;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 }

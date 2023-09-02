@@ -40,8 +40,8 @@
 	}
 
 }
-#_3-_bi {
-	fill: url(#_3-_bi);
+#_3-_ia {
+	fill: url(#_3-_ia);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -49,7 +49,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3-_bi {
+._3-_ia {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -57,10 +57,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_4- {
+#_4-_h {
 	fill: rgba(184,236,215,1);
 }
-._4- {
+._4-_h {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -69,7 +69,7 @@
 	left: 1470px;
 	top: 739px;
 }
-#DOCUMENTATION {
+#DOCUMENTATION_h {
 	left: 1239px;
 	top: 937px;
 	position: absolute;
@@ -88,7 +88,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_ia {
 	left: 1384px;
 	top: 700px;
 	position: absolute;
@@ -106,7 +106,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#PROJECT {
+#PROJECT_ib {
 	left: 1394px;
 	top: 359px;
 	position: absolute;
@@ -125,7 +125,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_ic {
 	left: 1275px;
 	top: 122px;
 	position: absolute;
@@ -135,7 +135,7 @@
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Bronova;
@@ -144,7 +144,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_4 {
+#_4_id {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -153,7 +153,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._4 {
+._4_id {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -162,7 +162,7 @@
 	top: 948.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_3 {
+#_3_ie {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -171,7 +171,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3 {
+._3_ie {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -180,7 +180,7 @@
 	top: 711.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_2 {
+#_2_if {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -189,7 +189,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_if {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -198,7 +198,7 @@
 	top: 370.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_1 {
+#_1_ig {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -207,7 +207,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_ig {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -216,7 +216,7 @@
 	top: 133.5px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#Team {
+#Team_ih {
 	position: absolute;
 	width: 132px;
 	height: 110px;
@@ -224,7 +224,7 @@
 	top: 700px;
 	overflow: visible;
 }
-#Members {
+#Members_ii {
 	left: 18px;
 	top: 0px;
 	position: absolute;
@@ -242,7 +242,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Social_Media {
+#Social_Media_ij {
 	left: 0px;
 	top: 45px;
 	position: absolute;
@@ -260,7 +260,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Sponsorship {
+#Sponsorship_ik {
 	left: 3px;
 	top: 90px;
 	position: absolute;
@@ -278,7 +278,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-# {
+#_il {
 	position: absolute;
 	width: 1267.556px;
 	height: 1267.556px;
@@ -286,10 +286,10 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_3-_bx {
+#_3-_im {
 	fill: rgba(255,255,255,1);
 }
-._3-_bx {
+._3-_im {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -298,7 +298,7 @@
 	left: 1188.659px;
 	top: 808.934px;
 }
-#_2- {
+#_2-_in {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 4px;
@@ -307,7 +307,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2- {
+._2-_in {
 	width: 1205px;
 	height: 1206px;
 	position: absolute;
@@ -315,7 +315,7 @@
 	transform: translate(-81.341px, 113.934px) matrix(1,0,0,1,113.1225,-82.7988) rotate(-1deg);
 	transform-origin: center;
 }
-#_1- {
+#_1-_io {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -324,7 +324,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1- {
+._1-_io {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -332,10 +332,10 @@
 	transform: translate(-81.341px, 113.934px) matrix(1,0,0,1,92.1193,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_2-_ca {
-	fill: url(#_2-_ca);
+#_2-_iq {
+	fill: url(#_2-_iq);
 }
-._2-_ca {
+._2-_iq {
 	position: absolute;
 	overflow: visible;
 	width: 603px;
@@ -343,10 +343,10 @@
 	left: 452.659px;
 	top: 284.934px;
 }
-#_1-_b {
+#_1-_ir {
 	fill: rgba(8,54,67,1);
 }
-._1-_b {
+._1-_ir {
 	position: absolute;
 	overflow: visible;
 	width: 642px;
@@ -354,7 +354,7 @@
 	left: 213.659px;
 	top: 456.934px;
 }
-#iDEC_2023 {
+#iDEC_2023_is {
 	left: 213.659px;
 	top: 864.934px;
 	position: absolute;
@@ -368,7 +368,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_it {
 	left: 213.659px;
 	top: 815.934px;
 	position: absolute;
@@ -382,7 +382,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#Computational_Insight_of__Norc {
+#Computational_Insight_of__Norc_iu {
 	left: 213.659px;
 	top: 495.934px;
 	position: absolute;

@@ -40,7 +40,7 @@
 	}
 
 }
-# {
+#_qj {
 	opacity: 0.24;
 	mix-blend-mode: difference;
 	filter: blur(8px);
@@ -51,7 +51,7 @@
 	top: -61px;
 	overflow: visible;
 }
-#_bi {
+#_qk {
 	opacity: 0.22;
 	mix-blend-mode: difference;
 	filter: blur(8px);
@@ -62,7 +62,7 @@
 	top: -100px;
 	overflow: visible;
 }
-#_bj {
+#_ql {
 	opacity: 0.2;
 	mix-blend-mode: difference;
 	filter: blur(8px);
@@ -73,7 +73,7 @@
 	top: -118px;
 	overflow: visible;
 }
-#_bk {
+#_qm {
 	position: absolute;
 	width: 1164px;
 	height: 540px;
@@ -81,7 +81,7 @@
 	top: 540px;
 	overflow: visible;
 }
-#_1 {
+#_1_qn {
 	fill: rgba(8,54,67,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -90,7 +90,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_qn {
 	position: absolute;
 	overflow: visible;
 	width: 1164px;
@@ -112,7 +112,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_qp {
 	left: 74px;
 	top: 89px;
 	position: absolute;
@@ -190,7 +190,7 @@
 	top: 768px;
 	overflow: visible;
 }
-#logo_bt {
+#logo_qv {
 	position: absolute;
 	width: 536px;
 	height: 121px;
@@ -198,7 +198,7 @@
 	top: 629px;
 	overflow: visible;
 }
-#TOP {
+#TOP_qw {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -206,10 +206,10 @@
 	top: 849px;
 	overflow: visible;
 }
-#_4 {
+#_4_qx {
 	fill: rgba(184,236,215,1);
 }
-._4 {
+._4_qx {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -218,10 +218,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_2 {
+#_2_qy {
 	fill: rgba(8,54,67,1);
 }
-._2 {
+._2_qy {
 	overflow: visible;
 	position: absolute;
 	width: 44px;

@@ -49,7 +49,7 @@
 	top: 0px;
 	overflow: visible;
 }
-#ID81 {
+#ID81_c {
 	position: absolute;
 	width: 1920px;
 	height: 1267.556px;
@@ -57,8 +57,8 @@
 	top: -113.934px;
 	overflow: visible;
 }
-#_12_bk {
-	fill: url(#_12_bk);
+#_12_db {
+	fill: url(#_12_db);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
 	stroke-linejoin: miter;
@@ -66,7 +66,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._12_bk {
+._12_db {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -74,7 +74,7 @@
 	left: 0px;
 	top: 113.934px;
 }
-#_1 {
+#_1_dc {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -83,7 +83,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_dc {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -91,7 +91,7 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,92.1198,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_2 {
+#_2_dd {
 	fill: transparent;
 	stroke: rgba(255,255,255,1);
 	stroke-width: 4px;
@@ -100,7 +100,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_dd {
 	width: 1205px;
 	height: 1206px;
 	position: absolute;
@@ -108,10 +108,10 @@
 	transform: translate(0px, 113.934px) matrix(1,0,0,1,113.1225,-82.7988) rotate(-1deg);
 	transform-origin: center;
 }
-#_13 {
+#_13_de {
 	fill: rgba(184,236,215,1);
 }
-._13 {
+._13_de {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -120,7 +120,7 @@
 	left: 1466px;
 	top: 1087.934px;
 }
-#Documentation {
+#Documentation_df {
 	position: absolute;
 	width: 115px;
 	height: 110px;
@@ -128,7 +128,7 @@
 	top: 1050.934px;
 	overflow: visible;
 }
-#Protocols {
+#Protocols_dg {
 	left: 9px;
 	top: 0px;
 	position: absolute;
@@ -146,7 +146,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#Notebook {
+#Notebook_dh {
 	left: 7px;
 	top: 45px;
 	position: absolute;
@@ -164,7 +164,7 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#References {
+#References_di {
 	left: 0px;
 	top: 90px;
 	position: absolute;
@@ -182,10 +182,10 @@
 	font-size: 20px;
 	color: rgba(8,54,67,1);
 }
-#_3 {
+#_3_dj {
 	fill: rgba(255,255,255,1);
 }
-._3 {
+._3_dj {
 	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	position: absolute;
 	overflow: visible;
@@ -194,7 +194,7 @@
 	left: 1121px;
 	top: 1045.934px;
 }
-#DOCUMENTATION {
+#DOCUMENTATION_dk {
 	left: 1239px;
 	top: 1050.934px;
 	position: absolute;
@@ -212,7 +212,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#PROJECT {
+#PROJECT_dl {
 	left: 1394px;
 	top: 472.934px;
 	position: absolute;
@@ -231,7 +231,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_dm {
 	left: 1384px;
 	top: 813.934px;
 	position: absolute;
@@ -250,7 +250,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_dn {
 	left: 1275px;
 	top: 235.934px;
 	position: absolute;
@@ -260,7 +260,7 @@
 	transition: all 0.3s ease-in-out;
 	--web-animation: fadein 0.3s ease-in-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Bronova;
@@ -269,7 +269,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#_1_bx {
+#_1_do {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -278,7 +278,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1_bx {
+._1_do {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -287,7 +287,7 @@
 	top: 247.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_3_by {
+#_3_dp {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -296,7 +296,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._3_by {
+._3_dp {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -305,7 +305,7 @@
 	top: 825.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_5 {
+#_5_dq {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 2px;
@@ -314,7 +314,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._5 {
+._5_dq {
 	overflow: visible;
 	position: absolute;
 	width: 57px;
@@ -323,7 +323,7 @@
 	top: 484.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_6 {
+#_6_dr {
 	fill: transparent;
 	stroke: rgba(8,54,67,1);
 	stroke-width: 4px;
@@ -332,7 +332,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._6 {
+._6_dr {
 	overflow: visible;
 	position: absolute;
 	width: 54px;
@@ -341,10 +341,10 @@
 	top: 1062.434px;
 	transform: matrix(1,0,0,1,0,0);
 }
-#_10_b {
-	fill: url(#_10_b);
+#_10_dt {
+	fill: url(#_10_dt);
 }
-._10_b {
+._10_dt {
 	position: absolute;
 	overflow: visible;
 	width: 603px;
@@ -352,10 +352,10 @@
 	left: 534px;
 	top: 284.934px;
 }
-#_11 {
+#_11_du {
 	fill: rgba(8,54,67,1);
 }
-._11 {
+._11_du {
 	position: absolute;
 	overflow: visible;
 	width: 642px;
@@ -363,7 +363,7 @@
 	left: 295px;
 	top: 456.934px;
 }
-#Computational_Insight_of__Norc {
+#Computational_Insight_of__Norc_dv {
 	left: 295px;
 	top: 495.934px;
 	position: absolute;
@@ -377,7 +377,7 @@
 	font-size: 65px;
 	color: rgba(255,222,167,1);
 }
-#CPU_CHINA {
+#CPU_CHINA_dw {
 	left: 295px;
 	top: 815.934px;
 	position: absolute;
@@ -391,7 +391,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#iDEC_2023 {
+#iDEC_2023_dx {
 	left: 295px;
 	top: 864.934px;
 	position: absolute;

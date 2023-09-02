@@ -74,10 +74,10 @@
 	}
 
 }
-#_1-_bi {
-	fill: url(#_1-_bi);
+#_1-_ka {
+	fill: url(#_1-_ka);
 }
-._1-_bi {
+._1-_ka {
 	width: 1920px;
 	height: 525px;
 	position: absolute;
@@ -85,10 +85,10 @@
 	transform: matrix(1,0,0,1,0,0) rotate(180deg);
 	transform-origin: center;
 }
-# {
+#_j {
 	fill: rgba(255,255,255,0.541);
 }
-. {
+._j {
 	position: absolute;
 	overflow: visible;
 	width: 1444px;
@@ -96,7 +96,7 @@
 	left: 238px;
 	top: 156px;
 }
-#_bk {
+#_ka {
 	position: absolute;
 	width: 1345px;
 	height: 391px;
@@ -104,7 +104,7 @@
 	top: 653px;
 	overflow: visible;
 }
-#_2 {
+#_2_ka {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -113,7 +113,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._2 {
+._2_ka {
 	position: absolute;
 	overflow: visible;
 	width: 310px;
@@ -121,7 +121,7 @@
 	left: 0px;
 	top: 0px;
 }
-#_16 {
+#_16_kb {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -130,7 +130,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._16 {
+._16_kb {
 	position: absolute;
 	overflow: visible;
 	width: 310px;
@@ -138,7 +138,7 @@
 	left: 345px;
 	top: 0px;
 }
-#_18 {
+#_18_kc {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -147,7 +147,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._18 {
+._18_kc {
 	position: absolute;
 	overflow: visible;
 	width: 310px;
@@ -155,7 +155,7 @@
 	left: 690px;
 	top: 0px;
 }
-#_19 {
+#_19_kd {
 	fill: rgba(255,255,255,1);
 	stroke: rgba(112,112,112,1);
 	stroke-width: 1px;
@@ -164,7 +164,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._19 {
+._19_kd {
 	position: absolute;
 	overflow: visible;
 	width: 310px;
@@ -210,7 +210,7 @@
 	font-size: 22px;
 	color: rgba(8,54,67,1);
 }
-#Members {
+#Members_kg {
 	left: 799px;
 	top: 428px;
 	position: absolute;
@@ -224,7 +224,7 @@
 	font-size: 80px;
 	color: rgba(184,236,215,1);
 }
-#_bs {
+#_kh {
 	left: 924px;
 	top: 325px;
 	position: absolute;
@@ -240,7 +240,7 @@
 	font-size: 24px;
 	color: rgba(112,112,112,1);
 }
-#_bt {
+#_ki {
 	position: absolute;
 	width: 1640px;
 	height: 42px;
@@ -248,7 +248,7 @@
 	top: 49px;
 	overflow: visible;
 }
-#CPU_CHINA {
+#CPU_CHINA_kj {
 	left: 0px;
 	top: 0px;
 	position: absolute;
@@ -257,7 +257,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s linear;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -266,7 +266,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_kk {
 	left: 1434px;
 	top: 9px;
 	position: absolute;
@@ -284,7 +284,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_kl {
 	left: 938px;
 	top: 9px;
 	position: absolute;
@@ -302,7 +302,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_km {
 	left: 1206px;
 	top: 9px;
 	position: absolute;
@@ -320,7 +320,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_kn {
 	left: 705px;
 	top: 9px;
 	position: absolute;
@@ -338,7 +338,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TOP {
+#TOP_ko {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -346,7 +346,7 @@
 	top: 849px;
 	overflow: visible;
 }
-#_4 {
+#_4_kp {
 	fill: rgba(184,236,215,1);
 	transition: all 0.3s linear;
 	--web-animation: fadein 0.3s linear;
@@ -354,7 +354,7 @@
 	--web-action-target: 51_Front_page_Team___Members.html;
 	cursor: pointer;
 }
-._4 {
+._4_kp {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -363,10 +363,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_2_b {
+#_2_kq {
 	fill: rgba(8,54,67,1);
 }
-._2_b {
+._2_kq {
 	overflow: visible;
 	position: absolute;
 	width: 44px;

@@ -74,7 +74,7 @@
 	}
 
 }
-#_1 {
+#_1_om {
 	fill: transparent;
 	stroke: rgba(112,112,112,1);
 	stroke-width: 4px;
@@ -83,7 +83,7 @@
 	stroke-miterlimit: 4;
 	shape-rendering: auto;
 }
-._1 {
+._1_om {
 	width: 1246px;
 	height: 1246px;
 	position: absolute;
@@ -91,10 +91,10 @@
 	transform: matrix(1,0,0,1,92.1193,-103.1565) rotate(-1deg);
 	transform-origin: center;
 }
-#_2 {
+#_2_on {
 	fill: rgba(254,245,245,1);
 }
-._2 {
+._2_on {
 	position: absolute;
 	overflow: visible;
 	width: 966px;
@@ -102,7 +102,7 @@
 	left: 692px;
 	top: 188px;
 }
-#Construction_of_plasmids_conta {
+#Construction_of_plasmids_conta_oo {
 	left: 743.5px;
 	top: 236.5px;
 	position: absolute;
@@ -118,7 +118,7 @@
 	font-size: 20px;
 	color: rgba(112,112,112,1);
 }
-#Background {
+#Background_op {
 	left: 416px;
 	top: 188px;
 	position: absolute;
@@ -132,7 +132,7 @@
 	font-size: 30px;
 	color: rgba(8,54,67,1);
 }
-# {
+#_oq {
 	position: absolute;
 	width: 1920px;
 	height: 138px;
@@ -140,10 +140,10 @@
 	top: 0px;
 	overflow: visible;
 }
-#_1_bm {
+#_1_or {
 	fill: rgba(8,54,67,1);
 }
-._1_bm {
+._1_or {
 	position: absolute;
 	overflow: visible;
 	width: 1920px;
@@ -151,7 +151,7 @@
 	left: 0px;
 	top: 0px;
 }
-#CPU_CHINA {
+#CPU_CHINA_os {
 	left: 140px;
 	top: 49px;
 	position: absolute;
@@ -160,7 +160,7 @@
 	white-space: nowrap;
 	--web-animation: fadein 0.3s ease-out;
 	--web-action-type: page;
-	--web-action-target: 11_Front_page.html;
+	--web-action-target: index.html;
 	cursor: pointer;
 	text-align: left;
 	font-family: Corbel;
@@ -169,7 +169,7 @@
 	font-size: 35px;
 	color: rgba(184,236,215,1);
 }
-#DOCUMENTATION {
+#DOCUMENTATION_ot {
 	left: 1574px;
 	top: 58px;
 	position: absolute;
@@ -187,7 +187,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#PROJECT {
+#PROJECT_ou {
 	left: 1078px;
 	top: 58px;
 	position: absolute;
@@ -205,7 +205,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TEAM {
+#TEAM_ov {
 	left: 1346px;
 	top: 58px;
 	position: absolute;
@@ -223,7 +223,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#HOME {
+#HOME_ow {
 	left: 845px;
 	top: 58px;
 	position: absolute;
@@ -241,7 +241,7 @@
 	font-size: 22px;
 	color: rgba(184,236,215,1);
 }
-#TOP {
+#TOP_ox {
 	position: absolute;
 	width: 80px;
 	height: 80px;
@@ -249,7 +249,7 @@
 	top: 849px;
 	overflow: visible;
 }
-#_4 {
+#_4_oy {
 	fill: rgba(184,236,215,1);
 	transition: all 0.3s linear;
 	--web-animation: fadein 0.3s linear;
@@ -257,7 +257,7 @@
 	--web-action-target: 21_Front_page_Project___Background.html;
 	cursor: pointer;
 }
-._4 {
+._4_oy {
 	filter: drop-shadow(2px 3px 6px rgba(8, 54, 67, 0.502));
 	position: absolute;
 	overflow: visible;
@@ -266,10 +266,10 @@
 	left: 0px;
 	top: 0px;
 }
-#_2_bu {
+#_2_oz {
 	fill: rgba(8,54,67,1);
 }
-._2_bu {
+._2_oz {
 	overflow: visible;
 	position: absolute;
 	width: 44px;
