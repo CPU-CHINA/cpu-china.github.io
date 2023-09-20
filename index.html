@@ -1,15 +1,207 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>index</title>
-<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="index.css"/>
-<script id="applicationScript" type="text/javascript" src="index.js"></script>
+<meta charset="utf-8">
+<title>INDEX</title>
+<style>
+		nav {
+			width: 100%;
+			min-width: 960px;
+			}
+		ul {
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			overflow:hidden;
+			}
+		li {
+			float:left;
+			
+		}
+		
+	a{
+		text-decoration: none;
+	}
+	a:active{
+		color:rgba(112,112,255,0.80);
+	}
+	a:visited{
+		color:rgba(57,187,159,1.00)
+	}
+		.function:link,.function:visited {
+			display:inline-block;
+		    width:60%;
+			font-family: Bronova;
+			font-weight:bold;
+			font-size: 16px;
+			color: rgba(184,236,215,1);
+			background-color:rgba(8,54,67,1);
+			text-align:center;
+			padding:20px;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+		.function:hover,.function:active {
+			text-decoration: underline;
+			color:rgba(8,54,67,1);
+			background-color: rgba(184,236,215,1);
+			height:30px;
+			border:2px solid rgba(255,255,255,0);
+			filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
+			}
+		/* 最外层 */
+.content {
+    display: flex;
+    flex-direction: row;
+	width:100%;
+	height:70px
+}
+/* END */
+		.function_title:link,.function_title:visited {
+			display:inline-block;
+		    width:60%;
+			font-family: Bronova;
+			font-weight:bold;
+			font-size: 20px;
+			color: rgba(184,236,215,1);
+			background-color:rgba(8,54,67,1);
+			text-align:center;
+			padding:20px;
+			text-decoration:none;
+			text-transform:uppercase;
+		}
+		.function_title:hover,.function_title:active {
+			filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
+			color:rgba(8,54,67,1);
+			background-color: rgba(184,236,215,1);
+			height:35px
+			}
+		
+/* 每个菜单的样式(宽度这里调,子菜单宽度都听这个) */
+.items {
+    width: 320px;
+    color: rgba(184,236,215,1);
+	display: inline-block;
+	text-align: center
+}
+/* END */
+
+/* 菜单与鼠标移入 */
+.menu{
+    width: 320px;
+    height: 70px;
+    background: rgba(8,54,67,1);
+    line-height: 35px;
+    text-align: center;
+    position:fixed;
+	
+    overflow:hidden;
+	font-family: Bronova;
+	font-weight: Bold;
+	font-size: 14px;
+	
+}
+.menu:hover{
+    overflow:visible;
+	width:320px;
+    color: rgba(8,54,67,1);
+    z-index:999;
+    cursor:pointer;
+}
+/* END */
+
+/* 下拉菜单与鼠标移入 */
+.drop{
+    filter:drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
+	text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF,1px -1px 0 #FFF,-1px -1px 0 #FFF;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    line-height: 40px;
+    overflow: hidden;
+	font-weight:normal;
+	border-radius: 0px;
+	margin-left:58px;
+	font-weight:bold;
+	font-size:14px;
+	color:rgba(8,54,67,1);
+	background-color:rgba(255,255,255,0.80);
+	border:2px solid rgba(255,255,255,0);
+	
+}
+	.drop:active{
+		color:rgba(8,54,67,1)
+	}
+.drop:hover{
+    background: rgba(184,236,215,1);
+	filter: drop-shadow(4px 4px 4px rgba(184,236,215,0.80));
+    cursor: pointer;
+	border: 2px solid #0E5468;
+	border-radius: 16px;
+	color:rgba(8,54,67,1)
+}
+	</style>	
 </head>
+<header class="content">
+    <!-- 有菜单 -->
+	    <div class="items">
+        <div class="menu">
+			<span><a href="INDEX.html" class="function_title">CPU_CHINA</a></span>
+        </div>
+    </div>
+	    <div class="items">
+        <div class="menu">
+			<span><a href="HOME.html" class="function">HOME</a></span>
+  
+        </div>
+    </div>
+    <div class="items">
+        <div class="menu">
+			<span><a href="BACKGROUND.html" class="function">PROJECT</a></span>
+            <div>
+                <div class="drop"><a href="BACKGROUND.html">Background</a></div>
+                <div class="drop">Wet Lab</div>
+                <div class="drop">Dry Lab</div>
+            </div>
+        </div>
+    </div>
+	    <div class="items">
+        <div class="menu">
+			<span><a href="MEMBERS.html" class="function">TEAM</a></span>
+            <div>
+                <div class="drop"><a href="MEMBERS.html">Members</a></div>
+                <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
+				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsorship</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="items">
+        <div class="menu">
+			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
+            <div>
+                <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
+                <div class="drop">Notebook</div>
+                <div class="drop">References</div>
+            </div>
+        </div>
+    </div>
+    <!-- END -->
+
+    <!-- 无下级 -->
+
+    <!-- END -->
+		</header>
 <body>
-<div id="index" class="index_Class">
+	<div style="position:static; width: 170px; height: 89px;">
+		<img src="矩形 3-打底.png" width="1920" height="1080" alt=""/>
+		<span style="position: absolute; top: 0; left: 0;">Members添加文字...添加文字...添加文字...</span>
+		</div>
+	<div style="position: relative; width: 170px; height: 89px;">
+				<img src="矩形 1-打底-加星点.png" alt="合照">
+				
+		<span style="position: absolute; top: 0; left: 0;">Members添加文字...添加文字...添加文字...</span>
+</div>
+	<div id="index" class="index_Class">
 	<div onclick="application.goToTargetView(event)" class="DOCUMENTATION_ri_Class">
 		<span>DOCUMENTATION</span>
 	</div>
@@ -19,7 +211,7 @@
 	<div onclick="application.goToTargetView(event)" class="PROJECT_rk_Class">
 		<span>PROJECT</span>
 	</div>
-	<div onclick="https://github.com/CPU-CHINA/cpu-china.github.io/blob/main/HOME_1.html" class="HOME_rl_Class">
+	<div onclick="application.goToTargetView(event)" class="HOME_rl_Class">
 		<span>HOME</span>
 	</div>
 	<svg class="_4_rm" viewBox="0 0 54 2">
