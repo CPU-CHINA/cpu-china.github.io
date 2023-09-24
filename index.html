@@ -4,6 +4,69 @@
 <meta charset="utf-8">
 <title>INDEX</title>
 <style>
+	.wheel {
+		border: 2px solid black;
+        border-radius: 50%;
+        margin-left: 50px;
+        position: absolute;
+        height: 55vw;
+        width: 55vw;
+        max-width: 100%;
+        max-height: 100%;
+		
+        animation-name:wheel;
+		animation-duration:20s;
+		z-index:-1
+		}
+	@keyframes wheel {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+}
+.loading{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-top:300px;
+            position: relative;
+            border:5px solid lightgreen;
+            -webkit-animation: turn 2s linear infinite;
+	        z-index:1
+	}
+        .loading span{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: lightgreen;
+            position: absolute;
+            left: 50%;
+            margin-top: -15px;
+            margin-left: -15px;
+            -webkit-animation: changeBgColor 5s linear infinite;
+        }
+        @-webkit-keyframes changeBgColor{
+            0%{
+                background: rgba(184,236,215,1);
+            }
+            100%{
+                background: lightblue;
+            }
+        }
+        @-webkit-keyframes turn{
+            0%{
+                -webkit-transform: rotate(0deg);
+                border-color: rgba(184,236,215,1);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+                border-color: lightblue;
+            }
+        }
 		nav {
 			width: 100%;
 			min-width: 960px;
@@ -192,79 +255,11 @@
     <!-- END -->
 		</header>
 <body>
-	<div style="position:static; width: 170px; height: 89px;">
-		<img src="矩形 3-打底.png" width="1920" height="1080" alt=""/>
-		<span style="position: absolute; top: 0; left: 0;">Members添加文字...添加文字...添加文字...</span>
-		</div>
-	<div style="position: relative; width: 170px; height: 89px;">
-				<img src="矩形 1-打底-加星点.png" alt="合照">
-				
-		<span style="position: absolute; top: 0; left: 0;">Members添加文字...添加文字...添加文字...</span>
-</div>
-	<div id="index" class="index_Class">
-	<div onclick="application.goToTargetView(event)" class="DOCUMENTATION_ri_Class">
-		<span>DOCUMENTATION</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="TEAM_rj_Class">
-		<span>TEAM</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="PROJECT_rk_Class">
-		<span>PROJECT</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" class="HOME_rl_Class">
-		<span>HOME</span>
-	</div>
-	<svg class="_4_rm" viewBox="0 0 54 2">
-		<path class="_4_rm_Class" d="M 0 0 L 54 0">
-		</path>
-	</svg>
-	<svg class="_3_rn" viewBox="0 0 57 2">
-		<path class="_3_rn_Class" d="M 0 0 L 57 0">
-		</path>
-	</svg>
-	<svg class="_2_ro" viewBox="0 0 57 2">
-		<path class="_2_ro_Class" d="M 0 0 L 57 0">
-		</path>
-	</svg>
-	<svg class="_1_rp" viewBox="0 0 54 4">
-		<path class="_1_rp_Class" d="M 0 0 L 54 0">
-		</path>
-	</svg>
-	<div class="_rq_Class">
-		<svg class="_3-_rr">
-			<ellipse class="_3-_rr_Class" rx="14" ry="14" cx="14" cy="14">
-			</ellipse>
-		</svg>
-		<svg class="_2-_rs">
-			<ellipse class="_2-_rs_Class" rx="602.5" ry="603" cx="602.5" cy="603">
-			</ellipse>
-		</svg>
-		<svg class="_1-_rt">
-			<ellipse class="_1-_rt_Class" rx="623" ry="623" cx="623" cy="623">
-			</ellipse>
-		</svg>
-		<svg class="_2-_rv">
-			<radialGradient id="_2-_rv" spreadMethod="pad" x1="0" x2="0" y1="0" y2="0">
-				<stop offset="0" stop-color="#b8ecd7" stop-opacity="1"></stop>
-				<stop offset="1" stop-color="#76ddb6" stop-opacity="0"></stop>
-			</radialGradient>
-			<rect class="_2-_rv_Class" rx="0" ry="0" x="0" y="0" width="603" height="531">
-			</rect>
-		</svg>
-		<svg class="_1-_rw">
-			<rect class="_1-_rw_Class" rx="0" ry="0" x="0" y="0" width="642" height="566">
-			</rect>
-		</svg>
-		<div class="Computational_Insight_of__Norc_rx_Class">
-			<span>Computational Insight<br/>of <br/>Norcoclaurine Synthases<br/>Catalytic Mechanism</span>
-		</div>
-		<div class="CPU_CHINA_ry_Class">
-			<span>CPU_CHINA</span>
-		</div>
-		<div class="iDEC_2023_rz_Class">
-			<span>iDEC 2023</span>
-		</div>
-	</div>
+	<div class="wheel">
+
+	<img src="组件 1 – 2.png" width="1268" height="1268" alt=""/></div>
+	<div class="loading">
+        <span></span>
 </div>
 </body>
 </html>
