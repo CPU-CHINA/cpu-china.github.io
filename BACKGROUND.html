@@ -19,7 +19,6 @@
 			float:left;
 			
 		}
-		
 	a{
 		text-decoration: none;
 	}
@@ -41,23 +40,21 @@
 			padding:20px;
 			text-decoration:none;
 			text-transform:uppercase;
+			border:2px solid rgba(255,255,255,0);
+			border-radius: 10px
 		}
 		.function:hover,.function:active {
 			text-decoration: underline;
-			color:rgba(8,54,67,1);
-			background-color: rgba(184,236,215,1);
-			height:30px;
-			border:2px solid rgba(255,255,255,0);
-			filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
+			border-radius: 10px;
+			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
 			}
-		/* 最外层 */
+	
 .content {
     display: flex;
     flex-direction: row;
 	width:100%;
 	height:70px
 }
-/* END */
 		.function_title:link,.function_title:visited {
 			display:inline-block;
 		    width:60%;
@@ -70,24 +67,16 @@
 			padding:20px;
 			text-decoration:none;
 			text-transform:uppercase;
+			border-radius: 10px
 		}
-		.function_title:hover,.function_title:active {
-			filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
-			color:rgba(8,54,67,1);
-			background-color: rgba(184,236,215,1);
-			height:35px
-			}
 		
-/* 每个菜单的样式(宽度这里调,子菜单宽度都听这个) */
 .items {
     width: 320px;
     color: rgba(184,236,215,1);
 	display: inline-block;
 	text-align: center
 }
-/* END */
 
-/* 菜单与鼠标移入 */
 .menu{
     width: 320px;
     height: 70px;
@@ -95,7 +84,7 @@
     line-height: 35px;
     text-align: center;
     position:fixed;
-	
+	top:0;
     overflow:hidden;
 	font-family: Bronova;
 	font-weight: Bold;
@@ -109,9 +98,7 @@
     z-index:999;
     cursor:pointer;
 }
-/* END */
 
-/* 下拉菜单与鼠标移入 */
 .drop{
     filter:drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
 	text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF,1px -1px 0 #FFF,-1px -1px 0 #FFF;
@@ -126,8 +113,8 @@
 	font-weight:bold;
 	font-size:14px;
 	color:rgba(8,54,67,1);
-	background-color:rgba(255,255,255,0.80);
 	border:2px solid rgba(255,255,255,0);
+	background-color: rgba(255,255,255,0.8)
 	
 }
 	.drop:active{
@@ -141,11 +128,6 @@
 	border-radius: 16px;
 	color:rgba(8,54,67,1)
 }
-		.members_title{
-			font-display:auto;
-			
-		}
-/* 顶起来 */
 .head {
 	margin-top:150px
 		}
@@ -158,6 +140,7 @@
 			padding-left:360px;
 			width:58%;
 			word-break: break-all;
+			color:rgba(112,112,112,1);
 			
 		}
 		.title{
@@ -225,54 +208,51 @@
 	.head2{
 		padding-top:-20px
 	}
+	#myBtn {
+			position: fixed;
+			bottom: 75px;
+			right: 100px;
+			z-index: 99;
+			border: none;
+			cursor: pointer;
+			inline-height:0;
+			font-size:0;
+			width:75px;
+			height:75px;
+			background-color:rgba(0,0,0,0.00);
+			background-image: url("组件 1 – 4.png");
+			opacity: 0.8;
+			background-repeat: no-repeat;
+			}
+#myBtn:hover {
+	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
+	opacity: 1
+}
 	</style>
 </head>
 
 <body>
-	<div id="totop">
-	<a href="javascript:;" id="btn"><img src="TOP.png" width="75" height="75" alt="" class="TOP"/></a>
-	</div>
-	<script type="text/javascript">
-        window.onload = function () {
-            // 1.找到页面中的按钮
-            var totop = document.getElementById("btn");
-            totop.style.display ="none";
-            var timer = null;
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
  
-            // 2. 给按钮绑定点击事件
-            totop.onclick =function () {
-                // 周期性定时
-                timer = setInterval(function () {
-                    // 3.获取滚动条距离浏览器顶端的距离
-                    var backTop = document.documentElement.scrollTop || 
-                    document.body.scrollTop;
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
  
-                    // 越滚越慢
-                    speedTop =backTop/5;
-                    document.documentElement.scrollTop=backTop-speedTop;
-                    if(backTop==0){
-                        clearInterval(timer);
-                    }
-                },30)
-            }
-            // 设置临界值
-            var pageHeight =700;
-            window.onscroll =function () {
-                var backTop = document.documentElement.scrollTop || 
-                document.body.scrollTop;
-                if(backTop>pageHeight){
-                    totop.style.display="block";
-                }else{
-                    totop.style.display="none";
-                }
- 
-            }
-        }
- 
-    </script>
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
 
 			<header class="content">
-    <!-- 有菜单 -->
 	    <div class="items">
         <div class="menu">
 			<span><a href="INDEX.html" class="function_title">CPU_CHINA</a></span>
@@ -281,16 +261,17 @@
 	    <div class="items">
         <div class="menu">
 			<span><a href="HOME.html" class="function">HOME</a></span>
-  
+			<div class="drop">Background</div>
+			<div class="drop">Video</div>
         </div>
     </div>
     <div class="items">
         <div class="menu">
 			<span><a href="BACKGROUND.html" class="function">PROJECT</a></span>
             <div>
-                <div class="drop"><a href="BACKGROUND.html">Background</a></div>
-                <div class="drop">Wet Lab</div>
-                <div class="drop">Dry Lab</div>
+                <div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
+                <div class="drop">Results</div>
+                <div class="drop">Notebook</div>
             </div>
         </div>
     </div>
@@ -309,16 +290,12 @@
 			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
             <div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
-                <div class="drop">Notebook</div>
+                <div class="drop">Models</div>
                 <div class="drop">References</div>
             </div>
         </div>
     </div>
-    <!-- END -->
-
-    <!-- 无下级 -->
-
-    <!-- END -->
+    
 		</header>
 	<div class="head2"></div>
 	<div style="position:absolute; z-index:-1">	
@@ -330,7 +307,7 @@
 	<div class="title" style="z-index:99">
 		<div class="head">
 	</div>
-Background</div>
+Introduction</div>
 	<div class="text" style="z-index:999"><p>Construction of plasmids containing NCS mutant genes
 (1) Design of PCR primers for the gene of interest
         Design primers
@@ -384,7 +361,7 @@ Determine the CDS sequence of the gene of interest and amplify it by PCR
 	<div class="title" style="z-index:1">
 		<div class="head">
 	</div>
-		Wet Lab</div>
+		Results</div>
 	
 	<div class="text" style="z-index:999">
 <p>3. Expression, extraction and purification of NCS mutants
@@ -424,7 +401,7 @@ Determine the CDS sequence of the gene of interest and amplify it by PCR
 	<div class="title" style="z-index:1">
 		<div class="head">
 	</div>
-		Dry Lab</div>
+		Notebook</div>
 	
 	<div class="text" style="z-index:999"><p>Comparing to random mutagenesis, the rational design strategy may decrease the cost of the new mutation discovery. Fortunately, previous work proved in silicon screening is a powerful tools[42] for discovering the bran-new mutation sites which may have the potential to enhance enzyme activity through mutations[43, 44]. Generally speaking, what primarily influences enzyme catalysis is the interaction between residues and residues, as well as the interaction between residues and the protein. Therefore, we rationally select the sites for mutation from three perspectives: the ΔΔG generated from virtual mutations, protein sequence conservation analysis, and the protein-substrate molecular interactions. In general, the distance of atom pair less than 8 Å, we consider they have relatively strong interaction[45, 46]. And in our enzyme-substrates complex, there are 62 residues within the distance of 8 Å with two substrate and they are considered to be the amino acids constituting the active pocket and are used for subsequent analysis. Because we hope to enhance the enzyme's adaptability to substrates. Thus we aim to reshape the interactions between the enzyme pocket and different substrates. This primarily involves considerations such as stabilizing transition states or altering binding affinity.
 Initially, we employ ddg_monomer application in Rosetta to estimate the corresponding mutation changing energies (ΔΔG) which is a important indicator discovering the mutational effect on protein itself, giving the total of 1140 (60×19) predicted values ranging from -5.94 kcal/mol to 613.9 kcal/mol(Fig). This reflects that some mutations(when virtually all positions are mutated to proline) is highly unreasonable, as a mutation at one position could lead to the collapse of the entire protein's three-dimensional structure, while some other mutations, whether they cause a slight increase or decrease in protein energy, hold potential to be viable mutants. To get deeper insight into it, we calculated the average ΔΔG at each site and use statistical method comparing it with the wild-type to identify the potential site.The one-sample t-test and the Benjamini−Hochberg method[47] were used to estimate the false discovery rate (FDR). According to above statistical analysis, there are 55 site left with the criteria FDR-value < 0.5.
