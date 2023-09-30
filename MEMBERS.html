@@ -269,6 +269,89 @@ background-color: #F7F7F7;
 	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
 	opacity: 1
 }
+		@keyframes wheel {
+   0% {
+     transform: rotate(0deg);
+   }
+   100% {
+     transform: rotate(360deg);
+   }
+}
+	.wheel-wrapper{
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		background-color:antiquewhite;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+	.navbar{
+		
+	}
+	.navbar span{
+		
+	}
+	.content{
+		display:flex;
+		justify-content: center;
+		align-content: center;
+		width:100%;
+		height:100%;
+		
+	}
+
+	.loader-inner{
+		vertical-align: top;
+		display:inline-block;
+		width:100%;
+		background-color: white;
+		
+	}
+.loading{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-top:300px;
+            position: relative;
+            border:5px solid lightgreen;
+            -webkit-animation: turn 2s linear infinite;
+	        z-index:1
+	}
+        .loading span{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: lightgreen;
+            position: absolute;
+            left: 50%;
+            margin-top: -15px;
+            margin-left: -15px;
+            -webkit-animation: changeBgColor 5s linear infinite;
+        }
+        @-webkit-keyframes changeBgColor{
+            0%{
+                background: rgba(184,236,215,1);
+            }
+            100%{
+                background: lightblue;
+            }
+        }
+        @-webkit-keyframes turn{
+            0%{
+                -webkit-transform: rotate(0deg);
+                border-color: rgba(184,236,215,1);
+            }
+            100%{
+                -webkit-transform: rotate(360deg);
+                border-color: lightblue;
+            }
+        }
+
 		</style>
 	</head>
 	<body>
@@ -291,6 +374,13 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 </script>
+			<script>
+document.onreadystatechange = function () {
+  if(document.readyState=="complete"){
+    $(".loading").fadeOut();
+  }
+}
+	</script>
 		<header class="content" div="navigation">
 	    <div class="items">
         <div class="menu">
