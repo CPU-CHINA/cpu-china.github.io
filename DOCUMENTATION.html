@@ -142,10 +142,115 @@
 	.SI:visited{
 		color:rgba(57,187,159,1.00)
 	}
-		.members_title{
-			font-display:auto;
-			
+		a{
+		text-decoration: none;
+	}
+	a:active{
+		color:rgba(112,112,255,0.80);
+	}
+	a:visited{
+		color:rgba(57,187,159,1.00)
+	}
+		.function:link,.function:visited {
+			display:inline-block;
+		    width:60%;
+			font-family: Bronova;
+			font-weight:bold;
+			font-size: 16px;
+			color: rgba(184,236,215,1);
+			background-color:rgba(8,54,67,1);
+			text-align:center;
+			padding:20px;
+			text-decoration:none;
+			text-transform:uppercase;
+			border:2px solid rgba(255,255,255,0);
+			border-radius: 10px
 		}
+		.function:hover,.function:active {
+			text-decoration: underline;
+			border-radius: 10px;
+			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
+			}
+	
+.content {
+    display: flex;
+    flex-direction: row;
+	width:100%;
+	height:70px
+}
+		.function_title:link,.function_title:visited {
+			display:inline-block;
+		    width:60%;
+			font-family: Bronova;
+			font-weight:bold;
+			font-size: 20px;
+			color: rgba(184,236,215,1);
+			background-color:rgba(8,54,67,1);
+			text-align:center;
+			padding:20px;
+			text-decoration:none;
+			text-transform:uppercase;
+			border-radius: 10px
+		}
+		
+.items {
+    width: 320px;
+    color: rgba(184,236,215,1);
+	display: inline-block;
+	text-align: center
+}
+
+.menu{
+    width: 320px;
+    height: 70px;
+    background: rgba(8,54,67,1);
+    line-height: 35px;
+    text-align: center;
+    position:fixed;
+	top:0;
+    overflow:hidden;
+	font-family: Bronova;
+	font-weight: Bold;
+	font-size: 14px;
+	
+}
+.menu:hover{
+    overflow:visible;
+	width:320px;
+    color: rgba(8,54,67,1);
+    z-index:999;
+    cursor:pointer;
+}
+
+.drop{
+    filter:drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
+	text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF,1px -1px 0 #FFF,-1px -1px 0 #FFF;
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    line-height: 40px;
+    overflow: hidden;
+	font-weight:normal;
+	border-radius: 0px;
+	margin-left:58px;
+	font-weight:bold;
+	font-size:14px;
+	color:rgba(8,54,67,1);
+	border:2px solid rgba(255,255,255,0);
+	background-color: rgba(255,255,255,0.8)
+	
+}
+	.drop:active{
+		color:rgba(8,54,67,1)
+	}
+.drop:hover{
+    background: rgba(184,236,215,1);
+	filter: drop-shadow(4px 4px 4px rgba(184,236,215,0.80));
+    cursor: pointer;
+	border: 2px solid #0E5468;
+	border-radius: 16px;
+	color:rgba(8,54,67,1)
+}
 .head {
 	margin-top:150px
 		}
@@ -201,7 +306,7 @@
     color: rgba(184,236,215,1);
 }
 	
-
+	
 .bottom {
     width: 980px;
     height: 25px;
@@ -217,8 +322,16 @@
     margin: 0px 0px 0px 20px;
     color: rgba(29, 29, 31, 0.5);
 }
-	
-		#myBtn {
+	.TOP{
+		position:fixed;
+		padding-left:1300px;
+		padding-top:600px;
+		
+	}
+	.head2{
+		padding-top:-20px
+	}
+	#myBtn {
 			position: fixed;
 			bottom: 75px;
 			right: 100px;
@@ -238,59 +351,11 @@
 	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
 	opacity: 1
 }
-	
 	</style>
-	
 </head>
 
 <body>
-	<header class="content">
-	    <div class="items">
-        <div class="menu">
-			<span><a href="INDEX.html" class="function_title">CPU_CHINA</a></span>
-        </div>
-    </div>
-	    <div class="items">
-        <div class="menu">
-			<span><a href="HOME.html" class="function">HOME</a></span>
-			<div class="drop">Background</div>
-			<div class="drop">Video</div>
-  
-        </div>
-    </div>
-    <div class="items">
-        <div class="menu">
-			<span><a href="BACKGROUND.html" class="function">PROJECT</a></span>
-            <div>
-                <div class="drop"><a href="BACKGROUND.html">Background</a></div>
-                <div class="drop">Results</div>
-                <div class="drop">Notebook</div>
-            </div>
-        </div>
-    </div>
-	    <div class="items">
-        <div class="menu">
-			<span><a href="MEMBERS.html" class="function">TEAM</a></span>
-            <div>
-                <div class="drop"><a href="MEMBERS.html">Members</a></div>
-                <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
-				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsorship</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="items">
-        <div class="menu">
-			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
-            <div>
-                <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
-                <div class="drop">Models</div>
-                <div class="drop">References</div>
-            </div>
-        </div>
-    </div>
- 
-		</header>
-<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
 <script>
 // 当网页向下滑动 20px 出现"返回顶部" 按钮
 window.onscroll = function() {scrollFunction()};
@@ -309,23 +374,56 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 </script>
+
+			<header class="content">
+	    <div class="items">
+        <div class="menu">
+			<span><a href="INDEX.html" class="function_title">CPU_CHINA</a></span>
+        </div>
+    </div>
+	    <div class="items">
+        <div class="menu">
+			<span><a href="HOME.html" class="function">HOME</a></span>
+			<div class="drop">Background</div>
+			<div class="drop">Video</div>
+        </div>
+    </div>
+    <div class="items">
+        <div class="menu">
+			<span><a href="BACKGROUND.html" class="function">PROJECT</a></span>
+            <div>
+                <div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
+                <div class="drop">Results</div>
+                <div class="drop"><a href="NOTEBOOK.html">Notebook</a></div>
+            </div>
+        </div>
+    </div>
+	    <div class="items">
+        <div class="menu">
+			<span><a href="MEMBERS.html" class="function">TEAM</a></span>
+            <div>
+                <div class="drop"><a href="MEMBERS.html">Members</a></div>
+                <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
+				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsors</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="items">
+        <div class="menu">
+			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
+            <div>
+                <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
+                <div class="drop">Models</div>
+                <div class="drop">Webinar China</div>
+            </div>
+        </div>
+    </div>
+    
+		</header>
+
 	<div style="position:absolute; z-index:-1">	
-    <div class="left"><img src="矩形 2-粉底.png" width="966" height="2500" alt=""/></div> 
+    <div class="left"><img src="矩形 2-粉底.png" width="966" height="3000" alt=""/></div> 
 	</div>
-	<div style="position:absolute; z-index:-666">
-	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="40px" />
-	</div>
-	<div class="title" style="z-index:99">
-		<div class="head">
-	</div>
-		Protocols</div>
-	<div class="text" style="z-index:999"><a href="../SI.pdf" target="_blank" class="SI">Supplementary Information.pdf</a>
-		<div class="head"></div>
-	<hr>
-	</div>
-	
-	
-	
 	<div style="position: absolute; z-index:-99">
 	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="100px" />
 	</div>
@@ -334,7 +432,7 @@ function topFunction() {
 	</div>
 		Models</div>
 	
-	<div class="text" style="z-index:999"><p>Construction of plasmids containing NCS mutant genes
+	<div class="text" style="z-index:999"><h1>RetKcat: <br />A novel neural network for Kcat application</h1><p>Construction of plasmids containing NCS mutant genes
 (1) Design of PCR primers for the gene of interest
         Design primers
         Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
@@ -362,37 +460,32 @@ Construction of plasmids containing NCS mutant genes</p>
 	<hr>
 	</div>
 	
+	<div style="position:absolute; z-index:-666">
+	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="40px" />
+	</div>
+	<div class="title" style="z-index:99">
+		<div class="head">
+	</div>
+		Protocols</div>
+	<div class="text" style="z-index:999"><h1>Supplementary Information</h1>
+		<p><a href="SI.pdf" target="_blank" class="SI">Open in a new page<img src="文件.png" width="20" height="20" alt=""/></a></p>
+	  <p><embed type="application/pdf" src="SI.pdf" style="width:100%;height: 500px"></p>
+	  <div class="head"></div>
+	<hr>
+	</div>
+	
+	
+	
+	
 <div style="position: absolute; z-index:-99">
 	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="100px" />
 	</div>
 	<div class="title" style="z-index:1">
 		<div class="head">
 	</div>
-		References</div>
+		Webinar China</div>
 	
-	<div class="text" style="z-index:999"><p>Construction of plasmids containing NCS mutant genes
-(1) Design of PCR primers for the gene of interest
-        Design primers
-        Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
-based on the simulation results, and use Primer 5 software for primer design;
-(2) Expansion of the target gene
-        Retrieve CDS sequences
-Determine the CDS sequence of the gene of interest and amplify it by PCR
-(3) Vector selection and insertion of target genes into vectors
-        Carrier, type of restriction enzyme, type of ligase, reaction conditions
-The overexpression vector pcDNA3 was selected, the vector and gene of interest were cleaved using
-a double digestion method, and digestion recovery was verified. ligase (e.g., T4 ligase) is used to link
-the gene of interest to the vector;
-(4) Verification of plasmid transformation and transformation success: experimental methods</p>
-<p>3. Expression, extraction and purification of NCS mutants
-(1) Expression: IPTG induction, temperature, medium conditions
-(2) Extraction and purification: purification method, required material</p>
-<p>4. Determination of enzyme activity
-(1) Selection of substrates: In addition to the substrates corresponding to the target molecules, it is also
-necessary to select a series of substrates with similar structures
-(2) Reaction conditions: the selection of conditions for catalytic reactions
-(3) Monitoring of yield, stereoselectivity and other indicators: HPLC, 1H-NMR, etc
-Construction of plasmids containing NCS mutant genes</p>
+	<div class="text" style="z-index:999"><p>
 <p>(1) Design of PCR primers for the gene of interest
         Design primers
         Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
