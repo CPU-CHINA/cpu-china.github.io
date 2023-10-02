@@ -271,7 +271,7 @@ function topFunction() {
             <div>
                 <div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
                 <div class="drop">Results</div>
-                <div class="drop">Notebook</div>
+                <div class="drop"><a href="NOTEBOOK.html">Notebook</a></div>
             </div>
         </div>
     </div>
@@ -281,7 +281,7 @@ function topFunction() {
             <div>
                 <div class="drop"><a href="MEMBERS.html">Members</a></div>
                 <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
-				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsorship</a></div>
+				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsors</a></div>
             </div>
         </div>
     </div>
@@ -291,7 +291,7 @@ function topFunction() {
             <div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
                 <div class="drop">Models</div>
-                <div class="drop">References</div>
+                <div class="drop">Webinar China</div>
             </div>
         </div>
     </div>
@@ -299,7 +299,7 @@ function topFunction() {
 		</header>
 	<div class="head2"></div>
 	<div style="position:absolute; z-index:-1">	
-    <div class="left"><img src="矩形 2-粉底.png" width="966" height="3600" alt=""/></div> 
+    <div class="left"><img src="矩形 2-粉底.png" width="966" height="1800" alt=""/></div> 
 	</div>
 	<div style="position:absolute; z-index:-666">
 	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="40px" />
@@ -395,49 +395,9 @@ Determine the CDS sequence of the gene of interest and amplify it by PCR
 	<hr>
 	</div>
 	
-<div style="position: absolute; z-index:-99">
-	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="100px" />
-</div>
-	<div class="title" style="z-index:1">
-		<div class="head">
-	</div>
-		Notebook</div>
-	
-	<div class="text" style="z-index:999"><p>Comparing to random mutagenesis, the rational design strategy may decrease the cost of the new mutation discovery. Fortunately, previous work proved in silicon screening is a powerful tools[42] for discovering the bran-new mutation sites which may have the potential to enhance enzyme activity through mutations[43, 44]. Generally speaking, what primarily influences enzyme catalysis is the interaction between residues and residues, as well as the interaction between residues and the protein. Therefore, we rationally select the sites for mutation from three perspectives: the ΔΔG generated from virtual mutations, protein sequence conservation analysis, and the protein-substrate molecular interactions. In general, the distance of atom pair less than 8 Å, we consider they have relatively strong interaction[45, 46]. And in our enzyme-substrates complex, there are 62 residues within the distance of 8 Å with two substrate and they are considered to be the amino acids constituting the active pocket and are used for subsequent analysis. Because we hope to enhance the enzyme's adaptability to substrates. Thus we aim to reshape the interactions between the enzyme pocket and different substrates. This primarily involves considerations such as stabilizing transition states or altering binding affinity.
-Initially, we employ ddg_monomer application in Rosetta to estimate the corresponding mutation changing energies (ΔΔG) which is a important indicator discovering the mutational effect on protein itself, giving the total of 1140 (60×19) predicted values ranging from -5.94 kcal/mol to 613.9 kcal/mol(Fig). This reflects that some mutations(when virtually all positions are mutated to proline) is highly unreasonable, as a mutation at one position could lead to the collapse of the entire protein's three-dimensional structure, while some other mutations, whether they cause a slight increase or decrease in protein energy, hold potential to be viable mutants. To get deeper insight into it, we calculated the average ΔΔG at each site and use statistical method comparing it with the wild-type to identify the potential site.The one-sample t-test and the Benjamini−Hochberg method[47] were used to estimate the false discovery rate (FDR). According to above statistical analysis, there are 55 site left with the criteria FDR-value < 0.5.
-In addition to considering the energy effects of mutations, it's also important to take into account the conservativity of the protein residues themselves. These conserved residues often play a crucial role in the protein's catalytic efficiency, and the enzyme have mutations in non-conversed residue may not lose its catalytic activity[48]. To protect the highly conserved residues from being mutated we used online ConSurf server[49]. 7 residues among 62 residues are selected as the conserved residues(i.e., conservation score ≥7). And take the previous analysis of ΔΔG together, there are 44 residues still left.
-Ultimately, binding affinity also is a significant factor, which have influence on catalytic reaction[43]. Hence, we employed the MD to simulate the substrates and product in the catalytic pocket respectively. The simulation were completed by GROMACS software[50], the protein(PDBID: 5NON) is obtained from Protein Data Bank and parameterized by Amber14 forcefield[51], the substrates docked in was completed by LeDock[52] and parameterized by general amber forcefield[53] using restrained electrostatic potential charges 2 (RESP2)[54] charge method to replace the original. After 100 nanosecond simulation, we selected the last stable 1000 frames from the 10 nanosecond simulation (taking every 10th frame) and used the GMX_MMPBSA tool[55] to calculate Molecular Mechanics-Poisson Boltzmann Surface Area (MM-PBSA), which has been proved a powerful method in drug discovery and enzyme-substrate interaction analysis[56, 57], in Ambertools23[58]. Subsequently, we performed energy decomposition analysis for the entire MM-PBSA. Apart from E110, K122 and D141, which are widely recognized as playing a catalytic role, we selected the four amino acids with the strongest interaction energies as potential sites. The Dopamine have strong interaction with Y63, L72, V124, M183, interestingly, both of THIQ product and 2-MPA have strong interaction with L72, L76, P179, M183. This suggests that the position of the aldehyde or ketone substrate remains essentially unchanged before and after the reaction, while dopamine may undergo conformational or positional changes during the reaction to adjust its state, making the reaction more favorable. Then, taking into account the comprehensive analysis results and considering the economic aspects of mutations, we ultimately selected six potential sites, Y63, V124, M183, L72, L76, D141.
-Defining potential sites for mutagenesis precisely is crucial for obtaining ideal results with the least effort when redesigning enzyme. In present case, we filtered 6 residue from the 62 active pocket residues, this may accelerate the identification of desirable enzyme mutations.</p>
-<p>3. Expression, extraction and purification of NCS mutants
-(1) Expression: IPTG induction, temperature, medium conditions
-(2) Extraction and purification: purification method, required material</p>
-<p>4. Determination of enzyme activity
-(1) Selection of substrates: In addition to the substrates corresponding to the target molecules, it is also
-necessary to select a series of substrates with similar structures
-(2) Reaction conditions: the selection of conditions for catalytic reactions
-(3) Monitoring of yield, stereoselectivity and other indicators: HPLC, 1H-NMR, etc
-Construction of plasmids containing NCS mutant genes</p>
-<p>(1) Design of PCR primers for the gene of interest
-        Design primers
-        Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
-based on the simulation results, and use Primer 5 software for primer design;
-(2) Expansion of the target gene
-        Retrieve CDS sequences
-Determine the CDS sequence of the gene of interest and amplify it by PCR
-(3) Vector selection and insertion of target genes into vectors
-        Carrier, type of restriction enzyme, type of ligase, reaction conditions</p>
-<p>(1) Design of PCR primers for the gene of interest
-        Design primers
-        Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
-based on the simulation results, and use Primer 5 software for primer design;
-(2) Expansion of the target gene
-        Retrieve CDS sequences
-Determine the CDS sequence of the gene of interest and amplify it by PCR
-(3) Vector selection and insertion of target genes into vectors
-        Carrier, type of restriction enzyme, type of ligase, reaction conditions</p>
+
 		<div class="head"></div>
-	<hr>
-	</div>
+	
 	
 	
 <div class="head">
