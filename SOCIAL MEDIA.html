@@ -138,7 +138,7 @@
 	font-size:14px;
 	color:rgba(8,54,67,1);
 	border:2px solid rgba(255,255,255,0);
-	background-color: rgba(255,255,255,0.8)
+	
 	
 }
 	.drop:active{
@@ -169,11 +169,16 @@
 		}
 		.left{
 			padding-left:280px;
-			padding-top:10px
+			padding-top:20px;
+			height:55px;
+			border:2px solid rgba(255,255,255,0);
+			
 			
 		}
 		.left_min{
-			padding-left:50px
+			padding-left:50vh;
+			
+			
 		}
 .title{
 	padding-left:100px;
@@ -244,13 +249,14 @@
     color: rgba(29, 29, 31, 0.5);
 }
 		.name1{
-			padding-left:100px;
+			padding-left:7px;
 			font-weight:bold;
 			width:200px;
 			height: 60px;
 			padding-bottom: 10px;
 			margin-top:300px;
-			color:rgba(57,187,159,1.00)
+			color:rgba(57,187,159,1.00);
+			margin-left: 90px
 			
 			
 		}
@@ -258,12 +264,14 @@
 			text-decoration: underline;
 		}
 		.name{
-			padding-left:100px;
+			padding-left:7px;
 			font-weight:bold;
-			width:200px;
+			width:20px;
 			height: 60px;
 			padding-bottom: 10px;
 			margin-top:300px;
+			
+			margin-left: 90px
 			
 		}
 		.name:hover{
@@ -394,7 +402,36 @@
 			border-radius: 16px;
 			background-image: url("Xi.png")
 			}
+		.pichange{
+				border:2px solid rgba(255,255,255,0);
+				overflow: hidden;
+			height: 10vh;
+			
+			margin-left: 270px;
+			margin-top:5px
 		
+			
+			}
+			.pichange img{
+				border:2px solid rgba(255,255,255,0);
+				padding-left:0;
+				padding-top: 5px
+				
+			}
+			.pichange:hover img:last-child{
+				display: block;
+				border:2px solid rgba(255,255,255,0);
+				cursor: pointer
+			}
+			.pichange:hover img:first-child{
+				display: none;
+				border:2px solid rgba(255,255,255,0);
+				cursor: pointer
+			}
+			.pichange img:last-child{
+				display: none;
+				
+			}
 	</style>
 </head>
 
@@ -421,7 +458,7 @@
             <div>
                 <div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
                 <div class="drop">Results</div>
-                <div class="drop"><a href="NOTEBOOK.html">Notebook</a></div>
+                <div class="drop"><a href="NOTEBOOK.html">Timeline</a></div>
             </div>
         </div>
     </div>
@@ -439,8 +476,8 @@
         <div class="menu">
 			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
             <div>
+                <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
-                <div class="drop">Models</div>
                 <div class="drop">Webinar China</div>
             </div>
         </div>
@@ -474,14 +511,19 @@ function topFunction() {
 		
 	<ul>
 	<li>
-		<img src="X.png" alt="" class="left" height="45" width="45" />
 		<img src="矩形 1-粉底.png" width="700" height="140" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16)"/>
+		<div class="pichange">
+			<img src="twitter1.png" alt="" class="left" height="55" width="55" />
+			<img src="twitter2.png" alt="" class="left" height="55" width="55" />
+		</div>
+		
+		
 		</li>
 		
 		<div class="head_min2"></div>
 		
-		<a href="#https://twitter.com/CPUiDEC" class="name1" target="_blank" title="X/twitter">CPU-CHINA-iDEC</a>
-		<a href="Xi.png" alt="" class="+"><img src="减.png" width="20" height="20" alt="" /></a>
+		<a href="#https://twitter.com/CPUiDEC" class="name1" target="_blank" title="X/twitter">CPU-CHINA-iDEC
+		<img src="link.png" width="15" height="15"  alt="" /></a>
 		<div class="head_min2"></div>
 		<div style="position:absolute;z-index:-100" class="text">We update our team status and experimental progress and communicate with other teams to better facilitate the project process.</div>
 	</ul>
@@ -490,28 +532,40 @@ function topFunction() {
 		<ul>
 			<div class="head_min2"></div>
 			<li>
-				<img src="youtube.png" width="45" height="45" alt="" class="left"/>
 				<img src="矩形 1-粉底.png" width="700" height="140" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16))"/>
+				<div class="pichange">
+			<img src="youtube1.png" alt="" class="left" height="55" width="55" />
+			<img src="youtube2.png" alt="" class="left" height="55" width="55" />
+					</div>
+				
 				</li>
 			<div>
 		 <div class="head_min2"></div>
-				<a href="https://www.youtube.com/channel/UC6F-a6IRl6As4OQupKKFChA" class="name" target="_blank" title="Youtube">CPU_iDEC</a><img src="减.png" width="20" height="20" alt=""/></div>
+				<a href="https://www.youtube.com/channel/UC6F-a6IRl6As4OQupKKFChA" class="name" target="_blank" title="YouTube">CPU_iDEC<img src="link.png" width="15" height="15" style="padding-left: 0.5vh" alt=""/></a></div>
 			<div class="head_min2"></div>
 			<div style="position:absolute;z-index:-99" class="text">We uploaded a video about our project at the iDEC competition to get more people to know and pay attention to us.</div>
 			</ul>
 		<div class="head_min"></div>
 		
-		<ul>
+		
 			<div class="head_min2"></div>
-			<li><img src="wechat.png" width="45" height="45" alt="" class="left"/><img src="矩形 1-粉底.png" width="700" height="130" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16)"/>
+			<ul>
+				<li>
+					<img src="矩形 1-粉底.png" width="700" height="130" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16)"/>
+				<div class="pichange">
+			<img src="wechat1.png" alt="" class="left" height="55" width="55" />
+			<img src="wechat2.png" alt="" class="left" height="55" width="55" />
+		</div>
+				
 				</li>
 			<div>
-				<div class="head_min2"></div><a href="https://mp.weixin.qq.com/s/IXvS5gNCoC4EXbNunYW3pA" class="name" target="_blank" title="WeChat">CPU iDEC</a><img src="减.png" width="20" height="20" alt=""/></div>
+				<div class="head_min2"></div><a href="https://mp.weixin.qq.com/s/IXvS5gNCoC4EXbNunYW3pA" class="name" target="_blank" title="WeChat">CPU iDEC<img src="link.png" width="15" height="15" style="padding-left: 0.5vh" alt=""/></a></div>
 			
 		<div class="head_min2"></div>
-			<div style="position:absolute;z-index:100" class="text">We used the Chinese social networking app WeChat to showcase our project.</div>
+			<div style="position:absolute;z-index:-99" class="text">We used the Chinese social networking app WeChat to showcase our project.</div>
+		</ul>
 			<div class="head"></div>
-			</ul>
+			
 		<div class="head">
 			</div>
 		
