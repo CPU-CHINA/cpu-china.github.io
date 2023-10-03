@@ -2,71 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>INDEX</title>
+<title>BACKGROUND</title>
+<link href="../CSS/INDEX.css" rel="stylesheet" type="text/css">
 <style>
-	.wheel {
-		border: 2px solid black;
-        border-radius: 50%;
-        margin-left: 50px;
-        position: absolute;
-        height: 55vw;
-        width: 55vw;
-        max-width: 100%;
-        max-height: 100%;
-		
-        animation-name:wheel;
-		animation-duration:20s;
-		z-index:-1
-		}
-	@keyframes wheel {
-   0% {
-     transform: rotate(0deg);
-   }
-   100% {
-     transform: rotate(360deg);
-   }
-}
-.loading{
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            margin: 0 auto;
-            margin-top:300px;
-            position: relative;
-            border:5px solid lightgreen;
-            -webkit-animation: turn 2s linear infinite;
-	        z-index:1
-	}
-        .loading span{
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border-radius: 50%;
-            background: lightgreen;
-            position: absolute;
-            left: 50%;
-            margin-top: -15px;
-            margin-left: -15px;
-            -webkit-animation: changeBgColor 5s linear infinite;
-        }
-        @-webkit-keyframes changeBgColor{
-            0%{
-                background: rgba(184,236,215,1);
-            }
-            100%{
-                background: lightblue;
-            }
-        }
-        @-webkit-keyframes turn{
-            0%{
-                -webkit-transform: rotate(0deg);
-                border-color: rgba(184,236,215,1);
-            }
-            100%{
-                -webkit-transform: rotate(360deg);
-                border-color: lightblue;
-            }
-        }
 		nav {
 			width: 100%;
 			min-width: 960px;
@@ -81,7 +19,30 @@
 			float:left;
 			
 		}
+	h1{
+		float:left;
+		color:#083643;
 		
+	}
+	h2{
+		float:left;
+		color:rgba(184,236,215,1);
+		font-size: 50px;
+		font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		text-shadow: -1px 1px 0 #083643, 1px 1px 0 #FFF,1px -1px 0 #FFF,-1px -1px 0 #FFF;
+	}
+	h3{
+		font-weight:normal;
+		font-size:12px
+	}
+	p{
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-size: 18px;
+		
+	}
+	.p1{
+		padding-left:100px
+	}
 	a{
 		text-decoration: none;
 	}
@@ -90,6 +51,9 @@
 	}
 	a:visited{
 		color:rgba(57,187,159,1.00)
+	}
+	.box{
+		background：liner-gradient(red,black)
 	}
 		.function:link,.function:visited {
 			display:inline-block;
@@ -103,23 +67,21 @@
 			padding:20px;
 			text-decoration:none;
 			text-transform:uppercase;
+			border:2px solid rgba(255,255,255,0);
+			border-radius: 10px
 		}
 		.function:hover,.function:active {
 			text-decoration: underline;
-			color:rgba(8,54,67,1);
-			background-color: rgba(184,236,215,1);
-			height:30px;
-			border:2px solid rgba(255,255,255,0);
-			filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
+			border-radius: 10px;
+			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
 			}
-		/* 最外层 */
+	
 .content {
     display: flex;
     flex-direction: row;
 	width:100%;
 	height:70px
 }
-/* END */
 		.function_title:link,.function_title:visited {
 			display:inline-block;
 		    width:60%;
@@ -132,24 +94,17 @@
 			padding:20px;
 			text-decoration:none;
 			text-transform:uppercase;
+			border-radius: 10px;
+			margin-right: 60px
 		}
-		.function_title:hover,.function_title:active {
-			filter: drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
-			color:rgba(8,54,67,1);
-			background-color: rgba(184,236,215,1);
-			height:35px
-			}
 		
-/* 每个菜单的样式(宽度这里调,子菜单宽度都听这个) */
 .items {
     width: 320px;
     color: rgba(184,236,215,1);
 	display: inline-block;
 	text-align: center
 }
-/* END */
 
-/* 菜单与鼠标移入 */
 .menu{
     width: 320px;
     height: 70px;
@@ -157,11 +112,12 @@
     line-height: 35px;
     text-align: center;
     position:fixed;
-	
+	top:0;
     overflow:hidden;
 	font-family: Bronova;
 	font-weight: Bold;
 	font-size: 14px;
+	z-index:99
 	
 }
 .menu:hover{
@@ -171,9 +127,7 @@
     z-index:999;
     cursor:pointer;
 }
-/* END */
 
-/* 下拉菜单与鼠标移入 */
 .drop{
     filter:drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
 	text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF,1px -1px 0 #FFF,-1px -1px 0 #FFF;
@@ -188,8 +142,9 @@
 	font-weight:bold;
 	font-size:14px;
 	color:rgba(8,54,67,1);
-	background-color:rgba(255,255,255,0.80);
 	border:2px solid rgba(255,255,255,0);
+	
+	
 	
 }
 	.drop:active{
@@ -203,11 +158,175 @@
 	border-radius: 16px;
 	color:rgba(8,54,67,1)
 }
-	</style>	
+
+.head {
+	margin-top:150px
+		}
+	.head1{
+		padding-top: 250px;
+	}
+	.head2{
+		padding-top:100px
+	}
+	.head3{
+		padding-top: 300px
+	}
+	.foot{
+			
+			width:100%;
+		height:300px
+		}
+
+}
+
+.list-first {
+    width: 0%;
+    height: 100%;
+    float: left;
+	background-color: red;
+}
+.foot_top {
+    width: 980px;
+    height: 25px;
+    font-size: 12px;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #888888;
+    margin: 34px 100px 5px;
+	z-index: -99
+	
+}
+
+.foot_top span {
+    color: rgba(184,236,215,1);
+}
+	
+	
+.bottom {
+    width: 980px;
+    height: 25px;
+    font-size: 12px;
+    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #888888;
+    padding: 5px 100px 5px;
+
+}
+.bottom a {
+    font-size: 1px;
+    text-decoration: none;
+    margin: 0px 0px 0px 20px;
+    color: rgba(29, 29, 31, 0.5);
+}
+	.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  
+  margin-left: -15px;
+  padding-left:600px;
+  margin-top:-120px;
+}
+	.row1{
+
+  font-size:14px;
+  margin-left: -15px;
+  padding-left:700px;
+  margin-top:-90px;
+		float:left
+	
+	}
+	.row2{
+		
+		padding-left:460px;
+		margin-left:500px;
+		width:200px;
+		padding-top:-500px;
+		
+	}
+	.row2 img{
+		float: left;
+		margin-left:20px
+	}
+	.left{
+		margin-left:140px;
+		
+		
+	}
+	.list1{
+		margin-left: 685px;
+		
+		width:200px;
+		padding-left:0px;
+		z-index:99
+	}
+	
+	
+	
+	#myBtn {
+			position: fixed;
+			bottom: 75px;
+			right: 100px;
+			z-index: 99;
+			border: none;
+			cursor: pointer;
+			inline-height:0;
+			font-size:0;
+			width:75px;
+			height:75px;
+			background-color:rgba(0,0,0,0.00);
+			background-image: url("组件 1 – 4.png");
+			opacity: 0.8;
+			background-repeat: no-repeat;
+			}
+#myBtn:hover {
+	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
+	opacity: 1
+}
+	.text{
+		word-break: normal;
+		margin-left:100px;
+		margin-right: 100px;
+		margin-top:0px;
+		margin-bottom: 100px
+	}
+	.pichange{
+				border:2px solid rgba(255,255,255,0);
+				overflow: hidden;
+			height: 10vh;
+			
+			margin-left: 270px;
+			margin-top:5px
+		
+			
+			}
+			.pichange img{
+				border:2px solid rgba(255,255,255,0);
+				padding-left:0;
+				padding-top: 5px
+				
+			}
+			.pichange:hover img:last-child{
+				display: block;
+				border:2px solid rgba(255,255,255,0);
+				cursor: pointer
+			}
+			.pichange:hover img:first-child{
+				display: none;
+				border:2px solid rgba(255,255,255,0);
+				cursor: pointer
+			}
+			.pichange img:last-child{
+				display: none;
+				
+			}
+	</style>
+	
 </head>
-<header class="content">
-    <!-- 有菜单 -->
-	    <div class="items">
+
+<body>
+<header class="content" div="navigation">
+  <!-- 有菜单 -->
+  <div class="items">
         <div class="menu">
 			<span><a href="INDEX.html" class="function_title">CPU_CHINA</a></span>
         </div>
@@ -215,6 +334,7 @@
 	    <div class="items">
         <div class="menu">
 			<span><a href="HOME.html" class="function">HOME</a></span>
+			
   
         </div>
     </div>
@@ -222,9 +342,9 @@
         <div class="menu">
 			<span><a href="BACKGROUND.html" class="function">PROJECT</a></span>
             <div>
-                <div class="drop"><a href="BACKGROUND.html">Background</a></div>
-                <div class="drop">Wet Lab</div>
-                <div class="drop">Dry Lab</div>
+                <div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
+                <div class="drop">Results</div>
+                <div class="drop"><a href="NOTEBOOK.html">Timeline</a></div>
             </div>
         </div>
     </div>
@@ -234,7 +354,7 @@
             <div>
                 <div class="drop"><a href="MEMBERS.html">Members</a></div>
                 <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
-				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsorship</a></div>
+				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsors</a></div>
             </div>
         </div>
     </div>
@@ -242,24 +362,102 @@
         <div class="menu">
 			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
             <div>
+                <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
-                <div class="drop">Notebook</div>
-                <div class="drop">References</div>
+                <div class="drop">Webinar China</div>
             </div>
         </div>
     </div>
-    <!-- END -->
+	</header>
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	<div class="head2"></div>
+	<div class="text">
+		<h2>Rational Design of Norcoclaurine Synthase <br />Using Molecular Simulation and Deep Learning</h2>
+	<div class="head1"></div>
+		<div class="p1">
+		 <p>As an industry concerned with people's livelihood, the chemical and pharmaceutical industry is still in a period of rapid development and continues to contribute to the improvement of social health. However, at the same time, we cannot ignore the environmental impacts caused by pharmaceutical companies during their operations. Over the past decade, the chemical and related industries, especially the pharmaceutical industry, have faced serious environmental problems. Many traditional synthesis methods, while versatile, generate large amounts of waste, which puts increasing pressure on the chemical sector, and efforts must be made to reduce or optimize waste disposal processes.</p></div>
+		<p> Modern developments in chemistry and medicine require more accurate and efficient design of organic reactions. With the rise of artificial intelligence in computational chemistry, the natural sciences are more closely integrated with computers. In chemistry, the traditional approach based on experiments and physical models is gradually merging with the data-based machine learning paradigm. More and more data representations for computer processing have been developed and are constantly adapted to generative-based statistical models.</p>
+		<p>The rapid development of computer technology has given us the amazing ability to transform enzymes. Suitable mathematical models and optimization algorithms allow us to find optimal solutions in the huge space of enzyme sequences. Artificial enzyme design models biocatalytic reactions on computers, uses the powerful computational ability of computers to quickly search the huge protein sequence space, and obtains the optimal amino acid sequence by solving the optimization problem, thus making the enzyme a link in the chemical-pharmaceutical industry and realizing green production.</p>
 
-    <!-- 无下级 -->
+	
+	</div>
+	
 
-    <!-- END -->
-		</header>
-<body>
-	<div class="wheel">
+	
+	    <video width="60%" height="60%"  alt="CPU_CHINA - Promotion Video - 2023iDEC" style="z-index: -99;padding-left:20%" controls autoplay loop muted>  
+    		<source src="Video.mp4" type="video/mp4">  
+		</video>
+	
+	
+	
+	
+<div class="head1">
+</div>
+<div class="head">
+</div>
 
-	<img src="组件 1 – 2.png" width="1268" height="1268" alt=""/></div>
-	<div class="loading">
-        <span></span>
+            <div class="foot_top">
+			  <img src="药大logo.png" width="412" height="93.1" alt=""/><br />
+			  <img src="队伍logo.png" width="216" height="102" alt="" style="padding-top:10px"/>
+	</div>
+				<div class="row1">
+					
+					<h1>Contact us</h1><h1 class="left">Quick Links</h1>
+					
+					
+				
+            </div>
+				
+					   
+					 <div class="list1">
+					<a href=mailto:"cpuidec@outlook.com" title="cpuidec@outlook.com" >cpuidec@outlook.com</a>
+						  </div> 
+               
+					
+<div class="row2">
+			  <a href="https://twitter.com/CPUiDEC" title="X/twitter" target="_blank">
+				  <span class="pichange">
+					  <img src="推特.png" width="40" height="40" alt=""/>
+					  <img src="推特 (1).png" width="40" height="40" alt=""/>
+				  </span></a>
+					<a href="https://www.youtube.com/channel/UC6F-a6IRl6As4OQupKKFChA" title="YouTube" target="_blank">
+						<span class="pichange">
+							<img src="youtube-play.png" width="40" height="40" alt=""/>
+				    <img src="youtube-play (1).png" width="40" height="40" alt=""/> </span></a>
+					<a href="https://mp.weixin.qq.com/s/IXvS5gNCoC4EXbNunYW3pA" title="WeChat" target="_blank">
+						<span class="pichange">
+							<img src="微信 (2).png" width="40" height="40" alt=""/><img src="微信 (3).png" width="40" height="40" alt=""/>
+					</span></a>
+						
+				</div>
+	
+       
+       
+        
+<div class="head"></div>
+	<hr>
+<div style="padding-left:500px">
+				  <h3>Copyright ©&nbsp2023 CPU_CHINA&nbsp&nbsp#639 Longmian Avenue, Nanjing, Jiangsu, China</h3>
+            </div>
+<div class="footer">
 </div>
 </body>
 </html>
