@@ -428,6 +428,29 @@
             document.execCommand("Copy"); // 执行浏览器复制命令
             alert("Copied！");
         }
+		function copy1() {
+            var e = document.getElementById("copy1");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("Copied！");
+        }
+		function copy2() {
+            var e = document.getElementById("copy2");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("Copied！");
+        }function copy3() {
+            var e = document.getElementById("copy3");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("Copied！");
+        }
+		function copy4() {
+            var e = document.getElementById("copy4");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("Copied！");
+        }
     </script>
 	
 </head>
@@ -521,13 +544,13 @@ conda activate RetKcat</textarea>
     <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
 		<p>or try pip</p>
 	  <textarea id="copy1" class="codes" readonly>pip install -r requirements.txt</textarea>
-    <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+    <button onClick="copy1();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
 	  <p>try to download the code with git or zip.</p>
 	  <textarea id="copy2" class="codes" readonly>git clone https://github.com/CPU-CHINA/RetKcat.git</textarea>
-		<button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+		<button onClick="copy2();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
 		<p>and run the code in the folder <strong>RetKcat</strong>,</p>
 	  <textarea id="copy3" class="codes" readonly>cd RetKcat</textarea>
-		<button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+		<button onClick="copy3();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
 		
 		<p>put any sample you want to predict in the <strong>RetKcat/input.json</strong> and allow the format below</p>
 	  <textarea id="copy4" class="codes" readonly>    {   
@@ -537,7 +560,7 @@ conda activate RetKcat</textarea>
         "Value": 21.35
     }
 </textarea>
-	  <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+	  <button onClick="copy4();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
 	  <p>and run <strong>predict.py</strong>, out file will appear in the current folder, a temporary file input. pkl will be created and then removed after predicting.</p>
 		<br />
 		<h2>Introduction</h2>
