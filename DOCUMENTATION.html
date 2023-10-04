@@ -30,8 +30,9 @@
 		color:rgba(57,187,159,1.00)
 	}
 	p{
-		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-		font-size: 18px
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+		font-size: 18px;
+		word-break: normal
 	}
 		.function:link,.function:visited {
 			display:inline-block;
@@ -256,6 +257,9 @@
 	border-radius: 16px;
 	color:rgba(8,54,67,1)
 }
+	.website:hover{
+		text-decoration: underline
+	}
 .head {
 	margin-top:150px
 		}
@@ -268,7 +272,7 @@
 			padding-left:360px;
 			width:58%;
 			word-break: break-all;
-			color:rgba(112,112,112,1);
+			color:#083643;
 			
 		}
 		.title{
@@ -279,6 +283,25 @@
 			padding-top:100px
 			
 		}
+	textarea{
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		width:750px;
+		font-size:14px;
+		margin-left:10px;
+		height:44px;
+		padding-left:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+		border:2px solid rgba(255,255,255,0);
+		border-radius: 10px;
+		resize: none;
+		user-select: none;
+		color: #707070
+		
+	}
+	#copy4{
+		height:160px
+	}
 		.foot{
 			background-color: rgba(8,54,67,1);
 			width:100%
@@ -356,7 +379,57 @@
 	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
 	opacity: 1
 }
+	button{
+		border:2px solid rgba(255,255,255,0);
+		background-color: #FEF5F5;
+		height:30px
+	
+	}
+	button:hover{
+		border:2px solid rgba(255,255,255,0);
+		height:30px
+	}
+	
+	.pichange{
+				
+				overflow: hidden;
+			border:2px solid rgba(255,255,255,0);
+		
+			
+			}
+			.pichange img{
+				border:2px solid rgba(255,255,255,0);
+				padding-left:0;
+				padding-top: 5px;
+				height:20px;
+				width:20px
+				
+			}
+			.pichange:hover img:last-child{
+				display: block;
+				border:2px solid rgba(255,255,255,0);
+				cursor: pointer
+			}
+			.pichange:hover img:first-child{
+				display: none;
+				border:2px solid rgba(255,255,255,0);
+				cursor: pointer
+			}
+			.pichange img:last-child{
+				display: none;
+				border:2px solid rgba(255,255,255,0);
+				
+			}
 	</style>
+	<script type="text/javascript">
+        function copy() {
+            var e = document.getElementById("copy");
+            e.select(); // 选择对象
+            document.execCommand("Copy"); // 执行浏览器复制命令
+            alert("Copied！");
+        }
+    </script>
+	
 </head>
 
 <body>
@@ -388,7 +461,7 @@ function topFunction() {
     </div>
 	    <div class="items">
         <div class="menu">
-			<span><a href="index.html" class="function">HOME</a></span>
+			<span><a href="INDEX.html" class="function">HOME</a></span>
 			
         </div>
     </div>
@@ -426,7 +499,7 @@ function topFunction() {
 		</header>
 
 	<div style="position:absolute; z-index:-1">	
-    <div class="left"><img src="矩形 2-粉底.png" width="966" height="3000" alt=""/></div> 
+    <div class="left"><img src="矩形 2-粉底.png" width="966" height="5200" alt=""/></div> 
 	</div>
 	<div style="position: absolute; z-index:-99">
 	<img src="椭圆 1.png" width="975" height="975" alt="" margin-left="100px" />
@@ -436,31 +509,54 @@ function topFunction() {
 	</div>
 		Models</div>
 	
-	<div class="text" style="z-index:999"><h1>RetKcat: <br />A novel neural network for Kcat application</h1><p>Construction of plasmids containing NCS mutant genes
-(1) Design of PCR primers for the gene of interest
-        Design primers
-        Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
-based on the simulation results, and use Primer 5 software for primer design;
-(2) Expansion of the target gene
-        Retrieve CDS sequences
-Determine the CDS sequence of the gene of interest and amplify it by PCR
-(3) Vector selection and insertion of target genes into vectors
-        Carrier, type of restriction enzyme, type of ligase, reaction conditions
-The overexpression vector pcDNA3 was selected, the vector and gene of interest were cleaved using
-a double digestion method, and digestion recovery was verified. ligase (e.g., T4 ligase) is used to link
-the gene of interest to the vector;
-(4) Verification of plasmid transformation and transformation success: experimental methods</p>
-<p>3. Expression, extraction and purification of NCS mutants
-(1) Expression: IPTG induction, temperature, medium conditions
-(2) Extraction and purification: purification method, required material</p>
-<p>4. Determination of enzyme activity
-(1) Selection of substrates: In addition to the substrates corresponding to the target molecules, it is also
-necessary to select a series of substrates with similar structures
-(2) Reaction conditions: the selection of conditions for catalytic reactions
-(3) Monitoring of yield, stereoselectivity and other indicators: HPLC, 1H-NMR, etc
-Construction of plasmids containing NCS mutant genes</p>
-
-		<div class="head"></div>
+	<div class="text" style="z-index:999"><h1>RetKcat: <br />A novel neural network for Kcat application</h1>
+		<h2>How to start</h2>
+		<h3>Requirements</h3>
+	  <p><strong><em>freeze.yml</em></strong> and <strong><em>requirements.txt</em></strong> were provided in the folder "RetKcat", you can install the packages by running the following command in the folder you want to install <strong><em>RetKcat</em></strong>. The model that was trained on an RTX 3090 costs an average of 19 Gib memory and also 16 Gib on an RTX 4090 while predicting is available on an RTX 3070Ti with 6Gib on average via pre-trained model state provided by us. A large amount of evidence shows that this model will have a better performance with a higher hidden dimension, which is 64 in our work due to the limit of GPU memory.</p>
+		<h3>Begin</h3>
+	  <p>First of all, run process.py in the child folder <strong>bin</strong>.<br />
+We recommend conda to construct an environment <em>(may need to install some packages which were provided by others)</em></p>
+	  <textarea id="copy" class="codes" readonly>conda env create -f freeze.yml -n RetKcat
+conda activate RetKcat</textarea>
+    <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+		<p>or try pip</p>
+	  <textarea id="copy1" class="codes" readonly>pip install -r requirements.txt</textarea>
+    <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+	  <p>try to download the code with git or zip.</p>
+	  <textarea id="copy2" class="codes" readonly>git clone https://github.com/CPU-CHINA/RetKcat.git</textarea>
+		<button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+		<p>and run the code in the folder <strong>RetKcat</strong>,</p>
+	  <textarea id="copy3" class="codes" readonly>cd RetKcat</textarea>
+		<button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+		
+		<p>put any sample you want to predict in the <strong>RetKcat/input.json</strong> and allow the format below</p>
+	  <textarea id="copy4" class="codes" readonly>    {   
+        "id": "['WT-4-HPAA']",
+        "Smiles": "Oc1ccc(cc1)C/C=N/CCc2cc(O)c(O)cc2",
+        "Sequence": "MMKMEVVFVFLMLLGTINCQKLILTGRPFLHHQGIINQVSTVTKVIHHELEVAASADDIWTVYSWPGLAKHLPDLLPGAFEKLEIIGDGGVGTILDMTFVPGEFPHEYKEKFILVDNEHRLKKVQMIEGGYLDLGVTYYMDTIHVVPTGKDSCVIKSSTEYHVKPEFVKIVEPLITTGPLAAMADAISKLVLEHKSKSNSDEIEAAIITV",
+        "Value": 21.35
+    }
+</textarea>
+	  <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="复制 (2).png" alt=""/><img src="复制 (3).png" alt=""/></div></button>
+	  <p>and run <strong>predict.py</strong>, out file will appear in the current folder, a temporary file input. pkl will be created and then removed after predicting.</p>
+		<br />
+		<h2>Introduction</h2>
+	  <p>The neural network can be divided into two parts: The first part utilizes a retentive network (RetNet) to extract protein features. This is achieved through a combination of causal masking and exponential decay along relative distances, which are combined into a single matrix. The second part employs graph convolutional networks (GCN) to capture substrate characteristics.</p><br />
+		<img src="construction.png" width="750.5" height="540" alt="" style="padding-left: 45px"/>
+	  <p style="font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';font-size: 15px">(A) RetKcat learning performance analysis. The trained model is tested on the training set, and R-square is used to measure whether the model has correctly learned the training set. (B) NCS samples prediction test. On the test set derived from the experiment, by comparing RetKcat with the currently better DLKcat. (C) RetKcat schematic diagram. RetKcat is composed of two parts, GCN is used to read molecular information, and RetNet is used to read protein information.</p>
+		<br />
+		<h2>Construction of RetKcat</h2>
+		<p>In this work, we developed an end-to-end learning approach for in vitro Kcat value prediction by combining a GCN for substrates and a RetNet for proteins. Molecular structures which are atoms linked with chemical bonds can be naturally converted into a graph and protein sequences can also be seen as a special format of the list.</p>
+<p>
+First, substrate SMILES information was loaded with RDKit v.2022.9.5 (<a href="https://www.rdkit.org" target="_blank" class="website">https://www.rdkit.org</a>) and then each node will update itself via its neighbor around, which can be seen as dividing atoms with its chemical environment. Moreover, the adjacency of the molecule was extracted, and the molecule was finally represented as adjacency and an ordered node list. Then the edge information and node information have been convoluted. The final output of the GCN is a real-valued matrix M.</p>
+<p>
+The protein sequence is manually split into ‘words’ which contain N amino acids. Every word is corresponding with a real number. Windows was set to limit the length of the word list, every N amino acid is transferred into numbers and held by Windows respectively. Then the matrix may be embedded to the appointed dimension. The protein representation and molecule representation will have the same dimension and will be concentrated as the input of RetNet.</p>
+<p>
+The outcome of RetNet will forward an output layer, which consists of several Linear, and then the vector will be turned to predict value via a single layer Linear.</p><br />
+	  <h2>Data and Code Avalibility</h2>
+	  <p>Databases including BRENDA (<a href="https://www.brenda-enzymes.org" target="_blank" class="website">https://www.brenda-enzymes.org</a>), and SABIO-RK (<a href="http://sabiork.h-its.org/" target="_blank" class="website">http://sabiork.h-its.org/</a>) were used in the evaluation of the DLKcat performance. Protein Data Bank in Europe database (<a href="https://www.ebi.ac.uk/pdbe/" target="_blank" class="website">https://www.ebi.ac.uk/pdbe/</a>).</p>
+	  <p>Source data are provided in this paper. To facilitate further usage, we provide all codes and detailed instructions in the GitHub repository (<a href="https://github.com/CPU-CHINA/RetKcat" target="_blank" class="website" >https://github.com/CPU-CHINA/RetKcat</a>). Files and results related to simulation calculations can also be found in the GitHub repository (<a href="https://github.com/CPU-CHINA/collation" target="_blank" class="website">https://github.com/CPU-CHINA/collation</a>).</p>
+<div class="head"></div>
 	<hr>
 	</div>
 	
@@ -490,7 +586,7 @@ Construction of plasmids containing NCS mutant genes</p>
 		Webinar China</div>
 	
 	<div class="text" style="z-index:999"><p>
-<p>(1) Design of PCR primers for the gene of interest
+(1) Design of PCR primers for the gene of interest
         Design primers
         Retrieve the CDS sequence of the NCS gene and perform mutations in the relevant sequences
 based on the simulation results, and use Primer 5 software for primer design;
@@ -516,7 +612,7 @@ Determine the CDS sequence of the gene of interest and amplify it by PCR
 <div class="head">
 </div>
 	
-		<hr />
+		
 		<div class="foot">
 		           <div class="foot-list">
                 <div class="list-first">
