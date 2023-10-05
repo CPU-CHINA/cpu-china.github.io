@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initical-scale=1.0">
 <title>DOCUMENTATION</title>
 <link rel="icon" href="icon.png" size="16×16">
 <style>
@@ -36,6 +37,9 @@
 		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 		font-size: 18px;
 		word-break: normal
+	}
+	.viewport{
+		width:100%
 	}
 		.function:link,.function:visited {
 			display:inline-block;
@@ -461,6 +465,20 @@
 </head>
 
 <body>
+	<script>
+if (!window.screenX) {
+    //IE6~8
+    var oStyle = document.createElement("link");
+    oStyle.rel = "stylesheet";
+    oStyle.type = "text/css";
+    if (screen.width > 1024) {
+        oStyle.href = "widthScreen.css";	
+    } else {
+        oStyle.href = "normalScreen.css";	
+    }
+    document.getElementsByTagName("head")[0].appendChild(oStyle);
+}
+</script>
 	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
 <script>
 // 当网页向下滑动 20px 出现"返回顶部" 按钮
