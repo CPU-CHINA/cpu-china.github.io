@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DOCUMENTATION</title>
+<link href="../CSS/DOCUMENTATION.css" rel="stylesheet" type="text/css">
+<script id="applicationScript" type="text/javascript" src="../js/DOCUMENTATION.js"></script>
+</head>
+
+<body>
+	<div id="top">
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	</div>
+	<div id="nav">
+		<img src="../images/队伍logo.png" alt="" style="width:7.025vw;height:3.325vw;margin-right:10rem;margin-left:5rem;margin-top:0.6vw"/>
+		
+		<div class="items">
+        <div class="menu">
+		<a href="INDEX.html" class="function">HOME</a>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu1">
+		<a href="BACKGROUND.html" class="function">PROJECT</a>
+		<div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
+        <div class="drop">Results</div>
+        <div class="drop"><a href="NOTEBOOK.html">Timeline</a></div>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu2">
+			<a href="MEMBERS.html" class="function">TEAM</a>
+                <div class="drop"><a href="MEMBERS.html">Members</a></div>
+                <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
+				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsors</a></div>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu3">
+			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
+                <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
+                <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
+                <div class="drop">Webinar China</div>
+	</div>
+		</div>
+	</div>
+	<div id="float">
+		<h4>DOCUMENTATION</h4>
+		<br />
+		<h4><a href="#aaa">Models</a></h4>
+		<h4><a href="#bbb">Protocols</a></h4>
+		<h4><a href="#ccc">Webinar China</a></h4>
+	</div>
+<div id="aaa">
+	<h1>Models</h1>
+	<br />
+		<h2 style="color:#083643">RetKcat: <br />A novel neural network for Kcat prediction</h2>
+		<h2>How to start</h2>
+		<h3>Requirements</h3>
+		
+	    <p><strong><em>freeze.yml</em></strong> and <strong><em>requirements.txt</em></strong> were provided in the folder "RetKcat", you can install the packages by running the following command in the folder you want to install <strong><em>RetKcat</em></strong>. The model that was trained on an RTX 3090 costs an average of 19 Gib memory and also 16 Gib on an RTX 4090 while predicting is available on an RTX 3070Ti with 6Gib on average via pre-trained model state provided by us. A large amount of evidence shows that this model will have a better performance with a higher hidden dimension, which is 64 in our work due to the limit of GPU memory.</p>
+		
+		<h2>Begin</h2>
+	    <p>First of all, run process.py in the child folder <strong>bin</strong>.<br />
+        We recommend conda to construct an environment <em>(may need to install some packages which were provided by others)</em></p>
+		<textarea id="copy0" class="codes" readonly>conda env create -f freeze.yml -n RetKcat
+conda activate RetKcat</textarea>
+        <button onClick="copy0();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
+		
+		<p>or try pip</p>
+	    <textarea id="copy1" class="codes" readonly>pip install -r requirements.txt</textarea>
+        <button onClick="copy1();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
+	    
+		<p>try to download the code with git or zip</p>
+	    <textarea id="copy2" class="codes" readonly>git clone https://github.com/CPU-CHINA/RetKcat.git</textarea>
+		<button onClick="copy2();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
+		
+		<p>and run the code in the folder <strong>RetKcat</strong>,</p>
+	    <textarea id="copy3" class="codes" readonly>cd RetKcat</textarea>
+		<button onClick="copy3();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
+		
+		<p>put any sample you want to predict in the <strong>RetKcat/input.json</strong> and allow the format below</p>
+	    <textarea id="copy4" class="codes" readonly>    {   
+        "id": "['WT-4-HPAA']",
+        "Smiles": "Oc1ccc(cc1)C/C=N/CCc2cc(O)c(O)cc2",
+        "Sequence": "MMKMEVVFVFLMLLGTINCQKLILTGRPFLHHQGIINQVSTVTKVIHHELEVAASADDIWTVYSWPGLAKHLPDLLPGAFEKLEIIGDGGVGTILDMTFVPGEFPHEYKEKFILVDNEHRLKKVQMIEGGYLDLGVTYYMDTIHVVPTGKDSCVIKSSTEYHVKPEFVKIVEPLITTGPLAAMADAISKLVLEHKSKSNSDEIEAAIITV",
+        "Value": 21.35
+    }</textarea>
+	    <button onClick="copy4();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
+	    
+		<p>and run <strong>predict.py</strong>, out file will appear in the current folder, a temporary file input. pkl will be created and then removed after predicting.</p>
+		<br />
+		
+		<h2>Introduction</h2>
+	    <p>The neural network can be divided into two parts: The first part utilizes a retentive network (RetNet) to extract protein features. This is achieved through a combination of causal masking and exponential decay along relative distances, which are combined into a single matrix. The second part employs graph convolutional networks (GCN) to capture substrate characteristics.</p><br />
+		<img src="../images/construction.png" width="750.5" height="540" alt="" style="margin-left: 6.5vw"/>
+	    
+		<p style="font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';font-size: 1vw;color:#707070">(A) RetKcat learning performance analysis. The trained model is tested on the training set, and R-square is used to measure whether the model has correctly learned the training set. (B) NCS samples prediction test. On the test set derived from the experiment, by comparing RetKcat with the currently better DLKcat. (C) RetKcat schematic diagram. RetKcat is composed of two parts, GCN is used to read molecular information, and RetNet is used to read protein information.</p>
+		<br />
+		
+		<h2>Construction of RetKcat</h2>
+		<p>In this work, we developed an end-to-end learning approach for in vitro Kcat value prediction by combining a GCN for substrates and a RetNet for proteins. Molecular structures which are atoms linked with chemical bonds can be naturally converted into a graph and protein sequences can also be seen as a special format of the list.</p>
+        <p>First, substrate SMILES information was loaded with RDKit v.2022.9.5 (<a href="https://www.rdkit.org" target="_blank" class="website">https://www.rdkit.org</a>) and then each node will update itself via its neighbor around, which can be seen as dividing atoms with its chemical environment. Moreover, the adjacency of the molecule was extracted, and the molecule was finally represented as adjacency and an ordered node list. Then the edge information and node information have been convoluted. The final output of the GCN is a real-valued matrix M.</p>
+        
+		<p>The protein sequence is manually split into ‘words’ which contain N amino acids. Every word is corresponding with a real number. Windows was set to limit the length of the word list, every N amino acid is transferred into numbers and held by Windows respectively. Then the matrix may be embedded to the appointed dimension. The protein representation and molecule representation will have the same dimension and will be concentrated as the input of RetNet.</p>
+
+		<p>The outcome of RetNet will forward an output layer, which consists of several Linear, and then the vector will be turned to  predict value via a single layer Linear.</p><br />
+	    
+		<h2>Data and Code Avalibility</h2>
+	    <p>Databases including BRENDA (<a href="https://www.brenda-enzymes.org" target="_blank" class="website">https://www.brenda-enzymes.org</a>), and SABIO-RK (<a href="http://sabiork.h-its.org/" target="_blank" class="website">http://sabiork.h-its.org/</a>) were used in the evaluation of the DLKcat performance. Protein Data Bank in Europe database (<a href="https://www.ebi.ac.uk/pdbe/" target="_blank" class="website">https://www.ebi.ac.uk/pdbe/</a>).</p>
+	  
+		<p>Source data are provided in this paper. To facilitate further usage, we provide all codes and detailed instructions in the GitHub repository (<a href="https://github.com/CPU-CHINA/RetKcat" target="_blank" class="website" >https://github.com/CPU-CHINA/RetKcat</a>). Files and results related to simulation calculations can also be found in the GitHub repository (<a href="https://github.com/CPU-CHINA/collation" target="_blank" class="website">https://github.com/CPU-CHINA/collation</a>).</p>
+		<br />
+		
+		<p style="text-align: right;font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'">For more information: <a href="https://github.com/CPU-CHINA/RetKcat" target="_blank" class="website">https://github.com/CPU-CHINA/RetKcat</a></p>
+		</div>
+	
+<div id="bbb">
+	<h1>Protocols</h1>
+	<br />
+		<h2>Supplementary Information</h2>
+		<p style="text-align: right"><a href="../SI.pdf" target="_blank" class="SI">Open in a new page<img src="文件.png" width="20" height="20" alt=""/></a></p>
+	  <p><embed type="application/pdf" src="../SI.pdf" style="width:100%;height: 500px"></p>
+	  <br />
+		<h2>References</h2>
+		<p style="font-size: 14px">1. Buller, A.R., et al., <em>Directed evolution of the tryptophan synthase beta-subunit for stand-alone function recapitulates allosteric activation</em>. Proc Natl Acad Sci U S A, 2015. 112(47): p. 14599-604.<br />
+2.	Bunzel, H.A., J.L.R. Anderson, and A.J. Mulholland, <em>Designing better enzymes: Insights from directed evolution</em>. Curr Opin Struct Biol, 2021. 67: p. 212-218.<br />
+3.	Cobb, R.E., R. Chao, and H. Zhao, <em>Directed Evolution: Past, Present and Future</em>. AIChE J, 2013. 59(5): p. 1432-1440.<br />
+4.	Chan, S.K., et al., <em>A semi-rational mutagenesis approach for improved substrate activity of microbial transglutaminase</em>. Food Chem, 2023. 419: p. 136070.<br />
+5.	Liu, Z., et al., <em>Improvement of the acid resistance, catalytic efficiency, and thermostability of nattokinase by multisite-directed mutagenesis</em>. Biotechnol Bioeng, 2019. 116(8): p. 1833-1843.<br />
+6.	Amrein, B.A., et al., <em>CADEE: Computer-Aided Directed Evolution of Enzymes</em>. IUCrJ, 2017. 4(Pt 1): p. 50-64.<br />
+7.	Jiang, L., et al., <em>De novo computational design of retro-aldol enzymes</em>. Science, 2008. 319(5868): p. 1387-91.<br />
+8.	Li, D., et al., <em>Improvement of catalytic activity of sorbose dehydrogenase for deoxynivalenol degradation by rational design</em>. Food Chem, 2023. 423: p. 136274.<br />
+9.	Li, R., et al., <em>Computational redesign of enzymes for regio- and enantioselective hydroamination</em>. Nat Chem Biol, 2018. 14(7): p. 664-670.<br />
+10.	Liu, L., S. Zhou, and Y. Deng, <em>Rational Design of the Substrate Tunnel of β-Ketothiolase Reveals a Local Cationic Domain Modulated Rule that Improves the Efficiency of Claisen Condensation</em>. ACS Catalysis, 2023. 13(12): p. 8183-8194.<br />
+11.	Duan, B. and Y. Sun, <em>Integration of Machine Learning Improves the Prediction Accuracy of Molecular Modelling for M. jannaschii Tyrosyl-tRNA Synthetase Substrate Specificity</em>. 2020.<br />
+12.	Li, F., et al., <em>Deep learning-based kcat prediction enables improved enzyme-constrained model reconstruction</em>. Nature Catalysis, 2022. 5(8): p. 662-672.<br />
+13.	Gado, Japheth E., Matthew Knotts, Ada Y. Shaw, Debora Marks, Nicholas P. Gauthier, Chris Sander, and Gregg T. Beckham. <em>"Deep learning prediction of enzyme optimum pH."</em> bioRxiv (2023). doi: https://doi.org/10.1101/2023.06.22.544776.<br />
+14.	Mazurenko, S., Z. Prokop, and J. Damborsky, <em>Machine Learning in Enzyme Engineering</em>. ACS Catalysis, 2019. 10(2): p. 1210-1223.<br />
+15.	Saito, Y., et al., <em>Machine-Learning-Guided Mutagenesis for Directed Evolution of Fluorescent Proteins</em>. ACS Synth Biol, 2018. 7(9): p. 2014-2022.<br />
+16.	Yang, K.K., Z. Wu, and F.H. Arnold, <em>Machine-learning-guided directed evolution for protein engineering</em>. Nat Methods, 2019. 16(8): p. 687-694.<br />
+17.	Wu, S., et al., <em>Biocatalysis: Enzymatic Synthesis for Industrial Applications</em>. Angew Chem Int Ed Engl, 2021. 60(1): p. 88-119.<br />
+18.	Chen, X., et al., <em>Photoenzymatic Hydrosulfonylation for the Stereoselective Synthesis of Chiral Sulfones</em>. Angew Chem Int Ed Engl, 2023. 62(23): p. e202218140.<br />
+19.	He, Y., et al., <em>Discovery and Engineering of the l-Threonine Aldolase from Neptunomonas marine for the Efficient Synthesis of β-Hydroxy-α-amino Acids via C–C Formation</em>. ACS Catalysis, 2023. 13(11): p. 7210-7220.<br />
+20.	Herger, M., et al., <em>Synthesis of beta-Branched Tryptophan Analogues Using an Engineered Subunit of Tryptophan Synthase</em>. J Am Chem Soc, 2016. 138(27): p. 8388-91.<br />
+<br />
+</p>
+	</div>
+<div id="ccc">
+	<h1>Webinar China</h1>
+	<br />
+		<h2>The 1st Forum on iDEC China</h2>
+		
+	    <p>CPU_CHINA hosted The 1st Forum on International Directed Evolution Competition (iDEC) China on August 26.</p>
+		<p>In this exchange meeting, we invited iDEC teams from universities in China to participate in this event. The presenters shared the teams' latest research progress, analysis results and development trends in the field of directed evolution. In the process of this exchange and learning, everyone has gained a lot, and the friendship between the teams has been further deepened. </p>
+		<p>Thank you for your sharing and wish you all a good performance in the coming competition！</p>
+		<br />
+	    <img src="../images/poster.jpg" width="728.25" height="432.125" alt="" style="padding-left:5vw"/> <p style="padding-left:20vw;font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';font-size: 1vw;color:#707070">Poster of The ist Forum on iDEC China</p>
+	</div>
+
+<div id="foot">
+		<p style="float: right;color:white;margin-right:10vw;margin-top:8vw;font-size: 1.5rem">© 2023 CPU_CHINA, 639 Longmian Avenue, Nanjing, Jiangsu, China</p>
+	</div>
+</body>
+</html>

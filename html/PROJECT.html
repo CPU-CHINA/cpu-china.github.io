@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PROJECT</title>
+<link href="PROJECT.css" rel="stylesheet" type="text/css">
+<link href="PROJECT.js" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="top">
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	</div>
+	<div id="float">
+		<h4>PROJECT</h4>
+		<br />
+		<h4><a href="#aaa">Introduction</a></h4>
+		<h4><a href="#bbb">Results</a></h4>
+		<h4><a href="#ccc">Timeline</a></h4>
+	</div>
+	<div id="nav">
+	<img src="images/队伍logo.png" style="width:7.025vw;height:3.325vw;margin-right:10rem;margin-left:5rem;margin-top:0.6vw" alt=""/>
+		
+		<div class="items">
+        <div class="menu">
+		<a href="INDEX.html" class="function">HOME</a>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu1">
+		<a href="BACKGROUND.html" class="function">PROJECT</a>
+		<div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
+        <div class="drop">Results</div>
+        <div class="drop"><a href="NOTEBOOK.html">Timeline</a></div>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu2">
+			<a href="MEMBERS.html" class="function">TEAM</a>
+                <div class="drop"><a href="MEMBERS.html">Members</a></div>
+                <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
+				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsors</a></div>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu3">
+			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
+                <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
+                <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
+                <div class="drop">Webinar China</div>
+	</div>
+		</div>
+	</div>
+	
+	<div id="aaa">
+		<h1>Introduction</h1>
+	</div>
+	
+	<div id="bbb">
+		<h1>Results</h1>
+	</div>
+	
+	<div id="ccc">
+	</div>
+</body>
+</html>
