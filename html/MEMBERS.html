@@ -3,13 +3,43 @@
 <head>
 <meta charset="utf-8">
 <title>MEMBERS</title>
-<link href="MEMBERS.css" rel="stylesheet" type="text/css">
-<link href="MEMBERS.js" rel="stylesheet" type="text/css">
+<link href="../CSS/MEMBERS.css" rel="stylesheet" type="text/css">
+<link href="../js/MEMBERS.js" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+	<div id="top">
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	</div>
+	<div id="float">
+		<h5>MEMBERS</h5>
+		<br />
+		<p style="font-size:1.1rem"><a href="#aaa" class="website">Supervisors</a></p>
+		<p style="font-size:1.1rem"><a href="#eee" class="website">Mentors</a></p>
+		<p style="font-size:1.1rem"><a href="#ddd" class="website">Team Leaders</a></p>
+		<p style="font-size:1.1rem"><a href="#bbb" class="website">Players</a></p>
+		<p style="font-size:1.1rem"><a href="#ccc" class="website">Advisors</a></p>
+	</div>
 	<div id="nav">
-		<img src="../HTML/队伍logo.png" width="140.5" height="66.5" alt="" style="margin-right:10rem;margin-left:5rem"/>
+		<img src="../images/队伍logo.png" width="140.5" height="66.5" alt="" style="width:7.025vw;height:3.325vw;margin-right:10rem;margin-left:5rem;margin-top:0.6vw"/>
 		
 		<div class="items">
         <div class="menu">
@@ -18,7 +48,7 @@
 		</div>
 		<div class="items">
 			<div class="menu1">
-		<a href="BACKGROUND.html" class="function">PROJECT</a>
+		<a href="PROJECT.html" class="function">PROJECT</a>
 		<div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
         <div class="drop">Results</div>
         <div class="drop"><a href="NOTEBOOK.html">Timeline</a></div>
@@ -34,7 +64,7 @@
 		</div>
 		<div class="items">
 			<div class="menu3">
-			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
+			<span><a href="../DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
                 <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
                 <div class="drop">Webinar China</div>
@@ -42,11 +72,140 @@
 		</div>
 	</div>
 	<div id="aaa">
+		<h1>Members</h1>
+		<h2>Supervisors</h2>
+		<ul>
+	<li class="photos_dp"><figure><img src="../images/李.jpeg"  width="183" height="260" alt="" class="photos" />
+	<p class="members_name">Jiahuang Li</p>
+		<p class="members_si"><i>Vice professor in China Pharmaceutical University.</i></p>
+		<p class="members_si">Research Direction:<br />1. Analysis and modification of protein/peptide structure and function based on structural bioinformatics.<br />
+2. Enzyme rational design study.<br />
+3. Targeted delivery and gene therapy of tumor tissues mediated by tumor-targeting bacteria and their mechanisms.
+</p></figure></li><br />
+			
+	<li class="photos_dp"><figure><img src="../images/林.png" width="173" height="260" alt="" class="photos" />
+        <p><div class="members_name">Aijun Lin</div></p>
+		<p class="members_si"><i>Professor in China Pharmaceutical University.</i></p>
+		<p class="members_si">Research Direction:<br />1. Design and synthesis of chiral drug molecules and lead compounds<br />2. Targeted design and synthesis of functional heterocyclic compounds<br />
+3. Complete synthesis and structural modification of active natural products.</p>
+        </figure></li>
+	</ul>
 	</div>
-	<div id="bbb">
+<div id="eee">
+	<h2>Mentors</h2>
+	<ul>
+		
+        <li class="photos_dp"><figure><img src="../images/王j.jpg" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+        <p><div class="members_name">Jingyao Wang</div></p>
+        <p class="members_si">Quiet creates an environment, and tranquility overcomes impatience.</p>
+        </figure></li>
+	<li class="photos_dp"><figure><img src="../images/吴.jpg" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+        <p><div class="members_name">Shu Wu</div></p>
+        <p class="members_si">Life to study much more to learn, live and learn.</p>
+        </figure></li>
 	
+
+	</ul>
+</div>
+<div id="ddd">
+<h2>Team Leaders</h2>
+<ul>
+     <li class="photos_dp"><figure><img src="../images/王x.JPG" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+     <p class="members_name">Xujian Wang</p>
+		 <div><a href=mailto:"Hsuchein0126@outlook.com" class="members_si1">Hsuchein0126@outlook.com</a></div>
+     <p class="members_si" style="padding-bottom:1vw">The job of a scientist is to listen carefully to nature, not to tell nature how to behave.</p>
+     </figure></li>
+	<br />
+	<li class="photos_dp"><figure><img src="../images/刘hd.jpg" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+     <p class="members_name">Haodong Liu</p>
+     <div><a href=mailto:"haodongliu@foxmail.com" class="members_si1">haodongliu@foxmail.com</a></div>
+     <p class="members_si" style="padding-bottom:1vw">The best hyperparameter in life is to cherish all encounters, so I enjoy everyday I have and believe it will become better.</p>
+     </figure></li>
+</ul>	
+	</div>
+
+	<div id="bbb">
+	<h2>Players</h2>
+<ul>
+<li class="photos_dp"><figure><img src="../images/蔡.JPG" width="208" height="260" alt="" class="photos" />
+     <p class="members_name">Jiayang Cai</p>
+	<div><a href=mailto:"283120219@qq.com" class="members_si1">283120219@qq.com</a></div>
+     <p class="members_si" style="padding-bottom:1vw">I'm Jiayang Cai, from China Pharmaceutical University, Nanjing, China.<br />I am mainly responsible for contacting the company and making slides. At the same time, I am also very interstied in chemistry and pharmacy, and I hope to engage in related fields in the future.</p></figure></li>
+     <li class="photos_dp"><figure><img src="../images/孙x.JPG" width="208" height="260" alt="" class="photos" />
+     <p class="members_name">Xinyi Sun</p>
+		 <div><a href=mailto:"1393481577@qq.com" class="members_si1">1393481577@qq.com</a></div>
+     <p class="members_si" style="padding-bottom:1vw">Sun Xinyi, an undergraduate majoring in International Medical Business School of China Pharmaceutical University.<br />I like watching British and American TV series and listening to foreign language songs. I also participated in some model United Nations conferences outside school to expand my social circle.</p>
+     </figure></li>
+	<li class="photos_dp"><figure><img src="../images/孙a.JPG" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Anqi Sun</div></p>
+		<div><a href=mailto:"2303177187@qq.com" class="members_si1">2303177187@qq.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">I'm Anqi Sun, a student at China Pharmaceutical University majoring in Pharmacy. My focus is on pharmaceutical science and drug development, and I'm eager to learn more about the fancinating world of evolutionary biology and computational chemistry through this program. I believe that this journey will lead to groundbreaking discoveries at the intersection of biology and computer science.</p>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/王c.jpg" width="216" height="260" alt="" class="photos" />
+        <p><div class="members_name">Chenxi Wang</div></p>
+	<div><a href=mailto:"chenxi.wang-7@student.manchester.ac.uk" class="members_si1">chenxi.wang-7@student.manchester.ac.uk</a></div>
+        <p class="members_si" style="padding-bottom:1vw">A sophomore / major in clinical pharmacy<br />Interested in pharmacology<br />China Pharmaceutical University and Manchester University</p>
+<div class="head1"></div>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/刘.JPG" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+        <p><div class="members_name">Heqi Liu</div></p>
+	<div><a href=mailto:"xjlhq0096@gmail.com" class="members_si1">xjlhq0096@gmail.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">I am Heqi Liu, an undergraduate student in China Pharmaceutical University and major in Basic Pharmacy( mainly about Medicinal Chemistry).<br />I love writing elegant gadgets in Python and Rust to speed up life and work. I also enjoy designing and orchestrating Kubernetes. I am an open source enthusiast and I want my code to make life better.</p>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/尤.JPG" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+        <p><div class="members_name">Zijie You</div></p>
+	<div><a href=mailto:"yukinoyou@outlook.com" class="members_si1">yukinoyou@outlook.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">I am Zijie You. An undergraduate student in China Pharmaceutical University and major in Pharmacology.<br />I'm fancinated at neural science and computer science. My major work in our iDEC team is mainly about machine learning.</p>
+<div class="head2"></div>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/彭.JPG" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Siqi Peng</div></p>
+	<div><a href=mailto:"1709471399@qq.com" class="members_si1">1709471399@qq.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">My name is Siqi Peng. An undergraduate student majoring in Pharmacy from China Pharmaceutical University.<br />I work as an art designer on our team, and I'm also interested in biosynthesis.</p>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/罗.JPG" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Xiang Luo</div></p>
+	<div><a href=mailto:"Xiangl2315@yeah.net" class="members_si1">Xiangl2315@yeah.net</a></div>
+        <p class="members_si" style="padding-bottom:1vw">Hi, I'm Xiang Luo, an undergraduate student in pharmaceutical engineering, China Pharmaceutical University. I love wandering through a city and discovering something new, just like  doing scientific research.<br />Engaging in the sections of wet lab and art design, I really enjoyed overcoming problems with my friends. Together we explore the world of biology.</p>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/常.JPG" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Le Chang</div></p>
+	<div><a href=mailto:"1036932798@qq.com" class="members_si1">1036932798@qq.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">I am Le Chang, a student majoring in Pharmacy at China Pharmaceutical University.<br />The experience of biology competition in high school aroused my curiosity about biology. Through this competition, I hope I can give full play to my ability, cultivate my future scientific thinking and experimental ability, and I have a deeper understanding of machine computing in molecular biology.</p>
+<div class="head2"></div>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/高.jpg" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Yuan Gao</div></p>
+	<div><a href=mailto:"gy1official@qq.com" class="members_si1">gy1official@qq.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">My name is Yuan Gao, an undergraduate majoring Pharmacy at China Pharmaceutical University.<br />As a student with strong interest and curiosity for molecular biology from the very beginning of my college life, I was fortunate to have the chance to meet with A fascinating research field: enzyme directed evolution and be accepted by our team.<br />During my time working in the wet lab group, we encounter problems, we solve problems, and this experience will ultimately become our strongest weapon in facing scientific challenges in the future.</p>
+        </figure></li>
+<li class="photos_dp"><figure><img src="../images/陈.JPG" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Yilin Chen</div></p>
+	<div><a href=mailto:"2936710996@qq.com" class="members_si1">2936710996@qq.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">I am Chen Yilin, a recent Pharmacy graduate from China Pharmaceutical University.<br />I have always been passionate about utilizing multidisciplinary knowledge to solve scientific problems.</p>
+        </figure></li>
+</ul>
 	</div>
 	<div id="ccc">
+		
+<h2>Advisors</h2>
+	<ul>
+        <li class="photos_dp"><figure><img src="../images/沈.jpg" style="width:20.8rem;height:16.64rem" alt="" class="photos" />
+        <p><div class="members_name">Zekai Shen</div></p>
+			<div><a href=mailto:"szkchris@sina.com" class="members_si1">szkchris@sina.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">traveling light！</p>
+        </figure></li>
+	<li class="photos_dp"><figure><img src="../images/魏.jpg" width="208" height="260" alt="" class="photos" />
+        <p><div class="members_name">Zexuan Wei</div></p>
+        <div><a href=mailto:"MoriyaSuwako2524@163.com" class="members_si1">MoriyaSuwako2524@163.com</a></div>
+        <p class="members_si" style="padding-bottom:1vw">Zexuan Wei enjoys his research in and organic methodology and computational chemistry, and spends his free time in reading books and playing games.</p>
+        </figure></li>
+	
+
+	</ul>
+	</div>
+<div id="foot">
+		<p style="float: right;color:white;margin-right:10vw;margin-top:8vw;font-size: 1.5rem">© 2023 CPU_CHINA, 639 Longmian Avenue, Nanjing, Jiangsu, China</p>
 	</div>
 </body>
 </html>
