@@ -1,545 +1,69 @@
 <!doctype html>
-<html lang="en">
-<head base target="_blank">
+<html>
+<head>
 <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width,initical-scale=1.0">
 <title>SOCIAL MEDIA</title>
-	<link rel="icon" href="icon.png" size="16×16">
-	<style>
-		#myBtn {
-			position: fixed;
-			bottom: 75px;
-			right: 100px;
-			z-index: 99;
-			border: none;
-			cursor: pointer;
-			inline-height:0;
-			font-size:0;
-			width:75px;
-			height:75px;
-			background-color:rgba(0,0,0,0.00);
-			background-image: url("组件 1 – 4.png");
-			opacity: 0.8;
-			background-repeat: no-repeat;
-			}
-#myBtn:hover {
-	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
-	opacity: 1
-}
-		nav {
-			width: 100%;
-			min-width: 960px;
-			}
-		ul {
-			list-style-type:none;
-			overflow:hidden;
-			}
-		li {
-			float:left;
-			
-		}
-		hr{
-			width:53%;
-			
-			border: 2px solid #fff;
-			
-		}
-		
-	a{
-		text-decoration: none;
-	}
-	a:active{
-		color:rgba(255,222,167,1.00);
-	}
-	a:visited{
-		color:rgba(57,187,159,1.00)
-	}
-		.function:link,.function:visited {
-			display:inline-block;
-		    width:60%;
-			font-family: Bronova;
-			font-weight:bold;
-			font-size: 16px;
-			color: rgba(184,236,215,1);
-			background-color:rgba(8,54,67,1);
-			text-align:center;
-			padding:20px;
-			text-decoration:none;
-			text-transform:uppercase;
-			border:2px solid rgba(255,255,255,0);
-			border-radius: 10px;
-			margin-left: 10px;
-		}
-		.function:hover,.function:active {
-			text-decoration: underline;
-			border-radius: 10px;
-			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
-			}
-	
-.content {
-    display: flex;
-    flex-direction: row;
-	width:100%;
-	height:70px
-}
-		.function_title:link,.function_title:visited {
-			display:inline-block;
-		    width:60%;
-			font-family: Bronova;
-			font-weight:bold;
-			font-size: 20px;
-			color: rgba(184,236,215,1);
-			background-color:rgba(8,54,67,1);
-			text-align:center;
-			padding:20px;
-			text-decoration:none;
-			text-transform:uppercase;
-			border-radius: 10px;
-			margin-right: 60px
-		}
-		.function_title:hover{
-			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
-		}
-		
-.items {
-    width: 320px;
-    color: rgba(184,236,215,1);
-	display: inline-block;
-	text-align: center
-}
-
-.menu{
-    width: 320px;
-    height: 70px;
-    background: rgba(8,54,67,1);
-    line-height: 35px;
-    text-align: center;
-    position:fixed;
-	top:0;
-    overflow:hidden;
-	font-family: Bronova;
-	font-weight: Bold;
-	font-size: 14px;
-	
-}
-.menu:hover{
-    overflow:visible;
-	width:320px;
-    color: rgba(8,54,67,1);
-    z-index:999;
-    cursor:pointer;
-}
-
-.drop{
-    filter:drop-shadow(2px 2px 2px rgba(255,255,255,0.80));
-	text-shadow: -1px 1px 0 #FFF, 1px 1px 0 #FFF,1px -1px 0 #FFF,-1px -1px 0 #FFF;
-    text-align: center;
-    width: 200px;
-    height: 35px;
-    line-height: 40px;
-    overflow: hidden;
-	font-weight:normal;
-	border-radius: 0px;
-	margin-left:58px;
-	font-weight:bold;
-	font-size:14px;
-	color:rgba(8,54,67,1);
-	border:2px solid rgba(255,255,255,0);
-	
-	
-}
-	.drop:active{
-		color:rgba(8,54,67,1)
-	}
-.drop:hover{
-    background: rgba(184,236,215,1);
-	filter: drop-shadow(4px 4px 4px rgba(184,236,215,0.80));
-    cursor: pointer;
-	border: 2px solid #0E5468;
-	border-radius: 16px;
-	color:rgba(8,54,67,1)
-}
-		.head3{
-			margin-top:650px
-		}
-.head {
-	margin-top:100px
-		}
-		.head_min{
-			padding-top:50px
-		}
-		.head_min2{
-			padding-top:20px
-		}
-		.head_max{
-			padding-top:250px
-		}
-		.left{
-			padding-left:280px;
-			padding-top:20px;
-			height:55px;
-			border:2px solid rgba(255,255,255,0);
-			
-			
-		}
-		.left_min{
-			padding-left:50vh;
-			
-			
-		}
-.title{
-	padding-left:100px;
-	color:rgba(8,54,67,1);
-	font-size:20px;
-	font-weight:bold;
-	padding-top:70px;
-
-		}
-		.title2{
-	padding-left:100px;
-	color:rgba(8,54,67,1);
-	font-size:20px;
-	font-weight:bold;
-	padding-top:140px;
-		}
-		
-		
-.foot{
-			background-color: rgba(8,54,67,1);
-			width:100%
-		}
-.foot-list {
-    padding: 20px 0px 0px;
-    font-size: 12px;
-    color: #555555;
-    width: 100%;
-    height: 200px;
-    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-	
-}
-
-.list-first {
-    width: 100%;
-    height: 100%;
-    float: left;
-	bottom:0
-}
-.foot_top {
-    width: 980px;
-    height: 25px;
-    font-size: 12px;
-    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    color: #888888;
-    margin: 34px 100px 5px;
-	background-color:rgba(8,54,67,1);
-	bottom:0
-}
-
-.foot_top span {
-    color: rgba(184,236,215,1);
-}
-	
-	
-.bottom {
-    width: 1260px;
-    height: 25px;
-    font-size: 12px;
-    font-family: "SF Pro SC", "HanHei SC", "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    color: #888888;
-    padding: 5px 100px 5px;
-
-}
-.bottom a {
-    font-size: 1px;
-    text-decoration: none;
-    margin: 0px 0px 0px 20px;
-    color: rgba(29, 29, 31, 0.5);
-}
-		.name1{
-			padding-left:7px;
-			font-weight:bold;
-			width:200px;
-			height: 60px;
-			padding-bottom: 10px;
-			margin-top:300px;
-			color:rgba(57,187,159,1.00);
-			margin-left: 90px
-			
-			
-		}
-		.name1:hover{
-			text-decoration: underline;
-		}
-		.name{
-			padding-left:7px;
-			font-weight:bold;
-			width:20px;
-			height: 60px;
-			padding-bottom: 10px;
-			margin-top:300px;
-			
-			margin-left: 90px
-			
-		}
-		.name:hover{
-			text-decoration: underline;
-			color: rgba(57,187,159,1.00)
-		}
-		
-		.text{
-			padding-left:428px;
-			padding-top:3px;
-			width:43%;
-			word-break:keep-all;
-			color:rgba(112,112,112,1);
-			
-			
-		}
-		.text2{
-			padding-left:470px;
-			padding-top:20px;
-			width:20%;
-			word-break: break-all
-		
-		}
-		.imgdiv{
-			padding-left: 200px;
-			padding-top:10px
-		}
-		.imgdiv img{
-			float:left;
-			padding-left:25px;
-			z-index:-20;
-			filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16));
-			position: relative
-			
-		}
-        .imgdiv2{
-			padding-left: 270px;
-			padding-top:50px;
-			z-index:-15;
-			position: absolute;
-		}
-		.imgdiv2 img{
-			float:left;
-			padding-right:128px;
-			filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16));
-			
-			
-		}
-	
-		.business{
-			float:left;
-			z-index:-1;
-			position:absolute;
-			left: 290px;
-			font-weight:bold;
-			text-align: center;
-			display:inline;
-			margin-top:250px;
-			
-			
-		}
-		.business li{
-			padding-right:160px
-		}
-		.discription{
-			float:left;
-			z-index:-16;
-			position:absolute;
-			height:200px;
-			display:inline;
-			margin-top:300px;
-			width:246px;
-			word-break: break-all;
-			left: 305px;
-			color:rgba(112,112,112,1);
-		}
-		
-.discription2{
-			float:left;
-			z-index:-16;
-			position:absolute;
-			height:200px;
-			display:inline;
-			margin-top:300px;
-			width:246px;
-			word-break: break-all;
-			left: 635px;
-			color:rgba(112,112,112,1);
-		}
-		.discription3{
-			float:left;
-			z-index:-16;
-			position:absolute;
-			height:200px;
-			display:inline;
-			margin-top:300px;
-			width:246px;
-			word-break: break-all;
-			left: 965px;
-			color:rgba(112,112,112,1);
-		}
-		
-		footer{
-			padding-bottom:0;
-			position:absolute;
-		}
-		.-{
-			overflow: hidden;
-			cursor: pointer;
-			
-		}
-		.-:hover{
-			overflow: visible;
-			background-image: url("Xi.png")
-			
-		}
-		.+{
-			position: absolute;
-			display: none;
-			overflow: hidden;
-			
-		}
-		.+:hover{
-			background: rgba(184,236,215,1);
-			filter: drop-shadow(4px 4px 4px rgba(184,236,215,0.80));
-			cursor: pointer;
-			border: 2px solid #0E5468;
-			border-radius: 16px;
-			background-image: url("Xi.png")
-			}
-		.pichange{
-				border:2px solid rgba(255,255,255,0);
-				overflow: hidden;
-			height: 10vh;
-			
-			margin-left: 270px;
-			margin-top:5px
-		
-			
-			}
-			.pichange img{
-				border:2px solid rgba(255,255,255,0);
-				padding-left:0;
-				padding-top: 5px
-				
-			}
-			.pichange:hover img:last-child{
-				display: block;
-				border:2px solid rgba(255,255,255,0);
-				cursor: pointer
-			}
-			.pichange:hover img:first-child{
-				display: none;
-				border:2px solid rgba(255,255,255,0);
-				cursor: pointer
-			}
-			.pichange img:last-child{
-				display: none;
-				
-			}
-	</style>
+<link href="../CSS/SOCIAL MEDIA.css" rel="stylesheet" type="text/css">
+<link href="../js/SOCIAL MEDIA.js" rel="stylesheet" type="text/css">
 </head>
 
-
-			
-			<header class="content" div="navigation">
-
-	    <div class="items">
+<body>
+	<div id="nav">
+	<img src="../images/队伍logo.png" width="140.5" height="66.5" alt="" style="margin-right:10rem;margin-left:5rem"/>
+		
+		<div class="items">
         <div class="menu">
-			<span><a href="index.html" class="function_title">CPU_CHINA</a></span>
-        </div>
-    </div>
-	    <div class="items">
-        <div class="menu">
-			<span><a href="index.html" class="function">HOME</a></span>
-			
-  
-        </div>
-    </div>
-    <div class="items">
-        <div class="menu">
-			<span><a href="BACKGROUND.html" class="function">PROJECT</a></span>
-            <div>
-                <div class="drop"><a href="BACKGROUND.html">Introduction</a></div>
-                <div class="drop">Results</div>
-                <div class="drop"><a href="NOTEBOOK.html">Timeline</a></div>
-            </div>
-        </div>
-    </div>
-	    <div class="items">
-        <div class="menu">
-			<span><a href="MEMBERS.html" class="function">TEAM</a></span>
-            <div>
+		<a href="index.html" class="function">HOME</a>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu1">
+		<a href="PROJECT.html" class="function">PROJECT</a>
+		<div class="drop"><a href="PROJECT.html">Introduction</a></div>
+        <div class="drop">Results</div>
+        <div class="drop">Timeline</div>
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu2">
+			<a href="MEMBERS.html" class="function">TEAM</a>
                 <div class="drop"><a href="MEMBERS.html">Members</a></div>
                 <div class="drop"><a href="SOCIAL MEDIA.html">Social Media</a></div>
 				<div class="drop"><a href="SOCIAL MEDIA.html">Sponsors</a></div>
-            </div>
-        </div>
-    </div>
-    <div class="items">
-        <div class="menu">
+			</div>
+		</div>
+		<div class="items">
+			<div class="menu3">
 			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
-            <div>
                 <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
                 <div class="drop">Webinar China</div>
-            </div>
-        </div>
-    </div>
-  
-</header>
-	<body>
-
-<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
-<script>
-// 当网页向下滑动 20px 出现"返回顶部" 按钮
-window.onscroll = function() {scrollFunction()};
- 
-function scrollFunction() {console.log(121);
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
- 
-// 点击按钮，返回顶部
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-</script>
-
-	<div class="title">Soclial Media</div>
-	<div class="head_min"></div>
-		
-	<ul>
-	<li>
-		<img src="矩形 1-粉底.png" width="700" height="140" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16)"/>
-		<div class="pichange">
-			<img src="twitter1.png" alt="" class="left" height="55" width="55" />
-			<img src="twitter2.png" alt="" class="left" height="55" width="55" />
+	</div>
 		</div>
+	</div>
+	<div id="float">
 		
 		
-		</li>
+		<p style="font-size:1.2rem"><a href="#aaa" class="website">Social Media</a></p>
+		<p style="font-size:1.2rem"><a href="#bbb" class="website">Sponsors</a></p>
 		
-		<div class="head_min2"></div>
+	</div>
+	<div id="aaa">
+		<h1>Social Media</h1>
 		
-		<a href="#https://twitter.com/CPUiDEC" class="name1" target="_blank" title="X/twitter">CPU-CHINA-iDEC
-		<img src="link.png" width="15" height="15"  alt="" /></a>
-		<div class="head_min2"></div>
-		<div style="position:absolute;z-index:-100" class="text">We update our team status and experimental progress and communicate with other teams to better facilitate the project process.</div>
+				<div class="pichange">
+					<img src="../images/twitter1.png" alt=""  />
+					<img src="../images/twitter2.png" alt="" />
+					</div>
+				
+			<a href="https://twitter.com/CPUiDEC" class="name1" target="_blank" title="X/twitter">CPU-CHINA-iDEC
+		<img src="../images/link.png" width="15" height="15"  alt="" /></a>
+	
+		<p>We update our team status and experimental progress and communicate with other teams to better facilitate the project process.</p>
 	</ul>
 		
-<div class="head_min"></div>
 		<ul>
-			<div class="head_min2"></div>
 			<li>
-				<img src="矩形 1-粉底.png" width="700" height="140" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16))"/>
 				<div class="pichange">
 			<img src="youtube1.png" alt="" class="left" height="55" width="55" />
 			<img src="youtube2.png" alt="" class="left" height="55" width="55" />
@@ -547,18 +71,12 @@ function topFunction() {
 				
 				</li>
 			<div>
-		 <div class="head_min2"></div>
 				<a href="https://www.youtube.com/channel/UC6F-a6IRl6As4OQupKKFChA" class="name" target="_blank" title="YouTube">CPU_iDEC<img src="link.png" width="15" height="15" style="padding-left: 0.5vh" alt=""/></a></div>
-			<div class="head_min2"></div>
-			<div style="position:absolute;z-index:-99" class="text">We uploaded a video about our project at the iDEC competition to get more people to know and pay attention to us.</div>
-			</ul>
-		<div class="head_min"></div>
+			<p>We uploaded a video about our project at the iDEC competition to get more people to know and pay attention to us.</p>
 		
-		
-			<div class="head_min2"></div>
 			<ul>
 				<li>
-					<img src="矩形 1-粉底.png" width="700" height="130" alt="" class="left_min" style="position:absolute;z-index:-100;filter:drop-shadow(2px 2px 2px rgba(0,0,0,0.16)"/>
+				
 				<div class="pichange">
 			<img src="wechat1.png" alt="" class="left" height="55" width="55" />
 			<img src="wechat2.png" alt="" class="left" height="55" width="55" />
@@ -566,70 +84,17 @@ function topFunction() {
 				
 				</li>
 			<div>
-				<div class="head_min2"></div><a href="https://mp.weixin.qq.com/s/IXvS5gNCoC4EXbNunYW3pA" class="name" target="_blank" title="WeChat">CPU iDEC<img src="link.png" width="15" height="15" style="padding-left: 0.5vh" alt=""/></a></div>
-			
-		<div class="head_min2"></div>
-			<div style="position:absolute;z-index:-99" class="text">We used the Chinese social networking app WeChat to showcase our project.</div>
+				<a href="https://mp.weixin.qq.com/s/IXvS5gNCoC4EXbNunYW3pA" class="name" target="_blank" title="WeChat">CPU iDEC<img src="link.png" width="15" height="15" style="padding-left: 0.5vh" alt=""/></a></div>
+	
+			<p>We used the Chinese social networking app WeChat to showcase our project.</p>
 		</ul>
-			<div class="head"></div>
-			
-		<div class="head">
-			</div>
-		
-		
-		<div class="title2" style="position:absolute;z-index:-99">
-		<div class="head"></div>Sponsors</div>
-		<img src="组件 3 – 1.png" width="975" height="975" alt="" style="position:absolute; z-index:-30" />
-		<div class="head"></div>
-		<div class="head_max">
-			</div>
-		<div class="imgdiv2">
-			<ul>
-				<li><img src="sponsorship1-Holmes.png" width="216.72" height="172.62" alt="" /></li>
-				<li><img src="sponsorship2-Beijing.jpg" width="180" height="180" alt=""/></li>	
-				<li><img src="sponsorship3-NC.jpg" width="239.76" height="144.96" alt=""/></li>
-				</ul>
-			</div>
-		<div class="imgdiv">
-			<figure><img src="矩形 21-粉底.png" width="306" height="520" alt=""  /></figure>
-			<figure><img src="矩形 21-粉底.png" width="306" height="520" alt=""  /></figure>
-			<figure><img src="矩形 21-粉底.png" width="306" height="520" alt=""  /></figure>
-			</div>
-		<ul class="business">
-			<li>Holmes Biotech, China</li>
-			<li>BEIJING SUPER CLOUD<br /> COMPUTER CENTER</li>
-			<li>NEW CHANNEL</li>
-			</ul>
-		
-		
-		<div class="discription">Thanks to the technical support from <a href="http://www.holmesbio.com/" target="_blank">Holmes Biotech, China</a>, an excellent Chinese IVD raw material R&D manufacturer, specializing in the development and production of high-quality antigens, antibodies, microspheres and other immune raw materials.
-			</div>
-		<div class="discription2">Thanks for the platform sponsorship provided by <a href="http://www.blsc.cn/" target="_blank"><strong>BEIJING SUPER CLOUD COMPUTER CENTER</strong></a>, which helps our team(CPU_CHINA) build artificial intelligence, so that we can conduct relevant experiments smoothly. Our team wishes your company all the best for future development!
-			</div>
-		<div class="discription3">Thanks to <a href="https://www.xhd.cn/home/"><strong>NEW CHANNEL</strong></a> for providing financial support to our team. Our team wishes your company all the best for future development!
-			</div>
-		
-		<div class="head">
-			</div>
-		</body>
+	</div>
 	
+	<div id="bbb">
+		<h1>Sponsors</h1>
+	</div>
 	
-	<footer>
-		<div class="head3">
-			</div>
-		
-		<div class="foot">
-			<div class="foot-list">
-                <div class="list-first">
-					<div class="foot_top">Any ideas or comments? Feel free to contact us via <span>email</span> or social media <span>X/twitter</span>.
-				  </div>
-					<div class="bottom">
-						Copyright © 2023 CPU_CHINA <br>#639 Longmian Avenue, Nanjing, Jiangsu, China
-				  </div>
-			  </div>
-		  </div>
-	  </div>
-</footer>
-	<div class="footer"></div>
-
+	<div id="ccc">
+	</div>
+</body>
 </html>
