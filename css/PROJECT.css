@@ -90,7 +90,7 @@ h3{
 	font-size: 2rem;
 }
 p{
-	font-size:1.2vw;
+	font-size:1.8vh;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	word-break: normal;
 }
@@ -100,8 +100,9 @@ p{
 	position: fixed;
 	margin-top:10vw;
 	margin-left: 3vw;
-	font-size: 1vw;
-	font-weight: normal
+	font-size: 1.5vw;
+	font-weight: normal;
+	z-index: 999
 	
 }
 #nav{
@@ -112,7 +113,8 @@ p{
 	background-color:#083643;
 	top:0;
 	left:0;
-	right:0
+	right:0;
+	z-index: 999
 	
 }
 #myBtn {
@@ -137,7 +139,7 @@ p{
 }
 #aaa{
 	width:60%;
-	height:110rem;
+	height:110vw;
 	float:left;
 	margin-left:15vw;
 	margin-top:10vw;
@@ -163,17 +165,17 @@ p{
 	box-shadow: 10px 7px 10px 1px #DCD7D7 ;
 }
 #ccc{
-	width:60%;
-	height:100rem;
+	width:98%;
+	height:100vh;
 	float:left;
-	margin-left:15vw;
+	
+	
 	margin-top:5vw;
 	padding-top:10vw;
-	padding-left:5vw;
-	padding-right:5vw;
-	background-color: #FEF5F5;
-	border-radius: 5vw;
-	box-shadow: 10px 7px 10px 1px #DCD7D7 ;
+	margin-bottom: 1vw;
+	
+	
+	
 }
 #foot{
 	width:100%;
@@ -343,4 +345,43 @@ p{
 }
 .website:visited{
 	color:#9FA939
+}
+.shell{
+	height:100vh;
+	overflow-x:hidden;
+	perspective:3px;
+}
+.shell div{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	font-style: 30px;
+	letter-spacing: 2px;
+}
+.image{
+	transform: translateZ(-1px) scale(1.6);
+	background-size: cover;
+	height: 100vw;
+	z-index: -1;
+	width:90%
+		
+}
+.text{
+	height:auto;
+	background-color:#FEF5F5;
+	width:80vw;
+	margin-left:10vw;
+	padding:2vw;
+	border-radius:2vw
+}
+.text h2{
+	color:black
+}
+.heading{
+	z-index:-1;
+	transform:translateY(-30vh) translateZ(1px);
+	color:rgba(8,54,67,1);
+	font-size:2vw;
+	
+	
 }
