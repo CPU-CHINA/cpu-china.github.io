@@ -10,6 +10,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 	}
@@ -17,6 +19,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -24,6 +28,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -31,6 +37,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -38,6 +46,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -45,6 +55,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -52,6 +64,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -59,6 +73,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -66,6 +82,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -73,6 +91,8 @@ a{
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
@@ -94,6 +114,26 @@ p{
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	word-break: normal;
 }
+#myBtn {
+			position: fixed;
+			bottom: 8vw;
+			right: 6vw;
+			z-index: 99;
+			border: none;
+			cursor: pointer;
+			inline-height:0;
+			font-size:0;
+			width:7.5rem;
+			height:7.5rem;
+			background-color:rgba(0,0,0,0.00);
+			background-image: url(../images/组件 1 – 4.png");
+			opacity: 0.6;
+			background-repeat: no-repeat;
+			}
+#myBtn:hover {
+	filter:drop-shadow(4px 4px 4px rgba(12,0,0,0.2));
+	opacity: 1
+}
 #nav{
 	position: fixed;
 	width:100%;
@@ -105,9 +145,19 @@ p{
 	right:0
 	
 }
+/*侧边导航栏*/
+#float{
+	height:20vw;
+	position: fixed;
+	margin-top:10vw;
+	margin-left: 3vw;
+	font-size: 1vw;
+	font-weight: normal
+	
+}
 #aaa{
 	width:60%;
-	height:340rem;
+	height:122rem;
 	float:left;
 	margin-left:15vw;
 	margin-top:10vw;
@@ -119,13 +169,39 @@ p{
 	box-shadow: 10px 7px 10px 1px #DCD7D7;
 	
 }
-#bbb{
+#eee{
 	width:60%;
-	height:155rem;
+	height:70rem;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
-	padding-top:10vw;
+	padding-top:5vw;
+	padding-left:5vw;
+	padding-right:5vw;
+	background-color: #FEF5F5;
+	border-radius: 5vw;
+	box-shadow: 10px 7px 10px 1px #DCD7D7 ;
+}
+#ddd{
+	width:60%;
+	height:85rem;
+	float:left;
+	margin-left:15vw;
+	margin-top:5vw;
+	padding-top:5vw;
+	padding-left:5vw;
+	padding-right:5vw;
+	background-color: #FEF5F5;
+	border-radius: 5vw;
+	box-shadow: 10px 7px 10px 1px #DCD7D7 ;
+}
+#bbb{
+	width:60%;
+	height:560rem;
+	float:left;
+	margin-left:15vw;
+	margin-top:5vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
 	background-color: #FEF5F5;
@@ -134,11 +210,11 @@ p{
 }
 #ccc{
 	width:60%;
-	height:100rem;
+	height:90rem;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
 	background-color: #FEF5F5;
@@ -304,4 +380,76 @@ p{
 	border: 2px solid #0E5468;
 	border-radius: 1.6vw;
 	color:#53831F
+}
+/*照片和简介*/
+.members_title{
+			width:10%;
+			padding-left:1.5vw;
+			align-content:right;
+			font-size:45vw;
+			font-weight: bold;
+			color:rgba(184,236,215,1);
+			filter:drop-shadow(2px 4px 2px rgba(112,112,255,0.50));
+			
+			
+		}
+		.members_div {
+			
+			padding-left:1.5vw;
+			
+			padding-top:3vw;
+			font-weight:bold;
+			color:rgba(8,54,67,1);
+			font-size:2.4vw;
+			
+		}
+		
+		.members_si{
+			padding-left:1.5vw;
+			font-family: Calibri;
+			color:rgba(112,112,112,1);
+			font-size: 1.2vw;
+			word-break: normal;
+			width:40vw
+			
+			}
+.members_si1{
+			padding-left:1.5vw;
+			font-family: Calibri;
+			color:rgba(57,187,159,1.00);
+	font-size: 1.2vw
+			}
+		.members_si1:hover{
+			text-decoration: underline;
+			color:rgba(8,54,67,0.8)
+		}
+		.photos{
+			padding-left:1.5vw;
+			padding-right:2vw;
+			
+		}
+		.photos_dp{
+			list-style: none;
+			float:left;
+			width:62rem;
+			display:inline-block;
+			word-break:normal;
+			
+		}
+		.members_name{
+			padding-left:1.5vw;
+			font-weight:bold;
+			font-size:20px
+			
+		}
+.website{
+	text-decoration: none;
+	color:#476C5E
+}
+.website:hover{
+	text-decoration: underline;
+	color:#9FA939
+}
+.website:visited{
+	color:#9FA939
 }
