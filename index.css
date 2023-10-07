@@ -150,6 +150,15 @@ p{
 }
 /*侧边导航栏*/
 
+#float{
+	height:20vw;
+	position: fixed;
+	margin-top:10vw;
+	margin-left: 3vw;
+	font-size: 1.5vw;
+	font-weight: normal
+	
+}
 #aaa{
 	width:60%;
 	height:120rem;
@@ -223,7 +232,7 @@ p{
 	background:linear-gradient(#fff,rgba(184,236,215,0.9),rgba(8,54,67,0.5));
 	margin-top:8vw;
 	float:left;
-	margin-bottom:0
+	bottom:0
 	
 }
 /*导航栏*/
@@ -428,4 +437,15 @@ p{
 .pichange img:last-child{
 	display: none;
 	border:2px solid rgba(255,255,255,0);			
+}
+.website{
+	text-decoration: none;
+	color:#476C5E
+}
+.website:hover{
+	text-decoration: underline;
+	color:#9FA939
+}
+.website:visited{
+	color:#9FA939
 }
