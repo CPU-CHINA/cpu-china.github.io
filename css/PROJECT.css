@@ -2,9 +2,12 @@
 /* CSS Document */
 html,body{
 	font-size:10px;
-	overflow-x:hidden;
 	width:100%;
 	display: grid;
+}
+body{
+	min-width: 1200px;
+	overflow: scroll
 }
 a{
 	text-decoration: none
@@ -96,8 +99,9 @@ p{
 	font-size:1.8rem;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	word-break: normal;
-	
 }
+	
+
 /*侧边导航栏*/
 #float{
 	height:20vw;
@@ -106,7 +110,8 @@ p{
 	margin-left: 3vw;
 	font-size: 1.5vw;
 	font-weight: normal;
-	z-index: 999
+	z-index: 999;
+	width:10vw
 	
 }
 #nav{
@@ -142,7 +147,7 @@ p{
 }
 #aaa{
 	width:60%;
-	height:110vw;
+	height:1500px;
 	float:left;
 	margin-left:15vw;
 	margin-top:10vw;
@@ -154,9 +159,10 @@ p{
 	box-shadow: 10px 7px 10px 1px #DCD7D7;
 	
 }
+
 #bbb{
 	width:60%;
-	height:155rem;
+	height:8500px;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;

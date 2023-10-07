@@ -2,9 +2,12 @@
 /* CSS Document */
 html,body{
 	font-size:10px;
-	overflow-x:hidden;
 	width:100%;
 	display: grid;
+}
+body{
+	min-width: 1200px;
+	overflow: scroll
 }
 a{
 	text-decoration: none
@@ -472,7 +475,7 @@ p{
 			padding-left:1.5vw;
 			font-family: Calibri;
 			color:rgba(112,112,112,1);
-			font-size: 1.2vw;
+			font-size: 18px;
 			word-break: normal;
 			width:40vw
 			
@@ -481,7 +484,7 @@ p{
 			padding-left:1.5vw;
 			font-family: Calibri;
 			color:rgba(57,187,159,1.00);
-	font-size: 1.2vw
+	font-size: 18px
 			}
 		.members_si1:hover{
 			text-decoration: underline;
