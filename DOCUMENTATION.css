@@ -194,7 +194,7 @@ a{
 	width:100%;
 	height:4.5vw;
 	float:left;
-	background-color:#083643;
+	background:linear-gradient(rgba(8,54,67,1),rgba(184,236,215,1));
 	top:0;
 	left:0;
 	right:0
@@ -259,37 +259,45 @@ a{
 	float:left;
 	
 }
-/*顶部导航栏*/
+/*导航栏*/
 .function:link,.function:visited {
 			display:inline-block;
-		    width:15vw;
+		    width:16vw;
 			font-family: Bronova;
 			font-weight:bold;
 			font-size: 1.2vw;
 			color: rgba(184,236,215,1);
 			background-color:rgba(8,54,67,1);
+	
 			text-align:center;
-			padding:1rem;
+			padding:0.1vw;
 			text-decoration:none;
 			text-transform:uppercase;
 			border:2px solid rgba(255,255,255,0);
-			border-radius: 1rem
+			border-radius: 2.6vw;
+	height:2vw;
+	padding-bottom:1.5vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.2vw;
 		}
 		.function:hover,.function:active {
 			text-decoration: underline;
-			border-radius: 1rem;
-			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
+			border-radius: 2.6vw;
+			filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.80));
+			border:2px solid rgba(184,236,215,1);
 			}
 
 .items {
     width:100%;
-	margin-left: 10vw;
-	height: 5vw;
-	float: left
+	left:0;
+	top:0;
+	height: 0;
+	float: left;
+	background: rgba(8,54,67,1);
 }
 
 .menu{
-    width: 15vw;
+    width: 20vw;
     height: 4vw;
     background: rgba(8,54,67,1);
     line-height: 3.5vw;
@@ -300,14 +308,15 @@ a{
 	z-index: 99;
 	float: left;
 	margin-left:20vw;
-	border-radius: 1rem
+	border-radius: 1rem;
+	
 	
 }
 .menu:hover{
     overflow:visible;
-	width:15vw;
+	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
 }
 .menu1{
@@ -325,15 +334,17 @@ a{
 	z-index: 99;
 	float: left;
 	margin-left:36vw;
-	border-radius: 1vw
+	border-radius: 1vw;
+	
 	
 }
 .menu1:hover{
     overflow:visible;
 	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
+	
 }
 .menu2{
     width: 20vw;
@@ -357,7 +368,7 @@ a{
     overflow:visible;
 	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
 }
 .menu3{
@@ -369,12 +380,12 @@ a{
     position:fixed;
 	top:0;
     overflow:hidden;
-	font-family: Bronova;
+	font-family:Bronova;
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
 	float: left;
-	margin-left:68vw;
+	margin-left:66vw;
 	border-radius: 1vw
 	
 }
@@ -382,7 +393,7 @@ a{
     overflow:visible;
 	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
 }
 .drop{
@@ -395,7 +406,7 @@ a{
     overflow: hidden;
 	font-weight:normal;
 	margin-left:2.2vw;
-	font-weight:bold;
+	font-weight: bold;
 	font-size:1vw;
 	color:rgba(8,54,67,1);
 	border:2px solid rgba(255,255,255,0);
