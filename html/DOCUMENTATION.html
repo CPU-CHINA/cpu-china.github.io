@@ -1,7 +1,8 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="applicable-device" content="mobile"><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>DOCUMENTATION</title>
 	<link rel="icon" href="../images/icon.png" size="16×16">
 <link href="../css/DOCUMENTATION.css" rel="stylesheet" type="text/css">
@@ -85,19 +86,19 @@ function topFunction() {
         We recommend conda to construct an environment <em>(may need to install some packages which were provided by others)</em></p>
 		<textarea id="copy" class="codes" readonly>conda env create -f freeze.yml -n RetKcat
 conda activate RetKcat</textarea>
-        <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="images/复制 (2).png" alt=""/><img src="images/复制 (3).png" alt=""/></div></button>
+        <button onClick="copy();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
 		
 		<p>or try pip</p>
 	    <textarea id="copy1" class="codes" readonly>pip install -r requirements.txt</textarea>
-        <button onClick="copy1();" value="Copy"><div class="pichange" title="Copy"><img src="images/复制 (2).png" alt=""/><img src="images/复制 (3).png" alt=""/></div></button>
+        <button onClick="copy1();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
 	    
 		<p>try to download the code with git or zip</p>
 	    <textarea id="copy2" class="codes" readonly>git clone https://github.com/CPU-CHINA/RetKcat.git</textarea>
-		<button onClick="copy2();" value="Copy"><div class="pichange" title="Copy"><img src="images/复制 (2).png" alt=""/><img src="images/复制 (3).png" alt=""/></div></button>
+		<button onClick="copy2();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
 		
 		<p>and run the code in the folder <strong>RetKcat</strong>,</p>
 	    <textarea id="copy3" class="codes" readonly>cd RetKcat</textarea>
-		<button onClick="copy3();" value="Copy"><div class="pichange" title="Copy"><img src="images/复制 (2).png" alt=""/><img src="images/复制 (3).png" alt=""/></div></button>
+		<button onClick="copy3();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
 		
 		<p>put any sample you want to predict in the <strong>RetKcat/input.json</strong> and allow the format below</p>
 	    <textarea id="copy4" class="codes" readonly>    {   
@@ -106,7 +107,7 @@ conda activate RetKcat</textarea>
         "Sequence": "MMKMEVVFVFLMLLGTINCQKLILTGRPFLHHQGIINQVSTVTKVIHHELEVAASADDIWTVYSWPGLAKHLPDLLPGAFEKLEIIGDGGVGTILDMTFVPGEFPHEYKEKFILVDNEHRLKKVQMIEGGYLDLGVTYYMDTIHVVPTGKDSCVIKSSTEYHVKPEFVKIVEPLITTGPLAAMADAISKLVLEHKSKSNSDEIEAAIITV",
         "Value": 21.35
     }</textarea>
-	    <button onClick="copy4();" value="Copy"><div class="pichange" title="Copy"><img src="images/复制 (2).png" alt=""/><img src="images/复制 (3).png" alt=""/></div></button>
+	    <button onClick="copy4();" value="Copy"><div class="pichange" title="Copy"><img src="../images/复制 (2).png" alt=""/><img src="../images/复制 (3).png" alt=""/></div></button>
 	    
 		<p>and run <strong>predict.py</strong>, out file will appear in the current folder, a temporary file input. pkl will be created and then removed after predicting.</p>
 		<br />
@@ -139,7 +140,7 @@ conda activate RetKcat</textarea>
 	<h1>Protocols</h1>
 	<br />
 		<h2>Supplementary Information</h2>
-		<p style="text-align: right"><a href="../SI.pdf" target="_blank" class="SI">Open in a new page<img src="images/文件.png" width="20" height="20" alt=""/></a></p>
+		<p style="text-align: right"><a href="../SI.pdf" target="_blank" class="SI" >Open in a new page<img src="../images/文件.png" width="20" height="20" alt=""/></a></p>
 	  <p><embed type="application/pdf" src="../SI.pdf" style="width:100%;height: 50vw"></p>
 	  <br />
 		<h2>References</h2>

@@ -1,7 +1,8 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="applicable-device" content="mobile"><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>PROJECT</title>
 	<link rel="icon" href="../images/icon.png" size="16×16">
 <link href="../css/PROJECT.css" rel="stylesheet" type="text/css">
@@ -35,13 +36,18 @@ function topFunction() {
 		
 		<p style="font-size:1.2rem"><a href="#aaa" class="website">Introduction</a></p>
 		<p style="font-size:1.2rem"><a href="#bbb" class="website">Results</a></p>
-		<p style="font-size:1.2rem"><a href="#ccc" class="website">Timeline</a></p>
-		
-		
+		<p style="font-size:1.2rem"><a href="#ddd" class="website"><i> Dry Lab</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t1" class="website"><i>· Discovery of Potentially Significant Mutation Sites for Improving Activity</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t2" class="website"><i>· Phylogenetic Analysis of Norcoclaurine Synthase</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t3" class="website"><i>· Reaction Mechanism</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t4" class="website"><i>· RetKcat: A Novel Neural Network for Kcat Prediction</i></a></p>
+		<p style="font-size:1.2rem"><a href="#www" class="website"><i> Wet Lab</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t5" class="website"><i>· Phylogenetic Analysis of Norcoclaurine Synthase</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t6" class="website"><i>· NCS Reaction</i></a></p>
+		<p style="font-size:0.8rem"><a href="#t7" class="website"><i>· Reaction Mechanism</i></a></p>
 	</div>
 		<div id="nav">
 		<img src="../images/队伍logo.png" alt="" style="width:7.025vw;height:3.325vw;margin-right:10rem;margin-left:5rem;margin-top:0.6vw"/>
-		
 		<div class="items">
         <div class="menu">
 		<a href="../index.html" class="function">HOME</a>
@@ -78,92 +84,56 @@ function topFunction() {
 		<p>Biocatalysts, particularly proteases, offer numerous advantages over traditional organic and transition metal catalysts. They are eco-friendly, using non-toxic reactants and producing green byproducts. However, they also have limitations such as narrow substrate adaptability, complex control conditions, and challenges in obtaining pure proteins. To address these limitations, several advanced methodologies for enzyme redesign have emerged. These include directed evolution, semi-rational design, rational design, and machine learning-based design. Among these, machine learning and rational enzyme design have gained prominence due to increased computational power and mature theories. Biocatalysts have become more accessible and cost-effective in industries like chemistry and pharmaceuticals, playing a significant role in innovative applications.</p>
 		<p>Norcoclaurine synthase (NCS), originally isolated from Thalictrum flavum, plays a crucial role in the Pictet-Spengler reaction, facilitating the synthesis of (S)-norcoclaurine by condensing dopamine and 2-BPA. NCS also demonstrates catalytic efficiency in handling structurally similar compounds within the Tetrahydroisoquinoline (THIQs) family. These THIQs exhibit various therapeutic properties, including anti-tumor, anti-bacterial, and anti-coagulant effects. However, extracting THIQs from plants results in impurities and limited quantities. Chemical synthesis, on the other hand, involves complex steps, toxic reagents, and environmental concerns. NCS offers a preferable alternative as a catalyst, addressing these issues and finding success in various THIQs synthesis studies.</p>
 		<p>NCS holds significant promise for industrial applications, leading to numerous attempts at enzyme modification. These efforts aim to harness its potential for large-scale production. Examples include creatively utilizing NCS to construct THIQs with spiral ring structures, introducing functional groups at the alpha position of the carbonyl group for pharmaceutical precursor synthesis, and exploring the introduction of heterocyclic and alkyl-rings into substrates. However, certain substrates, like heterocyclic compounds and bulky substrates, show limited reactivity in catalytic reactions. Additionally, determining the precise catalytic mechanism is crucial for structure-guided design, but despite several proposed mechanisms through structural analysis or molecular simulation, uncertainty remains due to a lack of experimental validation. Recently, machine learning methods have shown promise in predicting Kcat values and warrant further exploration.</p>
-        <p>This study identified key mutation sites with significant effects, offering insights for the rational design of NCS. Furthermore, we proposed a novel catalytic mechanism for NCS in the conversion of dopamine and 2-BPA, supported by molecular simulations and experimental data. Additionally, we introduced a new deep learning model, RetKcat, for precise prediction of the enzyme's turnover number (Kcat).</p>
+		<br />
+		<img src="../images/i1.png" width="529" height="346" alt="" style="margin-left:170px"/>
+		<p><strong>Figure 1.</strong>Using computational chemistry and artificial intelligence to design NCS.</p>
+<p>This study identified key mutation sites with significant effects, offering insights for the rational design of NCS. Furthermore, we proposed a novel catalytic mechanism for NCS in the conversion of dopamine and 2-BPA, supported by molecular simulations and experimental data. Additionally, we introduced a new deep learning model, RetKcat, for precise prediction of the enzyme's turnover number (Kcat).</p>
 	</div>
 	
 	<div id="bbb">
 		<h1>Results</h1>
+		<h2 id="ddd">Dry Lab</h2>
+	  <h3 id="t1">Discovery of Potentially Significant Mutation Sites for Improving Activity</h3>
+    <img src="../images/r1.png" width="768" height="383.5" alt="" style="margin-left:50px"/>
+	  <p><strong>Figure 1.</strong> Value distribution of mutation binding energies (ΔΔGmut, represented by the color scale). Values were determined by virtual saturation mutagenesis of the 62 contacting residues within 8 Å (a typical protein inter-residue contact distance) of the unfavorable binding conformation of E:S in the binding pocket of the enzyme.</p>
+    <img src="../images/r2.png" width="571" height="346" alt="" style="margin-left:150px"/>
+	<p><strong>Figure 2.</strong> Evolutionary conservation analysis of the 62 contacting residues colored by the conservation score. </p>
+    <img src="../images/r3.png" width="504.5" height="145.5" alt="" style="margin-left:170px"/>
+	<p><strong>Figure 3.</strong> The four residue that had the strongest interaction with dopamine, 2-BPA, and the product, respectively, were calculated by MMPBSA.</p>
+    <img src="../images/r4.png" width="533" height="229" alt="" style="margin-left:160px"/>
+	<p><strong>Figure 4.</strong> Statistical distribution of the 62 contacting residues according to Gmut and FDR values compared with the wild-type using the one-sample t-test, followed by Benjamini−Hochberg correction. FDR < 0.5, and conservation score <7.</p>
+	  <h3 id="t2">Phylogenetic Analysis of Norcoclaurine Synthase</h3>
+	  <img src="../images/r5.jpg" width="800" height="287" alt="" style="margin-left:40px"/>
+<p><strong>Figure 5.</strong> The phylogenetic tree of the representative NCS homologous protein from NCBI databases using the neighbor-joining method with the replicates of 1000 times. </p>
+	  <h3 id="t3">Reaction Mechanism</h3>
+    <img src="../images/r6.jpg" width="762.8" height="432" alt="" style="margin-left:60px"/>
+	<p><strong>Figure 6.</strong> The simplified diagram of the NCS catalytic mechanism is shown below. We have omitted the transition state of proton transfer and only performed quantum chemical calculations on other key transition states. The two different paths introduced at IM6 represent two different transitions (red for σ-intermediate, blue for benzoquinone-like intermediate). We have calculated and analyzed the entire process of the mechanism and analyzed the selectivity of the two transition states.</p>
+	<img src="../images/r7.png" width="730" height="602" alt="" style="margin-left:70px"/>
+	<p><strong>Figure 7.</strong> Reaction mechanism flowchart.</p>
+	<img src="../images/r8.png" width="575" height="426" alt="" style="margin-left:150px"/>
+	<p><strong>Figure 8.</strong> Comparison of Fukui function and dual descriptor for nucleophilicity prediction of two sites. </p>
+	<img src="../images/r9.png" width="533" height="426" alt="" style="margin-left:170px"/>
+	<p><strong>Figure 9.</strong> Pearson Correlation with time for pairwise distance. Pearson Correlation with time for the distance change between each residue pair when water left the pocket, and found which residues underwent significant displacement, leading to a entropy or enthalpy effects</p>
+	<h3 id="t4">RetKcat: A Novel Neural Network for Kcat Prediction</h3>
+	<img src="../images/r10.jpg" width="540" height="987.5" alt="" style="margin-left:170px"/>
+<p><strong>Figure 10.</strong> RetKcat schematic diagram. RetKcat is composed of two parts, GCN is used to read molecular information, and RetNet is used to read protein information.</p>
+	<img src="../images/r11.png" width="430" height="326.5" alt="" style="margin-left:220px"/>
+<p><strong>Figure 11.</strong> RetKcat learning performance analysis. The trained model is tested on the training set, and R-square is used to measure the model.</p>
+<img src="../images/r12.png" width="320" height="320" alt="" style="margin-left:280px"/>
+	<p><strong>Figure 12.</strong> NCS samples prediction test. On the test set derived from the experiment, by comparing RetKcat with the currently better DLKcat. </p>
+	<br>
+	<h2 id="www">Wet Lab</h2>
+	<h3 id="t5">Phylogenetic Analysis of Norcoclaurine Synthase</h3>
+	<img src="../images/wr1.png" width="684" height="365" alt="" style="margin-left:100px"/>
+	<p><strong>Figure 1.</strong> Saturated mutant plasmids of Δ33TfNCS in 1% Agarose gel.</p>
+    <h3 id="t6">NCS Reaction</h3>
+    <img src="../images/wr2.png" width="786.5" height="784" alt="" style="margin-left:40px"/>
+	<p><strong>Figure 2.</strong> Reaction conditions with NCS: dopamine·HCl (10 mM), aldehyde(20 mM), sodium ascorbate (5 mM),Δ33TfNCS (0.2 mg mL−1) in HEPES buffer (100 mM, pH 7.5) with MeCN (10% v/v) at 37 °C,250 μL scale reactions. Yields were determined by monitoring product formation against standards (by GC) unless otherwise indicated. All the reactions use Δ33TfNCS, only 1a' uses Δ33TfNCS-E110A</p>
+	<h3 id="t7">Reaction Mechanism</h3>
+	<img src="../images/wr3.png" width="600" height="300" alt="" style="margin-left:150px"/>
+	<p><strong>Figure 3.</strong> Specific mutants were cultured to verify the correctness of our proposed mechanism</p>
 	</div>
-	
-	<div id="ccc">
-		<h1 style="margin-left:20vw">Timeline</h1>
-		<div class="shell">
-			
-			
-			
-			<div class="text">
-				<h2>2023.01</h2>
-				<br />
-				
-				<p><strong>Team Establishment</strong><br />Our team is now established, and we have members responsible for various roles, including wet lab, dry lab, wiki design, and human practices. Each member is dedicated to their respective tasks, and we have also added two students to our team to facilitate their learning and development as core team members for the next year. Additionally, we have two former team leaders serving as advisors, two graduate students as mentors, and two principal investigators as super advisors.</p>
-			</div>
-		<div class="image" style="background-image:url(../images/n1.png)"></div>
-		
-		<div  class="heading">
-			<h2>2023.02</h2>
-		</div>
-			<div class="text">
-				<p><strong>Spirits and Skills</strong><br />We have designed our team emblem, which represents our team and gives us our unique identity. Currently, we are providing research training to our team members to enhance their scientific skills and knowledge.</p>
-			</div>
-			<div class="image" style="background-image: url(../images/队伍logo.png)"></div>
-		
-		<div id="3" class="heading">
-			<h2>2023.03</h2>
-			</div>
-			<div class="text">
-				<p><strong>Search for Sponsorship</strong><br />We have visited no fewer than fifty companies, and in the end, three companies have expressed their willingness to provide direct or indirect financial support for our project. These companies are Beijing Super Cloud Computational Center, Holmes, and New Channel.</p>
-			</div>
-	    <div class="image" style="background-image: url(../images/n3.png)"></div>
-		
-		<div class="heading">
-			<h2>2023.04</h2>
-			</div>
-			<div class="text">
-				<p><strong>Plasmid Construction</strong><br />After collaborating with Holmes, the company established a dedicated team to construct the wildtype plasmid required for our project. Finally, we received their plasmid at the end of April.</p>
-			</div>
-	    <div class="image" style="background-image: url(../images/n2.png)"></div>
-	    
-		<div class="heading">
-			<h2>2023.05</h2>
-			</div>
-			<div class="text">
-				<p><strong>Wet Lab Advancement</strong><br />Based on the plasmid provided by them, we conducted cell experiments and successfully amplified the target plasmid's expression. Subsequently, we also established the conditions necessary for protein purification and expression. With this progress, our biological experimentation phase is officially underway.</p>
-			</div>
-	    <div class="image" style="background-image: url(../images/n5.jpg)"></div>
-	    
-		<div class="heading">
-			<h2>2023.06</h2>
-			</div>
-			<div class="text">
-				<p><strong>AI Prediction</strong><br />We conducted various tests on our AI model for predicting Kcat, including traditional and classical methods such as Bayesian, SVM, as well as some simple CNNs. At this stage, our ideas are still not very mature, and there is relatively limited research work in this area. However, we would like to be pioneers in this field.</p>
-			</div>
-	    <div class="image" style="background-image: url(../images/n6.png)"></div>
-        
-		<div class="heading">
-			<h2>2023.07</h2>
-			</div>
-			<div class="text">
-				<p><strong>Model Helps</strong><br />The catalytic mechanism of NCS enzymes is uncertain, and to fill this research gap, we utilized a cluster model. This technique, assisted by quantum chemical simulations, enabled us to calculate the energy barriers for the entire NCS catalysis process. This endeavor was unprecedentedly time-consuming, taking almost half a year to complete. However, the achievements it yielded are truly remarkable.</p>
-			</div>
-	    <div class="image" style="background-image: url(../images/n7.jpg)"></div>
-        
-		<div class="heading">
-			<h2>2023.08</h2>
-			</div>
-			<div class="text">
-				<p><strong>Dry Lab Achievement</strong><br />Inspired by the research paper "A Successor to Transformer for Large Language Models" published by Microsoft Research Asia on August 17th, we found a ray of hope amidst the fog of AI. We immediately decided to adopt the Rententive Network as our model framework to test whether this novel model can indeed surpass traditional Transformers, as suggested in the paper. Fortunately, we succeeded!</p>
-			</div>
-	    <div class="image" style="background-image: url(../images/n8.jpg)"></div>
-        
-		<div class="heading">
-			<h2>2023.09</h2>
-			</div>
-			<div class="text">
-				<p><strong>Integration</strong><br />Our catalytic reaction has also yielded promising results. Although the efficiency of the catalysis is currently low, we believe that in the near future, with improvements to our experimental conditions, we will achieve even better results. As you can see, we began preparing our paper and wiki in September.</p>
-			</div>
-			<div class="image" style="background-image: url(../images/n9.jpg)"></div>
-	</div>
-	</div>
+
 <div id="foot">
 	<div class="wrapper">
 		<div class="button1">
