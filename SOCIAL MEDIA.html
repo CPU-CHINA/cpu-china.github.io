@@ -3,12 +3,32 @@
 <head>
 <meta charset="utf-8">
 <title>SOCIAL MEDIA</title>
-<link href="SOCIAL MEDIA.css" rel="stylesheet" type="text/css">
-<link href="SOCIAL MEDIA.js" rel="stylesheet" type="text/css">
+<link href="../CSS/SOCIAL MEDIA.css" rel="stylesheet" type="text/css">
+<link href="../js/SOCIAL MEDIA.js" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	
+	<div id="top">
+	<button onclick="topFunction()" id="myBtn" title="Back to top"></button>
+<script>
+// 当网页向下滑动 20px 出现"返回顶部" 按钮
+window.onscroll = function() {scrollFunction()};
+ 
+function scrollFunction() {console.log(121);
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+ 
+// 点击按钮，返回顶部
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+	</div>
 	<div id="nav">
 	<img src="../images/队伍logo.png" alt="" style="width:7.025vw;height:3.325vw;margin-right:10rem;margin-left:5rem;margin-top:0.6vw"/>
 		
@@ -35,7 +55,7 @@
 		</div>
 		<div class="items">
 			<div class="menu3">
-			<span><a href="DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
+			<span><a href="../DOCUMENTATION.html" class="function">DOCUMENTATION</a></span>
                 <div class="drop"><a href="DOCUMENTATION.html">Models</a></div>
                 <div class="drop"><a href="DOCUMENTATION.html">Protocols</a></div>
                 <div class="drop">Webinar China</div>
