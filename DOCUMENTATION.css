@@ -172,7 +172,7 @@ a{
 			position: fixed;
 			bottom: 8vw;
 			right: 4vw;
-			z-index: 9;
+			z-index: 99;
 			border: none;
 			cursor: pointer;
 			inline-height:0;
@@ -212,7 +212,7 @@ a{
 }
 /*各个栅格*/
 #aaa{
-	width:59%;
+	width:60%;
 	height:345rem;
 	float:left;
 	margin-left:15vw;
@@ -226,7 +226,7 @@ a{
 	
 }
 #bbb{
-	width:59%;
+	width:60%;
 	height:230rem;
 	float:left;
 	margin-left:15vw;
