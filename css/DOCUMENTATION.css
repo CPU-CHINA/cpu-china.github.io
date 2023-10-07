@@ -19,7 +19,11 @@
 
 html,body{
 	font-size:10px;
-	overflow-x:hidden
+	overflow-x:hidden;
+	width:100%;
+	
+	display: grid;
+	
 }
 
 @media(max-width:600px){
@@ -171,8 +175,8 @@ a{
 #myBtn {
 			position: fixed;
 			bottom: 8vw;
-			right: 6vw;
-			z-index: 9;
+			right: 4vw;
+			z-index: 99;
 			border: none;
 			cursor: pointer;
 			inline-height:0;
@@ -194,7 +198,7 @@ a{
 	width:100%;
 	height:4.5vw;
 	float:left;
-	background-color:#083643;
+	background:linear-gradient(rgba(8,54,67,1),rgba(184,236,215,1));
 	top:0;
 	left:0;
 	right:0
@@ -212,7 +216,7 @@ a{
 }
 /*各个栅格*/
 #aaa{
-	width:59%;
+	width:60%;
 	height:345rem;
 	float:left;
 	margin-left:15vw;
@@ -226,7 +230,7 @@ a{
 	
 }
 #bbb{
-	width:59%;
+	width:60%;
 	height:230rem;
 	float:left;
 	margin-left:15vw;
@@ -251,45 +255,101 @@ a{
 	border-radius: 5vw;
 	box-shadow: 10px 7px 10px 1px #DCD7D7 ;
 }
+/*底部按钮和页尾*/
 #foot{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+}
+.wrapper{
+	margin-left: 14vw;
+	margin-top:5vw
+}
+.icon{
 	width:100%;
-	height:12vw;
-	background-color:#083643;
-	margin-top:5vw;
-	float:left;
+	height:4vw;
+	display: grid;
+	place-items:center;
+	background:linear-gradient(315deg，#fff 0%,#d7e1ec 74%)；
+}
+.wrapper .button1{
+	height:4vw;
+	width:4vw;
+	float: left;
+	margin:0 1vw;
+	background:#fff;
+	border-radius: 3vw;
+	overflow: hidden;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	transition: all 0.3s ease-in-out;
+}
+.wrapper .button1:hover{
+	width:12vw;
+}
+.wrapper .button1 .icon{
+	display: inline-block;
+	text-align: center;
+	border-radius: 3vw;
+	width:4vw;
+	height:4vw;
+	margin-top:1vw;
+	margin-left:1vw
 	
 }
-/*顶部导航栏*/
+.wrapper .button1 .icon img{
+	float: left;
+	line-height:4vw
+}
+.wrapper .button1 span{
+	font-size: 1.2vw;
+	font-weight: 500;
+	line-height: 0.2vw;
+	margin-left: 4vw;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	float: left;
+	margin-top: -1vw;
+	height:4vw
+}
+/*导航栏*/
 .function:link,.function:visited {
 			display:inline-block;
-		    width:15vw;
+		    width:16vw;
 			font-family: Bronova;
 			font-weight:bold;
 			font-size: 1.2vw;
 			color: rgba(184,236,215,1);
 			background-color:rgba(8,54,67,1);
+	
 			text-align:center;
-			padding:1rem;
+			padding:0.1vw;
 			text-decoration:none;
 			text-transform:uppercase;
 			border:2px solid rgba(255,255,255,0);
-			border-radius: 1rem
+			border-radius: 2.6vw;
+	height:2vw;
+	padding-bottom:1.5vw;
+	margin-top: 0.2vw;
+	margin-bottom: 0.2vw;
 		}
 		.function:hover,.function:active {
 			text-decoration: underline;
-			border-radius: 1rem;
-			filter: drop-shadow(4px 4px 4px rgba(255,255,255,0.80));
+			border-radius: 2.6vw;
+			filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.80));
+			border:2px solid rgba(184,236,215,1);
 			}
 
 .items {
     width:100%;
-	margin-left: 10vw;
-	height: 5vw;
-	float: left
+	left:0;
+	top:0;
+	height: 0;
+	float: left;
+	background: rgba(8,54,67,1);
 }
 
 .menu{
-    width: 15vw;
+    width: 20vw;
     height: 4vw;
     background: rgba(8,54,67,1);
     line-height: 3.5vw;
@@ -300,14 +360,15 @@ a{
 	z-index: 99;
 	float: left;
 	margin-left:20vw;
-	border-radius: 1rem
+	border-radius: 1rem;
+	
 	
 }
 .menu:hover{
     overflow:visible;
-	width:15vw;
+	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
 }
 .menu1{
@@ -325,15 +386,17 @@ a{
 	z-index: 99;
 	float: left;
 	margin-left:36vw;
-	border-radius: 1vw
+	border-radius: 1vw;
+	
 	
 }
 .menu1:hover{
     overflow:visible;
 	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
+	
 }
 .menu2{
     width: 20vw;
@@ -357,7 +420,7 @@ a{
     overflow:visible;
 	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
 }
 .menu3{
@@ -369,12 +432,12 @@ a{
     position:fixed;
 	top:0;
     overflow:hidden;
-	font-family: Bronova;
+	font-family:Bronova;
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
 	float: left;
-	margin-left:68vw;
+	margin-left:66vw;
 	border-radius: 1vw
 	
 }
@@ -382,7 +445,7 @@ a{
     overflow:visible;
 	width:20vw;
     color: rgba(8,54,67,1);
-    z-index:99;
+    z-index:999;
     cursor:pointer;
 }
 .drop{
@@ -395,7 +458,7 @@ a{
     overflow: hidden;
 	font-weight:normal;
 	margin-left:2.2vw;
-	font-weight:bold;
+	font-weight: bold;
 	font-size:1vw;
 	color:rgba(8,54,67,1);
 	border:2px solid rgba(255,255,255,0);
