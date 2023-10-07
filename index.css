@@ -1,7 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-html{
-	font-size:10px
+html,body{
+	font-size:10px;
+	width:100%;
+}
+body{
+	min-width: 1200px;
+	overflow: scroll
 }
 a{
 	text-decoration: none
