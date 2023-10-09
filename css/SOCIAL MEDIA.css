@@ -156,7 +156,7 @@ p{
 	float:left;
 	margin-left:15vw;
 	margin-top:10vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
 	background-color: #FEF5F5;
@@ -182,7 +182,7 @@ p{
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
 	background-color: #FEF5F5;
@@ -250,11 +250,11 @@ p{
 			display:inline-block;
 		    width:16vw;
 			font-family: Bronova;
+	        src:url("../font/Bronova Bold.ttf");
 			font-weight:bold;
 			font-size: 1.2vw;
 			color: rgba(184,236,215,1);
 			background-color:rgba(8,54,67,1);
-	
 			text-align:center;
 			padding:0.1vw;
 			text-decoration:none;
@@ -269,7 +269,9 @@ p{
 		.function:hover,.function:active {
 			text-decoration: underline;
 			border-radius: 2.6vw;
-			filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.80));
+			filter: drop-shadow(3px 3px 3px rgba(255,255,255,0.80));
+			background-color:rgba(184,236,215,0.8);
+			color:rgba(8,54,67,1);
 			border:2px solid rgba(184,236,215,1);
 			}
 
@@ -291,6 +293,8 @@ p{
     position:fixed;
 	top:0;
     overflow:hidden;
+	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	z-index: 99;
 	float: left;
 	margin-left:20vw;
@@ -315,6 +319,7 @@ p{
 	top:0;
     overflow:hidden;
 	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -342,6 +347,7 @@ p{
 	top:0;
     overflow:hidden;
 	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -366,7 +372,8 @@ p{
     position:fixed;
 	top:0;
     overflow:hidden;
-	font-family:Bronova;
+	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -390,10 +397,9 @@ p{
     height: 2.5vw;
     line-height: 2.9vw;
     overflow: hidden;
-	font-weight:normal;
-	margin-left:2.2vw;
+	margin-left:0.5vw;
 	font-weight: bold;
-	font-size:1vw;
+	font-size:1.05vw;
 	color:rgba(8,54,67,1);
 	border:2px solid rgba(255,255,255,0);
 }

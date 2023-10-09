@@ -99,6 +99,7 @@ p{
 	font-size:1.8rem;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	word-break: normal;
+	
 }
 	
 
@@ -147,38 +148,44 @@ p{
 }
 #aaa{
 	width:60%;
-	height:1500px;
+	height:180rem;
 	float:left;
 	margin-left:15vw;
 	margin-top:10vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
-	background-color: #FEF5F5;
 	border-radius: 5vw;
 	box-shadow: 10px 7px 10px 1px #DCD7D7;
-	
 }
-
+#aaa p,#bbb p{
+	background-color: #FEF5F5;
+	padding:2vw;
+	border-radius:2vw
+}
 #bbb{
 	width:60%;
-	height:8500px;
+	height:870rem;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
-	background-color: #FEF5F5;
 	border-radius: 5vw;
 	box-shadow: 10px 7px 10px 1px #DCD7D7 ;
+	display:table;
+	
+}
+#bbb img{
+	vertical-align:center
 }
 #ccc{
 	width:98%;
 	height:100vh;
 	float:left;
 	margin-top:5vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	margin-bottom: 10vw;
 }
 /*底部按钮和页尾*/
@@ -242,6 +249,7 @@ p{
 			display:inline-block;
 		    width:16vw;
 			font-family: Bronova;
+	        src:url("../font/Bronova Bold.ttf");
 			font-weight:bold;
 			font-size: 1.2vw;
 			color: rgba(184,236,215,1);
@@ -261,7 +269,9 @@ p{
 		.function:hover,.function:active {
 			text-decoration: underline;
 			border-radius: 2.6vw;
-			filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.80));
+			filter: drop-shadow(3px 3px 3px rgba(255,255,255,0.80));
+			background-color:rgba(184,236,215,0.8);
+			color:rgba(8,54,67,1);
 			border:2px solid rgba(184,236,215,1);
 			}
 
@@ -307,6 +317,7 @@ p{
 	top:0;
     overflow:hidden;
 	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -334,6 +345,7 @@ p{
 	top:0;
     overflow:hidden;
 	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -358,7 +370,8 @@ p{
     position:fixed;
 	top:0;
     overflow:hidden;
-	font-family:Bronova;
+	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -382,10 +395,9 @@ p{
     height: 2.5vw;
     line-height: 2.9vw;
     overflow: hidden;
-	font-weight:normal;
-	margin-left:2.2vw;
+	margin-left:0.5vw;
 	font-weight: bold;
-	font-size:1vw;
+	font-size:1.05vw;
 	color:rgba(8,54,67,1);
 	border:2px solid rgba(255,255,255,0);
 }

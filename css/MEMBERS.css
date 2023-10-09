@@ -4,10 +4,12 @@ html,body{
 	font-size:10px;
 	width:100%;
 	display: grid;
+	
 }
 body{
 	min-width: 1200px;
-	overflow: scroll
+	overflow:scroll
+	
 }
 a{
 	text-decoration: none
@@ -57,7 +59,7 @@ a{
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
-@media(max-width:1200px){
+@media(max-width:1280px){
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
@@ -75,7 +77,7 @@ a{
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
-@media(max-width:1400px){
+@media(max-width:1440px){
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
@@ -93,7 +95,16 @@ a{
 	#bbb{width:100vw}
 	#ccc{width:100vw}
 }
-@media(max-width:1600px){
+@media(max-width:1620px){
+	body{width:100vw;}
+	#nav{width:100vw}
+	#aaa{width:100vw}
+	#eee{width:100vw}
+	#ddd{width:100vw}
+	#bbb{width:100vw}
+	#ccc{width:100vw}
+}
+@media(max-width:1920px){
 	body{width:100vw;}
 	#nav{width:100vw}
 	#aaa{width:100vw}
@@ -116,7 +127,7 @@ h3{
 	font-size: 2rem;
 }
 p{
-	font-size:1.2vw;
+	font-size:1.2rem;
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	word-break: normal;
 }
@@ -163,11 +174,11 @@ p{
 }
 #aaa{
 	width:60%;
-	height:122rem;
+	height:1380px;
 	float:left;
 	margin-left:15vw;
 	margin-top:10vw;
-	padding-top:10vw;
+	padding-top:5vw;
 	padding-left:5vw;
 	padding-right:5vw;
 	background-color: #FEF5F5;
@@ -177,7 +188,7 @@ p{
 }
 #eee{
 	width:60%;
-	height:70rem;
+	height:77rem;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
@@ -190,7 +201,7 @@ p{
 }
 #ddd{
 	width:60%;
-	height:85rem;
+	height:886px;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
@@ -203,7 +214,7 @@ p{
 }
 #bbb{
 	width:60%;
-	height:560rem;
+	height:5520px;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
@@ -216,7 +227,7 @@ p{
 }
 #ccc{
 	width:60%;
-	height:90rem;
+	height:930px;
 	float:left;
 	margin-left:15vw;
 	margin-top:5vw;
@@ -290,6 +301,7 @@ p{
 			display:inline-block;
 		    width:16vw;
 			font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 			font-weight:bold;
 			font-size: 1.2vw;
 			color: rgba(184,236,215,1);
@@ -309,7 +321,9 @@ p{
 		.function:hover,.function:active {
 			text-decoration: underline;
 			border-radius: 2.6vw;
-			filter: drop-shadow(4px 4px 8px rgba(255,255,255,0.80));
+			filter: drop-shadow(3px 3px 3px rgba(255,255,255,0.80));
+			background-color:rgba(184,236,215,0.8);
+			color:rgba(8,54,67,1);
 			border:2px solid rgba(184,236,215,1);
 			}
 
@@ -331,6 +345,8 @@ p{
     position:fixed;
 	top:0;
     overflow:hidden;
+	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	z-index: 99;
 	float: left;
 	margin-left:20vw;
@@ -344,6 +360,7 @@ p{
     color: rgba(8,54,67,1);
     z-index:999;
     cursor:pointer;
+	
 }
 .menu1{
     width: 20vw;
@@ -355,6 +372,7 @@ p{
 	top:0;
     overflow:hidden;
 	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -371,6 +389,7 @@ p{
     z-index:999;
     cursor:pointer;
 	
+	
 }
 .menu2{
     width: 20vw;
@@ -382,6 +401,7 @@ p{
 	top:0;
     overflow:hidden;
 	font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -406,7 +426,8 @@ p{
     position:fixed;
 	top:0;
     overflow:hidden;
-	font-family:Bronova;
+    font-family: Bronova;
+	src:url("../font/Bronova Bold.ttf");
 	font-weight: Bold;
 	font-size: 1.4vw;
 	z-index: 99;
@@ -430,10 +451,9 @@ p{
     height: 2.5vw;
     line-height: 2.9vw;
     overflow: hidden;
-	font-weight:normal;
-	margin-left:2.2vw;
+	margin-left:0.5vw;
 	font-weight: bold;
-	font-size:1vw;
+	font-size:1.05vw;
 	color:rgba(8,54,67,1);
 	border:2px solid rgba(255,255,255,0);
 }
@@ -475,9 +495,9 @@ p{
 			padding-left:1.5vw;
 			font-family: Calibri;
 			color:rgba(112,112,112,1);
-			font-size: 18px;
+			font-size: 20px;
 			word-break: normal;
-			width:40vw
+			width:500px
 			
 			}
 .members_si1{
